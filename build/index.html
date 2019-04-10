@@ -3,11 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Floper</title>
+	<title>Cloud Village</title>
 	<!-- favicon -->
-	<link rel="shortcut icon" href="images/icons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+  <link rel="manifest" href="icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:500|Source+Code+Pro:300,400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500|Source+Code+Pro:300,400,400i,600,700" rel="stylesheet">
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- animate.css -->
@@ -38,10 +54,12 @@
 			<nav class="navigation header__nav">
 				<ul class="nav__list">
 					<li class="nav__item current"><a href="#about" class="nav__link"><span class="nav__item_underline"></span>About</a></li>
-					<li class="nav__item"><a href="#services" class="nav__link"><span class="nav__item_underline"></span>Service</a></li>
-					<li class="nav__item"><a href="#works" class="nav__link"><span class="nav__item_underline"></span>Works</a></li>
-					<li class="nav__item"><a href="#clients" class="nav__link"><span class="nav__item_underline"></span>Clients</a></li>
-					<li class="nav__item"><a href="#contact" class="nav__link"><span class="nav__item_underline"></span>Contacts</a></li>
+					<li class="nav__item"><a href="#cfp" class="nav__link"><span class="nav__item_underline"></span>CFP</a></li>
+					<li class="nav__item"><a href="#ctf" class="nav__link"><span class="nav__item_underline"></span>CTF</a></li>
+					<li class="nav__item"><a href="#talks" class="nav__link"><span class="nav__item_underline"></span>Talks</a></li>
+          <li class="nav__item"><a href="#venues" class="nav__link"><span class="nav__item_underline"></span>Venues</a></li>
+          <li class="nav__item"><a href="#timelines" class="nav__link"><span class="nav__item_underline"></span>Timelines</a></li>
+					<li class="nav__item"><a href="#contact" class="nav__link"><span class="nav__item_underline"></span>Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -55,46 +73,17 @@
 		<div class="slider__item slider__item_1">
 			<div class="container">
 				<div class="slider__wrapper">
-					<span class="item__text">We have been working since 2010</span>
-					<h1 class="item__text item__text_big">We are a creative team of designers. We make websites, interfaces and identity. We believe that beauty is hidden in small things.</h1>
+					<span class="item__text">CLOUD VILLAGE</span>
+					<h1 class="item__text item__text_big">Lorem ipsum dolor sit amet, elit. Aenean commodo ligula eget dolor. Aenean massa. Sociis natoque penatibus et magnis dis partur montes, nascetur ridiculus mus.</h1>
 				</div>
 			</div>
 		</div>
-	<!-- slider item -->
-		<div class="slider__item">
-			<div class="slider__iframe__wrapper">
-				<iframe class="slider__item_video" src="https://player.vimeo.com/video/98953952?autoplay=1&loop=1&color=000000&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-			</div>
-			<div class="slider__video_darcken"></div>
-			<div class="container">
-				<div class="slider__wrapper">
-					<span class="item__text">We are a creative team since 2010</span>
-					<h1 class="item__text item__text_big">We make websites, interfaces and identity.</h1>
-				</div>
-			</div>
-		</div>
+	
+		
 	</div>
 	
 	
-<!--	Slider controls
-*****************************-->
-<!-- prev -->
-	<div class="pointer-container pointer-container_left">
-		<div class="pointer pointer_prev">
-			<div class="pointer__arrow pointer_color pointer__arrow_top"></div>
-			<div class="pointer__line pointer_color"></div>
-			<div class="pointer__arrow pointer_color pointer__arrow_bottom"></div>
-		</div>
-	</div>
-	
-<!-- next -->
-	<div class="pointer-container pointer-container_right">
-		<div class="pointer pointer_next">
-			<div class="pointer__arrow pointer_color pointer__arrow_top"></div>
-			<div class="pointer__line pointer_color"></div>
-			<div class="pointer__arrow pointer_color pointer__arrow_bottom"></div>
-		</div>
-	</div>
+
 	
 <!--	Animated pointer
 *****************************-->
@@ -109,36 +98,102 @@
 	<section id="about" class="about section">
 		<div class="container">
 			<div class="row">
-				<div class="about__text col-xs-12 col-md-6">
+				<div class="about__text col-xs-12 col-md-12">
 					<h2 class="text__header">About</h2>
-					<p class="text__par">We are a creative team of designers. We make websites, interfaces and identity. We believe that beauty is hidden in small things.We are a creative team of designers. We make websites, interfaces and identity.</p>
-					<a href="#works" rel="nofollow" class="text__button">View Work</a>
+					<p class="text__par">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+          </p>
+          <p class="text__par">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+          </p>
+					<a href="#cfp" rel="nofollow" class="text__button">CFP</a>
 				</div>
-				<div class="about__right-column col-xs-12 col-md-6"></div>
+				
 			</div>
 		</div>
 	</section>
-	
-<!--	Section with video
+
+
+  <!--  Section CFP
 *****************************-->
-	<section class="video">
-		<iframe class="video__item" src="https://player.vimeo.com/video/212731897?	color=ffffff&title=0&byline=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-		
-<!-- foreground video poster -->
-		<div class="video__item video__item_poster">
-			<button class="poster__play-button">
-				<span class="play-outline"></span>
-			</button>
-		</div>
-	</section>
-	
-<!--	Services
+  <section id="cfp" class="cfp section">
+    <div class="container">
+      <div class="row">
+        <div class="about__text col-xs-12 col-md-12">
+          <h2 class="text__header">Call for Papers</h2>
+          <a href="#cfp" rel="nofollow" class="text__button cta">CFP Submission Form</a>
+          <p class="copy-1 white"><span class="purple">CFP Open:</span> 7th April, 2019</p>
+          <p class="copy-1 white"><span class="purple">CFP Close:</span> 3rd June, 2019</p>
+          <p class="copy-1 white"><span class="purple">Venue:</span> DEF CON, Las Vegas, Nevada (Hotel Details to be added soon)</p>
+
+          <p class="text__par">Our CFP is now <strong class="green">OPEN</strong> for <strong class="green">DEF CON 27 Las Vegas</strong>, and we are looking for top-notch presentations and workshops to fill in our schedule.
+          </p>
+          <p class="text__par">If you are passionate about OSINT and Reconnaissance, and want to talk about something you did or you know, in front of a more targeted audience, submit your proposals to Recon Village CFP.
+          </p>
+          <p class="text__par">CFP closes on <strong class="green">3rd June 2019 00:00 GMT</strong>. Once CFP is closed, this form will no longer accept CFP submissions or modifications.
+          </p>
+          <p class="copy-1 purple">We accept four talk categories:</p>
+          <ul class="custom-list">
+            <li class="white">Comprehensive talks (30 - 45 minutes - Detailed research talks)</li>
+            <li class="white">Live Demos (20 - 30 minutes - Live Demo of a Tool/Technique/Methodology)</li>
+            <li class="white">Lightning talks 10 - 20 Minutes - Quick talks about an approach or methods)</li>
+            <li class="white">Workshops ( 1 - 2 hours - Hands On or Instructor Led training for free)</li>
+            
+          </ul>
+          <p class="copy-1 purple">Speaker Benefits:</p>
+          <ul class="custom-list">
+            <li class="white">Exclusive Cloud Village Speaker Badge</li>
+            <li class="white">Cloud Village Speaker T-shirt</li>
+            <li class="white">Coin of Honor</li>
+            <li class="white">Some really tasty Indian delicacies</li>
+            <li class="white">Free beer in a relaxed networking party</li>
+            <li class="white">Lot of love and respect from the team</li>
+            
+          </ul>
+          <p class="copy-1 green">Notes:</p>
+          <ul class="custom-list">
+            <li class="white italics">Please do not submit to Cloud Village CFP if you are not already planning to attend DEF CON 26 as we are unable to provide any speaker assistance in terms of DEF CON Badges / travel / accommodation expenses. If you are already attending DEF CON and would like to speak, please send in your proposal through this CFP form.</li>
+            <li class="white italics">The only way to submit to our CFP is via this form.</li>
+            <li class="white italics">As you will submit the CFP form, you should get a confirmation email confirming your submission. If you do not receive this email, it simply means there is something wrong and we have not received your submission. In that case, we suggest you to submit again.</li>
+            
+          </ul>
+          <a href="#cfp" rel="nofollow" class="text__button">CFP Submission Form</a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+    <!--  Section CTF
 *****************************-->
-	<section id="services" class="services section">
+  <section id="ctf" class="ctf section">
+    <div class="container">
+      <div class="row">
+        <div class="about__text col-xs-12 col-md-12">
+          <h2 class="text__header">OSINT CTF</h2>
+          
+          
+
+          <p class="text__par">Our CTF is an online / offline 3 days Jeopardy Style Contest where we will create bunch of challenges in multiple categories, related to OSINT though.
+          </p>
+          <p class="text__par">Teams / Individuals gain some points, (or loose points on using hints) on solving each challenge. Teams or Individuals who gain maximum points gets the winning rewards.
+          </p>
+          
+          
+        </div>
+        
+      </div>
+    </div>
+  </section>
+	
+
+	
+<!--	Talks / Schedule
+*****************************-->
+	<section id="talks" class="talks section">
 		<div class="container">
 			<div class="services__header-block">
 				
-				<h2 class="services__header col-xs-12 col-sm-6">Services</h2>
+				<h2 class="services__header col-xs-12 col-sm-6">Talks / Schedule</h2>
 					
 				<div class="arrow-controls col-xs-12 col-sm-6">
 					
@@ -163,69 +218,42 @@
 			<div class="owl-carousel owl-theme">
 				<div class="item">
 					<div class="services__item">
-						<h3>Design</h3>
-						<p class="services__item__text">We are a creative team of designers. We make websites, interfaces and identity. We believe that beauty is hidden in small things.</p>
-						<ul class="services__list">
-							<li>Web Design</li>
-							<li>Interface Design</li>
-							<li>Mobile App Design</li>
-						</ul>
+						<h3 class="purple">The ultimate key to Rooting the human being</h3>
+						<p class="services__item__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+						<p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Ranjeet Sengar</strong></p>
+            <p class="green"><strong class="white">Twitter:&nbsp;</strong><strong>@sengar23</strong></p>
+            <p class="green"><strong class="white">Time:&nbsp;</strong><strong>10:15 am - 11:00 am</strong></p>
 					</div>
 				</div>
 				<div class="item">
-					<div class="services__item">
-						<h3>Development</h3>
-						<p class="services__item__text">We are a creative team of designers. We make websites, interfaces and identity. We believe that beauty is hidden in small things.</p>
-						<ul class="services__list">
-							<li>Web Site</li>
-							<li>E-commerce Shop</li>
-							<li>Mobile Applications</li>
-						</ul>
-					</div>
-				</div>
+          <div class="services__item">
+            <h3 class="purple">The ultimate key to Rooting the human being</h3>
+            <p class="services__item__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+            <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Ranjeet Sengar</strong></p>
+            <p class="green"><strong class="white">Twitter:&nbsp;</strong><strong>@sengar23</strong></p>
+            <p class="green"><strong class="white">Time:&nbsp;</strong><strong>10:15 am - 11:00 am</strong></p>
+          </div>
+        </div>
 				<div class="item">
-					<div class="services__item">
-						<h3>Marketing</h3>
-						<p class="services__item__text">We are a creative team of designers. We make websites, interfaces and identity. We believe that beauty is hidden in small things.</p>
-						<ul class="services__list">
-							<li>SEO Optimize</li>
-							<li>Advertising company</li>
-						</ul>
-					</div>
-				</div>
+          <div class="services__item">
+            <h3 class="purple">The ultimate key to Rooting the human being</h3>
+            <p class="services__item__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+            <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Ranjeet Sengar</strong></p>
+            <p class="green"><strong class="white">Twitter:&nbsp;</strong><strong>@sengar23</strong></p>
+            <p class="green"><strong class="white">Time:&nbsp;</strong><strong>10:15 am - 11:00 am</strong></p>
+          </div>
+        </div>
 				<div class="item">
-					<div class="services__item">
-						<h3>Design</h3>
-						<p class="services__item__text">We are a creative team of designers. We make websites, interfaces and identity. We believe that beauty is hidden in small things.</p>
-						<ul class="services__list">
-							<li>Web Design</li>
-							<li>Interface Design</li>
-							<li>Mobile App Design</li>
-						</ul>
-					</div>
-				</div>
-				<div class="item">
-					<div class="services__item">
-						<h3>Development</h3>
-						<p class="services__item__text">We are a creative team of designers. We make websites, interfaces and identity. We believe that beauty is hidden in small things.</p>
-						<ul class="services__list">
-							<li>Web Design</li>
-							<li>Interface Design</li>
-							<li>Mobile App Design</li>
-						</ul>
-					</div>
-				</div>
-				<div class="item">
-					<div class="services__item">
-						<h3>Marketing</h3>
-						<p class="services__item__text">We are a creative team of designers. We make websites, interfaces and identity. We believe that beauty is hidden in small things.</p>
-						<ul class="services__list">
-							<li>Web Site</li>
-							<li>E-commerce Shop</li>
-							<li>Mobile Applications</li>
-						</ul>
-					</div>
-				</div>
+          <div class="services__item">
+            <h3 class="purple">The ultimate key to Rooting the human being</h3>
+            <p class="services__item__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+            <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Ranjeet Sengar</strong></p>
+            <p class="green"><strong class="white">Twitter:&nbsp;</strong><strong>@sengar23</strong></p>
+            <p class="green"><strong class="white">Time:&nbsp;</strong><strong>10:15 am - 11:00 am</strong></p>
+          </div>
+        </div>
+				
+				
 			</div>
 		</div>
 	</section>
@@ -487,11 +515,7 @@
 		</section>
 	</section>
 	
-	<!-- google map -->
-	<script async defer src ="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjYhHbI6v_VpjiLZC0R4j5lHkTzMhuhys&callback=initMap">
-	</script>
-	<!-- castomisation if the map -->
-	<script src="js/map.js"></script>
+
 	<!-- jQuery -->
 	<script src="js/libs/jquery.min.js"></script>
 	<!-- carousel -->
@@ -511,18 +535,7 @@
 	<script src="js/menu.js"></script>
 	<!-- castom js script -->
 	<script src="js/main.js"></script>
-	<!-- vimeo player api -->
-	<script src="https://player.vimeo.com/api/player.js"></script>
-	<!-- vimeo player options -->
-	<script>
-		var iframe = document.querySelector('.slider__item_video');
-    	var player = new Vimeo.Player(iframe);
-
-    	//When the player is ready, set the volume to 0
-	    player.ready().then(function() {
-	        player.setVolume(0);
-	    });
-	</script>
+	
 	<!-- load more function -->
 	<script src="js/load_more.js"></script>
 	<!-- load more settings -->

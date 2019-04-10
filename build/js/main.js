@@ -22,7 +22,7 @@ $('a').smoothScroll({
   	// initialize text to animate
   	$('.item__text').textillate({
   			in: {
-  				effect: 'rollIn',
+  				effect: 'flipInX',
   				delay: 5
   				},
   			loop: false
@@ -46,7 +46,7 @@ $('a').smoothScroll({
 	
 //slider arrows appear
 //*************************************
-	slider.on('mouseover', function(){
+	/*slider.on('mouseover', function(){
 		pointerPrev.addClass("pointer_prev_show");
 		pointerNext.addClass("pointer_next_show");
 	});
@@ -57,31 +57,31 @@ $('a').smoothScroll({
 	$(".pointer-container").on('mouseover', function(){
 		pointerPrev.addClass("pointer_prev_show");
 		pointerNext.addClass("pointer_next_show");
-	});
+	});*/
 	
 //slider arrows hide
 //*************************************
-	slider.on('mouseleave', function(){
+	/*slider.on('mouseleave', function(){
 		pointerPrev.removeClass("pointer_prev_show");
 		pointerNext.removeClass("pointer_next_show");
-	});
+	});*/
 	
 //	start plaing video
 //	***********************************
-	$(".poster__play-button").on('click', function(){
+	/*$(".poster__play-button").on('click', function(){
 		$(".video__item_poster").addClass("poster_hide");
 		$("iframe.video__item").attr("src", "https://player.vimeo.com/video/212731897?	color=ffffff&title=0&byline=0&autoplay=1");
 	});
-	
+	*/
 //	services owl-carousel
 //	***********************************
-		var owl = $("#services .owl-carousel"),
+		var owl = $("#talks .owl-carousel"),
 		next = $(".arrow_front"),
 		prev = $(".arrow_back");
 
 		owl.owlCarousel({
 			loop: true,
-			margin: 10,
+			margin: 20,
 			responsiveClass: true,
 			rewind: false,
 			dots: false,

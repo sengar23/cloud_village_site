@@ -1,6 +1,42 @@
+@charset "UTF-8";
+
+/*
+https://github.com/sengar23/
+
+#8367d8 -  Glow Purple
+#2bf4a1 -  Glow Green
+#4a4b4c -  Graphite Grey
+#686868 -  Light Graphite Grey
+#272727 -  Charcoal Black
+
+#2b2b2b - Paper charcoal dark
+#3b3b3b - Paper charcoal medium
+#4b4b4b - Paper charcoal light
+#666666   - Caption grey
+
+
+ */
+
+html{
+	font-size: 1em;
+}
+:root{
+	--color-text-white: #ffffff;
+  --color-text-purple: #8367d8;
+  --color-text-green: #2bf4a1;
+  --color-text-black: #2b2b2b;
+}
 body{
 	font-family: 'Source Code Pro', monospace;
+	font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.4;  
+    color: var(--color-text-black);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
+
 
 h1,
 h2,
@@ -40,7 +76,21 @@ ul, ol {
 	list-style: none;
 	padding: 0;
 }
-
+.white{
+	color: var(--color-text-white);
+}
+.purple{
+	color: var(--color-text-purple);
+}
+.green{
+	color: var(--color-text-green);
+}
+.italics{
+	font-style: italic;
+}
+.text__header{
+	margin: 48px 0;
+}
 /*menu *******************************/
 
 .header{
@@ -77,7 +127,7 @@ ul, ol {
 
 .header_sticky .header__logo{
 	width: 60px;
-	height: 42px;
+	height: 37px;
 }
 
 .header_sticky .nav__list{
@@ -92,9 +142,9 @@ ul, ol {
 }
 
 .header__logo{
-	width: 121px;
-	max-width: 121px;
-	height: 83px;
+	width: 120px;
+	max-width: 120px;
+	height: 75px;
 	float: left;
 	position: relative;
 	z-index: 50;
@@ -104,7 +154,7 @@ ul, ol {
 	display: block;
 	width: inherit;
 	height: inherit;
-	background-image: url(../images/logo/Floper.png);
+	background-image: url(../images/logo/cloud-village.svg);
 	-webkit-background-size: cover;
 	        background-size: cover;
 }
@@ -186,6 +236,7 @@ ul, ol {
 	width: 100%;
 }
 
+
 /*slider and arrows *******************************/
 
 .slider{
@@ -204,6 +255,7 @@ ul, ol {
 	-webkit-background-size: cover;
 	        background-size: cover;
 	position: relative;
+	background-color: #272727;
 }
 
 .slider__iframe__wrapper{
@@ -230,18 +282,23 @@ ul, ol {
 }
 
 .slider__item_1{
-	background-image: url(../images/photos/first_screen.jpg);
+	
 }
 
 .slider__item_2{
-	background-image: url(../images/photos/first_screen.jpg);
+	
 }
 
 .item__text{
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: auto;
-	color: rgba(255, 255, 255, .5);
+	color: #8367d8;
+}
+.item__text:not(.item__text_big){
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 2px;
 }
 
 .item__text_big{
@@ -312,7 +369,7 @@ ul, ol {
     -ms-transform: rotate(-90deg);
         transform: rotate(-90deg);
 	border: 10px solid transparent; /* size of arrow */
-	cursor: initial;
+	cursor: pointer;
 -webkit-animation: pointer 1.5s infinite ease-in-out;
         animation: pointer 1.5s infinite ease-in-out;
 }
@@ -356,12 +413,7 @@ ul, ol {
 
 .about{
 	width: 100%;
-	font-size: 16px;
-	background-image: url(../images/photos/about_background.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	-webkit-background-size: cover;
-	        background-size: cover;
+	background-color: #fff;
 }
 
 .about:after{
@@ -377,7 +429,7 @@ ul, ol {
 }
 
 .text__par{
-	line-height: 28px;
+	
 }
 
 .text__button:link{
@@ -387,7 +439,7 @@ ul, ol {
 	color: rgb(51, 51, 51);
 	font-weight: 700;
 	text-decoration: none;
-	border: 1px solid #2bf4a1;
+	border: 2px solid #2bf4a1;
 	-webkit-transition: background-color .3s;
 	-o-transition: background-color .3s;
 	transition: background-color .3s;
@@ -470,6 +522,71 @@ ul, ol {
 	        background-size: cover;
 	position: relative;
 	left: 3px; top: 3px;
+}
+/*cfp *******************************/
+.cfp{
+	width: 100%;
+	background-color: #272727;
+	color: #fff;
+}
+.cfp:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+.cfp .text__button:link{
+	color: #fff;
+}
+.cfp .text__button:link:hover{
+	color: rgb(51, 51, 51);
+}
+.cta{
+	position: absolute;
+    top: 10px;
+    right: 0;
+}
+.copy-1{
+	font-weight: 700;
+	font-size: 1.375rem;
+}
+.custom-list{
+	list-style: none;
+	padding: 0px 28px;
+	margin: 0;
+	margin-bottom: 32px;
+}
+
+.custom-list li::before {
+	content: "•"; 
+	color: var(--color-text-green);
+  	display: inline-block; 
+  	width: 1em;
+  	margin-left: -1em
+}
+
+/*ctf *******************************/
+.ctf{
+	width: 100%;
+	background-color: #ffffff;
+}
+.ctf:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/*Talks *******************************/
+.talks{
+	width: 100%;
+	padding-top: 110px;
+	padding-bottom: 110px;
+	background-color: #272727;
+	color: #fff;
+}
+.talks:after{
+	content: '';
+	display: table;
+	clear: both;
 }
 
 /*services *******************************/
