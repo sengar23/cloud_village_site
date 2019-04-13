@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cloud Village</title>
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+  <link rel="manifest" href="icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500|Source+Code+Pro:300,400,400i,600,700" rel="stylesheet">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	
+	<!-- custom main stylesheet -->
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="loading-wrap visible">
+  <div class="loading">
+    <span>L</span>
+    <span>o</span>
+    <span>a</span>
+    <span>d</span>
+    <span>i</span>
+    <span>n</span>
+    <span>g</span>
+  </div>
+</div>
+  
+	<section class="section-404 section">
+		<div class="logo-404"></div>
+		<div class="video-bg-wrap">
+	        <video id="video-bg" class="video-bg" preload="auto"  loop="true" muted="" playsinline="">
+	          <source src="video/404.mp4" type="video/mp4">
+	          <source src="video/404.ogg" type="video/ogv">
+	          
+	        </video>
+	        <div class="txt-wrap-404">
+	        	<div class="copy-1 white">404</div>
+	        	<div class="copy-2 white">Where's the page, Lebowski?</div>
+	        	<a href="index" rel="nofollow" class="text__button">Go Back</a>
+	        </div>
+	    </div>
+	</section>
+
+	
+
+	<!-- jQuery -->
+	<script src="js/libs/jquery.min.js"></script>
+	<script src="js/libs/jquery.lettering-0.6.1.min.js"></script>
+	<script src="js/libs/jquery.textillate.js"></script>
+	
+	<script>
+        $(document).ready(function(){
+        	$('.item__text').textillate({
+	  			in: {
+	  				effect: 'flipInX',
+	  				delay: 5
+	  				},
+	  			loop: false
+	  		});
+        	setTimeout(function() {
+				$(".loading-wrap").removeClass("visible");
+				setTimeout(function(){
+					var v = document.getElementById("video-bg");
+					v.play();
+					$('.item__text').show();
+					$('.item__text').textillate('start');
+				},300);
+			},1000);
+        });
+    </script>
+</body>
+</html>

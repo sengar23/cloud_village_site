@@ -40,6 +40,18 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+<div class="loading-wrap visible">
+  <div class="loading">
+    <span>L</span>
+    <span>o</span>
+    <span>a</span>
+    <span>d</span>
+    <span>i</span>
+    <span>n</span>
+    <span>g</span>
+  </div>
+</div>
+  
 	
 <!--	Logo and menu
 ****************************-->
@@ -57,8 +69,9 @@
 					<li class="nav__item"><a href="#cfp" class="nav__link"><span class="nav__item_underline"></span>CFP</a></li>
 					<li class="nav__item"><a href="#ctf" class="nav__link"><span class="nav__item_underline"></span>CTF</a></li>
 					<li class="nav__item"><a href="#talks" class="nav__link"><span class="nav__item_underline"></span>Talks</a></li>
-          <li class="nav__item"><a href="#venues" class="nav__link"><span class="nav__item_underline"></span>Venues</a></li>
+          <!--<li class="nav__item"><a href="#venues" class="nav__link"><span class="nav__item_underline"></span>Venues</a></li>-->
           <li class="nav__item"><a href="#timelines" class="nav__link"><span class="nav__item_underline"></span>Timelines</a></li>
+          <li class="nav__item"><a href="#sponsers" class="nav__link"><span class="nav__item_underline"></span>Sponsors</a></li>
 					<li class="nav__item"><a href="#contact" class="nav__link"><span class="nav__item_underline"></span>Contact</a></li>
 				</ul>
 			</nav>
@@ -68,13 +81,14 @@
 <!--	Slider set
 *****************************-->
 <!-- slider container -->
-	<div class="slider section">
+	<div class="slider section home-section">
 	<!-- slider item -->
 		<div class="slider__item slider__item_1">
 			<div class="container">
 				<div class="slider__wrapper">
 					<span class="item__text">CLOUD VILLAGE</span>
 					<h1 class="item__text item__text_big">Lorem ipsum dolor sit amet, elit. Aenean commodo ligula eget dolor. Aenean massa. Sociis natoque penatibus et magnis dis partur montes, nascetur ridiculus mus.</h1>
+          <a href="javascript:;" target="_blank" class="text__button">Submit CFP</a>
 				</div>
 			</div>
 		</div>
@@ -104,7 +118,7 @@
           </p>
           <p class="text__par">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
           </p>
-					<a href="#cfp" rel="nofollow" class="text__button">CFP</a>
+					<a href="#cfp" rel="nofollow" class="text__button">Our CFP</a>
 				</div>
 				
 			</div>
@@ -258,19 +272,20 @@
 		</div>
 	</section>
 	
-<!--	Works gallery
+<!--	Timelines
 *********************************-->
-	<section id="works" class="works section">
+	<section id="timelines" class="works section">
 		<div class="container">
 			<div class="row">
 			<!-- header and buttons of the gallery -->
 				<div class="works__header">
-					<h2 class="col-xs-12 col-sm-3">Works</h2>
+					<h2 class="col-xs-12 col-sm-3">Timelines for 2019</h2>
 					<nav class="works__header__nav col-xs-12 col-sm-9">
 						<button data-filter="*" class="works__nav__item works__nav__item_active"><span class="works__button_underline"></span>All</button>
-						<button data-filter=".design" class="works__nav__item"><span class="works__button_underline"></span>Design</button>
-						<button data-filter=".identy" class="works__nav__item"><span class="works__button_underline"></span>Identy</button>
-						<button data-filter=".web" class="works__nav__item"><span class="works__button_underline"></span>Web</button>
+						<button data-filter=".1st-quarter" class="works__nav__item"><span class="works__button_underline"></span>1st quarter</button>
+						<button data-filter=".2nd-quarter" class="works__nav__item"><span class="works__button_underline"></span>2nd quarter</button>
+						<button data-filter=".3rd-quarter" class="works__nav__item"><span class="works__button_underline"></span>3rd quarter</button>
+            <button data-filter=".4th-quarter" class="works__nav__item"><span class="works__button_underline"></span>4th quarter</button>
 					</nav>
 				</div>
 			</div>
@@ -280,204 +295,178 @@
 				<div class="gallery__items">
 
 				<!-- gallery item -->
-					<div class="gallery__item gallery__item_1 col-xs-12 col-sm-6 web">
+					<div class="gallery__item gallery__item_1 col-xs-12 col-sm-6 1st-quarter">
 						<div class="gallery__item__hover">
-							<span class="item__hover__line"></span><span class="item__hover__tag">Web design</span>
+							<span class="item__hover__line"></span><span class="item__hover__tag">7th April, 2019</span>
 							
-							<h3 class="item__hover__header"><a href="javascript:void">Unsplash notepad</a></h3>
-							<h4 class="item__hover__header-small">Comfortable writting and reading</h4>
+							<h3 class="item__hover__header"><a href="javascript:void">CFP for Talks/Workshops/Tool Demo Open</a></h3>
+							<h4 class="item__hover__header-small">DEFCON 27, Las Vegas, USA</h4>
 							
-							<a href="images/magnificpopup/unsplashed.jpg" rel="nofollow" class="item__hover__zoom" title="Coffee Web Site">
-								<img src="images/magnificpopup/unsplashed.jpg" alt>
-								+&nbsp;Zoom
+							<a href="javascript:;" rel="nofollow" class="item__hover__zoom" title="">
+								
+								+&nbsp;More
 							</a>
 						</div>
 					</div>
 
+          <!-- gallery item --> 
+          <div class="gallery__item gallery__item_6 col-xs-12 col-sm-6 4th-quarter">
+            <div class="gallery__item__hover">
+              <span class="item__hover__line"></span><span class="item__hover__tag">9th August - 11st August, 2019</span>
+              
+              <h3 class="item__hover__header"><a href="javascript:void">Cloud Village DEFCON 27 Event</a></h3>
+              <h4 class="item__hover__header-small">Bengaluru, India</h4>
+              
+              <a href="javascript:;" rel="nofollow" class="item__hover__zoom" title="">
+                
+                +&nbsp;More
+              </a>
+
+            </div>
+          </div>
+
 				<!-- gallery item -->	
-					<div class="gallery__item gallery__item_2 col-xs-12 col-sm-6 design">
+					<div class="gallery__item gallery__item_2 col-xs-12 col-sm-6 1st-quarter">
 						<div class="gallery__item__hover">
-							<span class="item__hover__line"></span><span class="item__hover__tag">Design</span>
+							<span class="item__hover__line"></span><span class="item__hover__tag">31st May - 2nd June, 2019</span>
 							
-							<h3 class="item__hover__header"><a href="javascript:void">Red Strip bottle</a></h3>
-							<h4 class="item__hover__header-small">How to make bottle design</h4>
+							<h3 class="item__hover__header"><a href="javascript:void">Recon Village @ DEFCON China</a></h3>
+							<h4 class="item__hover__header-small">Beijing, China</h4>
 							
-							<a href="images/magnificpopup/redstrip.jpg" rel="nofollow" class="item__hover__zoom" title="Purple Web Page">
-								<img src="images/magnificpopup/redstrip.jpg" alt>
-								+&nbsp;Zoom
-							</a>
+							<a href="javascript:;" rel="nofollow" class="item__hover__zoom" title="">
+                
+                +&nbsp;More
+              </a>
 
 						</div>
 					</div>
 				
 				<!-- gallery item -->	
-					<div class="gallery__item gallery__item_3 col-xs-12 col-sm-6 identy">
+					<div class="gallery__item gallery__item_3 col-xs-12 col-sm-6 2nd-quarter">
 						<div class="gallery__item__hover">
-							<span class="item__hover__line"></span><span class="item__hover__tag">Identy</span>
+							<span class="item__hover__line"></span><span class="item__hover__tag">3rd June, 2019</span>
 							
-							<h3 class="item__hover__header"><a href="javascript:void">Cookie and Coffee</a></h3>
-							<h4 class="item__hover__header-small">Take a break</h4>
+							<h3 class="item__hover__header"><a href="javascript:void">CFP for DEFCON 27 Closes</a></h3>
+							<h4 class="item__hover__header-small">Online</h4>
 							
-							<a href="images/magnificpopup/cookie.jpg" rel="nofollow" class="item__hover__zoom" title="Coffee Web Site">
-								<img src="images/magnificpopup/cookie.jpg" alt>
-								+&nbsp;Zoom
-							</a>
+							<a href="javascript:;" rel="nofollow" class="item__hover__zoom" title="">
+                
+                +&nbsp;More
+              </a>
 
 						</div>
 					</div>
 
 				<!-- gallery item -->	
-					<div class="gallery__item gallery__item_4 col-xs-12 col-sm-6 web">
+					<div class="gallery__item gallery__item_4 col-xs-12 col-sm-6 3rd-quarter">
 						<div class="gallery__item__hover">
-							<span class="item__hover__line"></span><span class="item__hover__tag">Web design</span>
+							<span class="item__hover__line"></span><span class="item__hover__tag">20th June, 2019</span>
 							
-							<h3 class="item__hover__header"><a href="javascript:void">Sheets of paper</a></h3>
-							<h4 class="item__hover__header-small">Getting correct information</h4>
+							<h3 class="item__hover__header"><a href="javascript:void">First Round of Speaker / Talks Announcement</a></h3>
+							<h4 class="item__hover__header-small">Online</h4>
 							
-							<a href="images/magnificpopup/softs.jpg" rel="nofollow" class="item__hover__zoom" title="Coffee Web Site">
-								<img src="images/magnificpopup/softs.jpg" alt>
-								+&nbsp;Zoom
-							</a>
+							<a href="javascript:;" rel="nofollow" class="item__hover__zoom" title="">
+                
+                +&nbsp;More
+              </a>
 
 						</div>
 					</div>
 				
 				<!-- gallery item -->	
-					<div class="gallery__item gallery__item_5 col-xs-12 col-sm-6 design">
+					<div class="gallery__item gallery__item_5 col-xs-12 col-sm-6 2nd-quarter">
 						<div class="gallery__item__hover">
-							<span class="item__hover__line"></span><span class="item__hover__tag">Design</span>
+							<span class="item__hover__line"></span><span class="item__hover__tag">25th June, 2019</span>
 							
-							<h3 class="item__hover__header"><a href="javascript:void">Magazines</a></h3>
-							<h4 class="item__hover__header-small">Nice reading</h4>
+							<h3 class="item__hover__header"><a href="javascript:void">Cloud Village OSINT CTF & HackaThon Registration Start</a></h3>
+							<h4 class="item__hover__header-small">Online</h4>
 							
-							<a href="images/magnificpopup/essentials.jpg" rel="nofollow" class="item__hover__zoom" title="Coffee Web Site">
-								<img src="images/magnificpopup/essentials.jpg" alt>
-								+&nbsp;Zoom
-							</a>
+							<a href="javascript:;" rel="nofollow" class="item__hover__zoom" title="">
+                
+                +&nbsp;More
+              </a>
 
 						</div>
 					</div>
 
 				<!-- gallery item -->	
-					<div class="gallery__item gallery__item_6 col-xs-12 col-sm-6 identy">
+					<div class="gallery__item gallery__item_6 col-xs-12 col-sm-6 2nd-quarter">
 						<div class="gallery__item__hover">
-							<span class="item__hover__line"></span><span class="item__hover__tag">Identy</span>
+							<span class="item__hover__line"></span><span class="item__hover__tag">20th July, 2019</span>
 							
-							<h3 class="item__hover__header"><a href="javascript:void">Design of stores</a></h3>
-							<h4 class="item__hover__header-small">Design your store</h4>
+							<h3 class="item__hover__header"><a href="javascript:void">Final list of Speakers / Talks Announcement</a></h3>
+							<h4 class="item__hover__header-small">Online</h4>
 							
-							<a href="images/magnificpopup/helmet.jpg" rel="nofollow" class="item__hover__zoom" title="Coffee Web Site">
-								<img src="images/magnificpopup/helmet.jpg" alt>
-								+&nbsp;Zoom
-							</a>
+							<a href="javascript:;" rel="nofollow" class="item__hover__zoom" title="">
+                
+                +&nbsp;More
+              </a>
 
 						</div>
 					</div>
+          
 				</div>
 			
-			<!-- button load more	 -->
-				<button class="gallery__button">
-					<div class="preloader" hidden>
-						<img class="preloader__inside" src="images/icons/preloader.gif" alt>
-					</div>
-					<span class="button-text">Load more</span>
-				</button>
+			
 			</div>
 		</div>
 	</section>
 	
 	<!-- clients and contacts section -->
 	<section class="clients-and-contacts section">
-		<section id="clients" class="clients">
+		<section id="sponsers" class="clients">
 			<div class="container">
 				<div class="clients__header row">
-					<h2 class="col-xs-12 col-md-9">Clients Say</h2>
-
-				<!-- clients controls -->
-					<div class="clients__controls col-xs-12 col-md-3">
-						<div class="clients__arrow clients__arrow_back">
-
-							<div class="clients__arrow__line-short clients__arrow__line-up"></div>
-							<div class="clients__arrow__line"></div>
-							<div class="clients__arrow__line-short clients__arrow__line-down"></div>
-
-						</div>
-
-				<!-- clients counter -->
-						<div class="clients__counter">&nbsp;<span class="clients__counter__item clients__counter__item1">1&nbsp;</span> / <span class="clients__counter__item clients__counter__item2">&nbsp;4</span>&nbsp;</div>
-
-						<div class="clients__arrow clients__arrow_next">
-
-							<div class="clients__arrow__line-short clients__arrow__line-up"></div>
-							<div class="clients__arrow__line"></div>
-							<div class="clients__arrow__line-short clients__arrow__line-down"></div>
-
-						</div>
-					</div>
+					<h2 class="col-xs-12 col-md-9">Become a sponsor</h2>
+          <div class="col-xs-12 col-md-12">
+            <p class="text__par">If you are interested in sponsoring Recon Village at DEFCON 27, drop us an email at <a href="mailto:sponsors@cloudvillage.org">sponsors@cloudvillage.org</a> or fill in this quick <a href="javascript:;" target="_blank">Google Form</a>.
+            </p>
+            <p class="text__par">We are a Not For Profit, community-driven village that strives to promote and support research in OSINT / Recon community. All the money we get from sponsors goes in expenses of the village, i.e., t-shirts, badges, stickers, networking party, logistics, etc. (Yes, we don’t sell our badges and t-shirts).
+            </p> 
+            <p class="text__par">Below is the list of possible benefits we can provide to our Sponsors:
+            </p>    
+          </div> 
+				     
 				</div>
+          
 
-			<!-- clients carousel container -->
-				<div id="clients" class="clients__comment section">
-					<div class="owl-carousel owl-theme">
-						<div class="item">
-							<div class="clients__comment__item">
-								<div class="comment__customer col-xs-12 col-md-4">
-									<h3>Amanda Lopez</h3>
-									<h4 class="comment__customer__prefession">Google, Manager</h4>
-								</div>
-
-								<blockquote class="comment__text col-xs-12 col-md-8">
-									We are a creative team of designers. We make websites, interfaces and identity. We believe that beauty is hidden in small things.
-								</blockquote>
-							</div>
-						</div>
-						<div class="item">
-							<div class="clients__comment__item">
-								<div class="comment__customer col-xs-12 col-md-4">
-									<h3>Adam Sandler</h3>
-									<h4 class="comment__customer__prefession">Warner Brothers, Director</h4>
-								</div>
-
-								<blockquote class="comment__text col-xs-12 col-md-8">
-									Nearly all of the most important genres of popular music in the last century have come from the USA. This is where African and European musical traditions came together, and it's this mixture of traditions that gave birth to popular music.
-								</blockquote>
-							</div>
-						</div>
-						<div class="item">
-							<div class="clients__comment__item">
-								<div class="comment__customer col-xs-12 col-md-4">
-									<h3>Monica Voxtel</h3>
-									<h4 class="comment__customer__prefession">Mersedes, Test Driver</h4>
-								</div>
-
-								<blockquote class="comment__text col-xs-12 col-md-8">
-									When millions of Africans were transported to America as slaves in the 18th and 19th centuries, their melodies and rhythms went with them.
-								</blockquote>
-							</div>
-						</div>
-					</div>
-				</div>
+			
 			</div>
 		</section>
 
 		<!--	Contact us
 	*********************************-->
-		<div class="map col-xs-12 col-sm-6"></div>
+		
 	
 		<footer class="contact container">
+      <!--<div class="row">
+        <div class="col-xs-12 col-md-12">
+          <p class="copy-1">Below is the list of possible benefits we can provide to our Sponsors:</p>
+          <ul class="custom-list">
+            <li>Verbal Recognition (Opening, Closing of the village)</li>
+            <li>Shoutout CTF / Hackathon Prizes</li>
+            <li>Shout Out on Social media</li>
+            <li>Hiring Opportunity (Participants who opts for 'Share my details with Recruiters')</li>
+            <li>Brand Recognition in Schedule Pamphlets</li>
+            <li>Drop Stickers at Reg. / Info Desk</li>
+            <li>Distribute goodies at Reg. / Info Desk</li>
+            
+            
+          </ul>
+           <p class="text__par">If you are interested in sponsoring Recon Village at DEFCON 27, drop us an email at <a href="mailto:sponsors@cloudvillage.org">sponsors@cloudvillage.org</a>
+            </p>
+        </div>
+      </div>-->
 			<div class="row">
 				<div class="contact__inf col-xs-12 col-sm-6">
 					<h2 id="contact" class="section">Contact Us</h2>
 
 					<p class="contact__text">
-						Give us a call or send us an email at<br>
-						<a class="contact__email" href="mailto:info@evatheme.com">info@evatheme.com</a>
+						Send us an email at<br>
+						<a class="contact__email" href="mailto:nfo@cloudvillage.org">info@cloudvillage.org</a>
 					</p>
 
-					<address class="contact__address">
-						USA, California, Montero Street 33/2<br>
-						<a class="contact__tel" href="tel:+125998955988">+1 259 989 559 88</a>
-					</address>
+					
 
 			<!-- social networks -->
 					<div class="social">
@@ -489,13 +478,10 @@
 							<span class="icon icon-twitter"></span><a class="social__link" href="javascript:void">Twitter<span class="social__link_underline"></span></a>
 							
 						</div>
-						<div class="social__link-and-icon">
-							<span class="icon icon-pinterest"></span><a class="social__link" href="javascript:void">Pinterest<span class="social__link_underline"></span></a>
-							
-						</div>
+						
 					</div>
 
-					<p class="copyright">© 2017 Floper Powered by Evatheme</p>
+					<p class="copyright">© 2019 Cloud Village - Powered by <a href="https://www.defcon.org/" target="_blank">Defcon</a></p>
 				</div>
 			</div>
 		</footer>

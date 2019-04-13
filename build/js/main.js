@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+
 // smooth scroll
 $('a').smoothScroll({
 	speed: 900
@@ -29,7 +31,7 @@ $('a').smoothScroll({
   		});
   	// set callbacks on swipe slider
 	slider.on('init', function(event, slick, currentSlide){
-  		$('.item__text').textillate('start');
+  		
 	});
 
 	slider.on('beforeChange', function(event, slick, currentSlide, nextSlide){
@@ -43,6 +45,14 @@ $('a').smoothScroll({
 		
   		$('.item__text').textillate('start');
 	});
+
+	setTimeout(function() {
+		$(".loading-wrap").removeClass("visible");
+		setTimeout(function(){
+			$('.item__text').show();
+			$('.item__text').textillate('start');
+		},300);
+	},2000);
 	
 //slider arrows appear
 //*************************************
