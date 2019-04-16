@@ -22,6 +22,7 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+  
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:500|Source+Code+Pro:300,400,400i,600,700" rel="stylesheet">
 	<!-- bootstrap -->
@@ -65,9 +66,10 @@
 
 			<nav class="navigation header__nav">
 				<ul class="nav__list">
-					<li class="nav__item current"><a href="#about" class="nav__link"><span class="nav__item_underline"></span>About</a></li>
-					<li class="nav__item"><a href="#cfp" class="nav__link"><span class="nav__item_underline"></span>CFP</a></li>
 					<li class="nav__item"><a href="#ctf" class="nav__link"><span class="nav__item_underline"></span>CTF</a></li>
+					<li class="nav__item"><a href="#cfp" class="nav__link"><span class="nav__item_underline"></span>CFP</a></li>
+					
+          <li class="nav__item current"><a href="#about" class="nav__link"><span class="nav__item_underline"></span>About</a></li>
 					<li class="nav__item"><a href="#talks" class="nav__link"><span class="nav__item_underline"></span>Talks</a></li>
           <!--<li class="nav__item"><a href="#venues" class="nav__link"><span class="nav__item_underline"></span>Venues</a></li>-->
           <li class="nav__item"><a href="#timelines" class="nav__link"><span class="nav__item_underline"></span>Timelines</a></li>
@@ -87,8 +89,9 @@
 			<div class="container">
 				<div class="slider__wrapper">
 					<span class="item__text">CLOUD VILLAGE</span>
-					<h1 class="item__text item__text_big">Lorem ipsum dolor sit amet, elit. Aenean commodo ligula eget dolor. Aenean massa. Sociis natoque penatibus et magnis dis partur montes, nascetur ridiculus mus.</h1>
-          <a href="javascript:;" target="_blank" class="text__button">Submit CFP</a>
+					<h1 class="item__text item__text_big">Cloud village is an open space to meet folks interested in offensive and defensive aspects of cloud security.</h1>
+          <a href="javascript:;" target="_blank" class="text__button home-btn">CFP for China</a>
+          
 				</div>
 			</div>
 		</div>
@@ -106,24 +109,31 @@
 		<div class="pointer__line"></div>
 		<div class="pointer__arrow pointer__arrow_bottom"></div>
 	</div>
-	
-<!--	Section About
+
+
+    <!--  Section CTF
 *****************************-->
-	<section id="about" class="about section">
-		<div class="container">
-			<div class="row">
-				<div class="about__text col-xs-12 col-md-12">
-					<h2 class="text__header">About</h2>
-					<p class="text__par">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+  <section id="ctf" class="ctf section">
+    <div class="container">
+      <div class="row">
+        <div class="about__text col-xs-12 col-md-12">
+          <h2 class="text__header">OSINT CTF</h2>
+          
+          
+
+          <p class="text__par">Our CTF is an online / offline 3 days Jeopardy Style Contest where we will create bunch of challenges in multiple categories, related to OSINT though.
           </p>
-          <p class="text__par">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+          <p class="text__par">Teams / Individuals gain some points, (or loose points on using hints) on solving each challenge. Teams or Individuals who gain maximum points gets the winning rewards.
           </p>
-					<a href="#cfp" rel="nofollow" class="text__button">Our CFP</a>
-				</div>
-				
-			</div>
-		</div>
-	</section>
+          
+          <a href="#cfp" rel="nofollow" class="text__button">CFP for China</a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+	
+
 
 
   <!--  Section CFP
@@ -132,7 +142,7 @@
     <div class="container">
       <div class="row">
         <div class="about__text col-xs-12 col-md-12">
-          <h2 class="text__header">Call for Papers</h2>
+          <h2 class="text__header">Call for Papers (China)</h2>
           <a href="#cfp" rel="nofollow" class="text__button cta">CFP Submission Form</a>
           <p class="copy-1 white"><span class="purple">CFP Open:</span> 7th April, 2019</p>
           <p class="copy-1 white"><span class="purple">CFP Close:</span> 3rd June, 2019</p>
@@ -177,19 +187,17 @@
   </section>
 
 
-    <!--  Section CTF
+
+	<!-- Section About
 *****************************-->
-  <section id="ctf" class="ctf section">
+  <section id="about" class="about section">
     <div class="container">
       <div class="row">
         <div class="about__text col-xs-12 col-md-12">
-          <h2 class="text__header">OSINT CTF</h2>
-          
-          
-
-          <p class="text__par">Our CTF is an online / offline 3 days Jeopardy Style Contest where we will create bunch of challenges in multiple categories, related to OSINT though.
+          <h2 class="text__header">About</h2>
+          <p class="text__par">Cloud village is an open space to meet folks interested in offensive and defensive aspects of cloud security. The village is home to various activites like talks, workshops, CTFs and discussions targetted around cloud services.
           </p>
-          <p class="text__par">Teams / Individuals gain some points, (or loose points on using hints) on solving each challenge. Teams or Individuals who gain maximum points gets the winning rewards.
+          <p class="text__par"> If you are a professional who is looking to gain knowledge on securely maintaining the cloud stack and loves to be around like-minded security folks who share the similar zeal towards the community, Cloud Village is the perfect place for you.
           </p>
           
           
@@ -198,7 +206,6 @@
       </div>
     </div>
   </section>
-	
 
 	
 <!--	Talks / Schedule
@@ -488,7 +495,7 @@
 		
 		<!--	clients logos
 	*********************************-->
-		<section class="clients-logos container">
+		<!--<section class="clients-logos container">
 			<div class="clients-logos__wrapper">
 				<img class="clients-logos__image" src="images/icons/newyork.png" alt="New York">
 				<img class="clients-logos__image" src="images/icons/brooks.png" alt="Brooks">
@@ -499,7 +506,7 @@
 				<img class="clients-logos__image" src="images/icons/jumber.png" alt="Lumber">
 			</div>
 		</section>
-	</section>
+	</section>-->
 	
 
 	<!-- jQuery -->

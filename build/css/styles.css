@@ -400,6 +400,7 @@ ul, ol {
 
 .item__text_big{
 	color: #fff;
+	margin-top: 20px;
 }
 
 .pointer-container{
@@ -1274,8 +1275,8 @@ ul, ol {
 }
 .clients__header{
 	padding-top: 110px;
-	padding-bottom: 210px;
-	
+	/*padding-bottom: 210px;*/
+	padding-bottom: 110px;
 }
 
 .clients__header:after{
@@ -1402,7 +1403,8 @@ ul, ol {
 }
 
 .contact__inf{
-	padding-top: 370px;
+	/*padding-top: 370px;*/
+	padding-top: 110px;
 	padding-bottom: 140px;
 	font-size: 1rem;
 	color: rgb(51, 51, 51);
@@ -1565,6 +1567,11 @@ a:focus{
 	height: 49px;
 	background-image: url(../images/logo/cloud-village-with-text.svg);
 	background-size: cover;
+}
+
+.home-btn{
+	display: inline-block;
+	margin-right: 20px;
 }
 /*map *******************************/
 
