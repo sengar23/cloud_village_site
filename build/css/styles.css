@@ -1615,7 +1615,8 @@ a:focus{
 	margin-right: 40px;
 }
 .float-right-btn{
-	float: right;
+	position: absolute;
+    right: 0;
 }
 /*map *******************************/
 
@@ -1860,7 +1861,7 @@ a:focus{
 		padding-bottom: 50px;
 	}
 	.slider__wrapper {
-	    bottom: 35%;
+	    bottom: 15%;
 	}
 	.cta {
 	    position: relative;
