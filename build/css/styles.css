@@ -25,6 +25,7 @@ html{
   --color-text-purple: #8367d8;
   --color-text-green: #2bf4a1;
   --color-text-black: #2b2b2b;
+  --color-bg-black: #272727;
 }
 body{
 	font-family: 'Source Code Pro', monospace;
@@ -89,11 +90,20 @@ ul, ol {
 .green{
 	color: var(--color-text-green)!important;
 }
+.bg-black{
+	background-color: var(--color-bg-black)!important;
+}
 .italics{
 	font-style: italic!important;
 }
 .text__header{
 	margin: 48px 0;
+}
+.body-section{
+	width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    position: relative;
 }
 /*Loader *******************************/
 
@@ -1677,6 +1687,19 @@ a:focus{
     border-top: 1px solid #999;
 }
 
+.terms-wrap{
+	padding-top: 256px;
+}
+.sub-title-holder{
+	max-width: 840px;
+    width: 90%;
+}
+.sub-title{
+    line-height: 1.667em;
+    letter-spacing: 1px;
+        background-color: #ccc;
+        padding-bottom: 1px;
+}
 /*animation for arrow on slider *******************************/
 
 @-webkit-keyframes pointer {
@@ -1880,6 +1903,7 @@ a:focus{
 	}
 	.float-right-btn{
 		float: none;
+		position: relative;
 	}
 }
 
