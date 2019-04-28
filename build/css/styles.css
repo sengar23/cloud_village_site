@@ -1756,6 +1756,11 @@ a:focus{
 	.clients-logos__image{
 		width: 32%;
 	}
+	.header__logo{
+		width: 140px;
+	    max-width: 240px;
+	    height: 68px;
+	}
 }
 
 @media only screen and (min-width: 767px){
