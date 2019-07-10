@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-
+	add_talk_count();
 	// smooth scroll
 	$('.nav__item a').smoothScroll({
 		speed: 900
@@ -269,3 +269,15 @@ $(document).ready(function () {
 		});
 	}
 });
+
+function add_talk_count() {
+	var tabs = $("#talks .tab-pane");
+	tabs.each(function (index, target) {
+		var count = $(target).find(".panel-default").length;
+		var id = $(target).attr("id");
+		$("#talks .nav-tabs a[href$='" + "#" + id + "'] span").text(count);
+	});
+
+
+
+}

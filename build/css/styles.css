@@ -761,6 +761,52 @@ ol {
 	margin-top: 60px;
 }
 
+.talks-panel-group {
+	margin: 48px 0;
+}
+
+.talks-panel-group .panel {
+	border: none;
+	background-color: transparent;
+}
+
+.talks-panel-group .panel-default .panel-heading {
+	position: relative;
+	border: none;
+	background-color: #2bf4a1;
+	padding: 15px;
+}
+
+.talks-panel-group .panel-default .panel-btn {
+	color: #333;
+}
+
+.talks-panel-group .panel-default .panel-btn:hover,
+.talks-panel-group .panel-default .panel-btn:focus {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.talks-panel-group .panel-body {
+	padding: 24px 15px;
+}
+
+
+
+.panel-title {
+	padding-right: 24px;
+}
+
+.plus-sym {
+	width: 24px;
+	height: 24px;
+	background-image: url(../images/ios-add.svg);
+	background-size: cover;
+	position: absolute;
+	top: 12px;
+	right: 15px;
+}
+
 /*services *******************************/
 
 .services {

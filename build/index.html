@@ -327,268 +327,738 @@
       <!-- Tab panes -->
       <div class="tab-content">
         <div role="tabpanel" class="tab-pane fade in active" id="category-1">
-          <!-- carousel container			 -->
-          <div class="owl-carousel owl-theme">
-            <div class="item">
-              <div class="services__item">
-                <h3 class="purple">Exploiting IAM in the Google Cloud Platform</h3>
-                <!---<p class="services__item__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                  ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>-->
-                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Colin Estep</strong></p>
-                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/colinestep"
-                    target="_blank"><strong>@colinestep</strong></a></p>
+          <div class="panel-group talks-panel-group" id="accordion-1" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <a class="panel-btn" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+
+                    Exploiting IAM in the Google Cloud Platform
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Colin Estep</strong></p>
+                      <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                      <p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/colinestep" target="_blank"><strong>@colinestep</strong></a></p>
+
+                      <p class="white"><strong class="white">Abstract:&nbsp;</strong></p>
+
+                      <p class="services__item__text">Identity and Access Management (IAM) in any public cloud provider
+                        can be tricky to configure appropriately. We've all seen the headlines about storage buckets
+                        being open to the public and exposing sensitive information, but what about the permissions we
+                        are giving our users and apps that run in our cloud environment? It's becoming more difficult to
+                        understand who has permissions over resources and what the implications of those permissions are
+                        as more controls proliferate across the public cloud providers.
+                      </p>
+                      <p class="services__item__text">In this talk, we will take a closer look at the Google Cloud
+                        Platform (GCP) IAM model. You'll be introduced to the relevant concepts to understand the
+                        different types of identities, IAM permissions, and scopes. We'll examine the permissions and
+                        scopes assigned to the compute engine service account created for you by default. Did you know
+                        that the default IAM policy for the compute engine service account includes the ability to
+                        impersonate other service accounts, among other things?</p>
+                      <p class="services__item__text">
+                        Most importantly, we'll learn how to leverage certain configurations of the service account to
+                        escalate privileges from a virtual machine. I will show a demo where I use a shell on a virtual
+                        machine to tear down another security control to allow data exfiltration out of the environment.
+                        By the end of the talk, you'll understand how to impersonate service accounts, conduct recon,
+                        and escalate your privileges from a virtual machine. You'll also get some ideas on how to
+                        mitigate against these attacks.
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="item">
-              <div class="services__item">
-                <h3 class="purple">Hacking into automotive clouds</h3>
+            <div class="panel panel-default">
+              <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1"
+                href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
 
-                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Rotem Bar</strong></p>
-                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/rotembar"
-                    target="_blank"><strong>@rotembar</strong></a></p>
+                    Hacking into automotive clouds
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Rotem Bar</strong></p>
+                      <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                      <p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/rotembar" target="_blank"><strong>@rotembar</strong></a></p>
+
+                      <p class="white"><strong class="white">Abstract:&nbsp;</strong></p>
+
+                      <p class="services__item__text">In this talk I will share my experience about how I hacked
+                        different automotive clouds, techniques I used and goals I pursue after connecting.
+
+                      </p>
+                      <p class="services__item__text">In this talk I will give real life examples of:</p>
+                      <ul class="custom-list">
+                        <li class="white">From zero to hero – Full backend control with examples</li>
+                        <li class="white">Common fails which allow me to jump between networks</li>
+                        <li class="white">Dangers of connected cars - Taking over a car from the cloud</li>
+                        <li class="white">How to break a production line</li>
+                        <li class="white">Cloud credentials leakage</li>
+
+                      </ul>
+                      <p class="services__item__text">I will talk about the main connectivity areas I look for, supplier
+                        integrations and differences between normal clouds and automotive clouds. Once I got a good
+                        foothold, Possible targets and places which can harm the most. Where can I jump next inside and
+                        how deep the rabbit hole goes.</p>
+                      <p class="services__item__text">
+                        This will be a technical talk going into places I've experienced personally in the last few
+                        years and will try to give a glimpse of the fun life of hacking into the vehicle ecosystem
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="item">
-              <div class="services__item">
-                <h3 class="purple">Build to Hack, Hack to Build</h3>
+            <div class="panel panel-default">
+              <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1"
+                href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
 
-                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Chris Le Roy</strong></p>
-                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/brompwnie"
-                    target="_blank"><strong>@brompwnie</strong></a></p>
+                    Build to Hack, Hack to Build
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Chris Le Roy</strong></p>
+                      <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                      <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/brompwnie" target="_blank"><strong>@brompwnie</strong></a></p>
+
+                      <p class="services__item__text">Containers,Cloud,DevOps and SDLC are all terms that are
+                        increasing in terms of usage in the InfoSec world. In this talk, we discuss how a container
+                        exploitation tool (BOtB) was developed to identify and autopwn common vulnerabilities in
+                        container technologies such as Docker and LXC and how this tool was used in a modern SDLC
+                        environment using common CI/CD technologies to identify, exploit and remediate container
+                        vulnerabilities before releases were made to production.
+                      </p>
+                      <p class="services__item__text">In this talk we elaborate on how and
+                        why BOtB was built to be used by pentesters to exploit container vulnerabilities and how BOtB
+                        can be used by engineers to secure their container environments. The talk will also explain the
+                        technical details around the vulnerabilities that can be exploited by BOtB.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="item">
-              <div class="services__item">
-                <h3 class="purple">Your Blacklist is Dead. Airgap Everything: The Future of CNC is the Cloud</h3>
+            <div class="panel panel-default">
+              <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1"
+                href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <div class="panel-heading" role="tab" id="headingFour">
+                  <h4 class="panel-title">
 
-                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Erick Galinkin</strong></p>
-                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a
-                    href="https://twitter.com/erickgalinkin" target="_blank"><strong>@erickgalinkin</strong></a></p>
+                    Your Blacklist is Dead. Airgap Everything: The Future of CNC is the Cloud
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Erick Galinkin</strong></p>
+                      <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                        <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/erickgalinkin" target="_blank"><strong>@erickgalinkin</strong></a>
+                      </p>
+
+                      <p class="services__item__text">What happens when attackers start taking advantage of
+                        whitelisted APIs as a form of obfuscated command and control? Companies both large and small are
+                        moving workloads to the cloud and are very concerned with how to secure their resources which
+                        actually live in AWS, GCP, and Azure. However, they don't address how enabling this access
+                        changes their internal attack surface and weakens their defenses.
+
+
+                      </p>
+                      <p class="services__item__text">In this talk, we demonstrate that attackers no longer have any
+                        reason to rely on conventional CNC, being able to outsource their costs and infrastructure
+                        management to the likes of Slack, Github, Pastebin, Dropbox, Google, and social media sites.
+                        Using these sorts of techniques, URL blacklisting becomes obsolete, IDS becomes less effective,
+                        and attackers no longer have to waste their time writing domain generation algorithms.</p>
+                      <p class="services__item__text">Specifically, I will demo a proof-of-concept malware which uses
+                        multiple SaaS services, social networks, and more conventional "cloud infrastructure" (S3) that
+                        would be extremely difficult to mitigate generically with today's IPS solutions, and we discuss
+                        how the same techniques can be used by red teams and attackers to quietly maintain persistence
+                        and exfiltrate data.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="item">
-              <div class="services__item">
-                <h3 class="purple">Applying Pareto’s Principle for Securing AWS with SCPs</h3>
+            <div class="panel panel-default">
+              <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1"
+                href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <div class="panel-heading" role="tab" id="headingFive">
+                  <h4 class="panel-title">
 
-                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Ayman Elsawah</strong></p>
-                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a
-                    href="https://twitter.com/coffeewithayman" target="_blank"><strong>@coffeewithayman</strong></a></p>
+                    Applying Pareto's Principle for Securing AWS with SCPs
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Ayman Elsawah</strong></p>
+                      <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                          <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/coffeewithayman"
+                          target="_blank"><strong>@coffeewithayman</strong></a></p>
+
+                      <p class="services__item__text">In this talk I am going to walk through how we can use pareto's
+                        principle to secure all our AWS accounts. What this means is with just 20% of effort, we can
+                        accomplish 80% security of our AWS accounts. We will be leveraging the power of AWS
+                        Organizations and IAM to accomplish our goals. This will be a technical talk and guide on how to
+                        secure your account.
+                      </p>
+                      <p class="services__item__text">This talk assumes you have secured your individual AWS accounts at
+                        the basic level by locking down your root accounts with 2FA, and etc.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-
-
-          </div>
-          <div class="arrow-controls col-xs-12 col-md-12">
-
-            <div class="arrow arrow_back">
-              <div class="arrow__line-short arrow__line_up"></div>
-              <div class="arrow__line"></div>
-              <div class="arrow__line-short arrow__line_down"></div>
-            </div>
-
-            <div class="arrow arrow_front">
-              <div class="arrow__line-short arrow__line_up"></div>
-              <div class="arrow__line"></div>
-              <div class="arrow__line-short arrow__line_down"></div>
             </div>
 
           </div>
         </div>
-        <div role="tabpanel" class="tab-pane fade active" id="category-2">
-          <!-- carousel container			 -->
-          <div class="owl-carousel owl-theme">
-            <div class="item">
-              <div class="services__item">
-                <h3 class="purple">Infrastructure-as-Code for Complete Beginners</h3>
+        <div role="tabpanel" class="tab-pane fade" id="category-2">
+          <div class="panel-group talks-panel-group" id="accordion-2" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <a class="panel-btn" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseSix"
+                aria-expanded="true" aria-controls="collapseSix">
+                <div class="panel-heading" role="tab" id="headingSix">
+                  <h4 class="panel-title">
 
-                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Nancy Gariché</strong></p>
-                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/nanzgtweets"
-                    target="_blank"><strong>@nanzgtweets</strong></a></p>
+                    Infrastructure-as-Code for Complete Beginners
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Nancy Gariché</strong></p>
+                      <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                          <p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/nanzgtweets" target="_blank"><strong>@nanzgtweets</strong></a></p>
+
+                      <p class="white"><strong class="white">Abstract:&nbsp;</strong></p>
+
+                      <p class="services__item__text">Ready to take your first steps with Infrastructure-as-Code? During
+                        the workshop, we'll learn how to define and manage an infrastructure using a simple, declarative
+                        programming language and how to deploy and manage that infrastructure using a few CLI commands.
+                      </p>
+                      <p class="services__item__text">We'll provision an infrastructure including two (2) APIs on two
+                        (2) cloud service providers (CSP) using Hashicorp's Terraform and we'll make these two
+                        applications communicate.</p>
+                      <p class="services__item__text">
+                        This workshop is perfect for beginners who have never used Terraform. Take this opportunity to
+                        learn-by-doing while you play around in different CSP environments.
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="item">
-              <div class="services__item">
-                <h3 class="purple">Learning AWS Pentesting with CloudGoat2</h3>
+            <div class="panel panel-default">
+              <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2"
+                href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                <div class="panel-heading" role="tab" id="headingSeven">
+                  <h4 class="panel-title">
 
-                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Jeff Anderson</strong></p>
-                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a
-                    href="https://twitter.com/TheJBAnderson" target="_blank"><strong>@TheJBAnderson</strong></a></p>
+                    Learning AWS Pentesting with CloudGoat2
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Jeff Anderson</strong></p>
+                      <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                          <p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/TheJBAnderson" target="_blank"><strong>@TheJBAnderson</strong></a>
+                      </p>
+
+                      <p class="white"><strong class="white">Abstract:&nbsp;</strong></p>
+
+                      <p class="services__item__text">AWS pentesting is still in its infancy. Newcomers to the field
+                        often find it hard to figure out where to start.
+                      </p>
+                      <p class="services__item__text">This workshop will teach AWS pentesting beginners how to approach
+                        an AWS environment using the intentionally vulnerable environments provided by CloudGoat2. There
+                        will be live demos of setting up the CloudGoat2 environment as well as reconnaissance and
+                        exploitation of AWS vulnerabilities that are found in the wild.</p>
+
+                      <p class="services__item__text">This talk is rated 101 level with a target audience of penetration
+                        testers who are interested in expanding their skillset to include AWS.</p>
+                      <p class="services__item__text">
+                        Participants are expected to have a basic understanding of penetration testing in general and
+                        some experience working with AWS.
+                      </p>
+                      <p class="services__item__text">
+                        Participants will provide their own laptops and will need to have a Free-tier AWS account set up
+                        prior to the workshop.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="item">
-              <div class="services__item">
-                <h3 class="purple">Pragmatic Cloud Security Automation</h3>
+            <div class="panel panel-default">
+              <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2"
+                href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                <div class="panel-heading" role="tab" id="headingEight">
+                  <h4 class="panel-title">
 
-                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Rich Mogull</strong></p>
-                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/rmogull"
-                    target="_blank"><strong>@rmogull</strong></a></p>
+                    Pragmatic Cloud Security Automation
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Rich Mogull</strong></p>
+                      <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                          <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/rmogull" target="_blank"><strong>@rmogull</strong></a></p>
+
+                      <p class="services__item__text">Automating cloud security operations takes a little more than
+                        slapping together a quick lambda to fix an open S3 bucket (but that isn't a bad start). In this
+                        workshop we will cover the major categories of security automations and present practical
+                        implementation techniques. Come prepared to build your own (or use our starter scripts) as we:
+                      </p>
+                      <ul class="custom-list">
+                        <li class="white">Review the three major categories of automations- guardrails, workflows, and
+                          orchestrations.</li>
+                        <li class="white">Build demo versions of each (in AWS, bring your own account), incorporating
+                          techniques including assessments, event-driven guardrails, and an incident response workflow.
+                        </li>
+                        <li class="white">See demonstrations of cross-product orchestrations that integrate commercial
+                          tools.</li>
+                        <li class="white">Learn the tricks of the trade, based on 10 years of hands-on research and
+                          implementation (for realz, check the intertubes if you don't believe us).</li>
+                        <li class="white">See what it takes to implement automations at global scale.</li>
+
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="item">
-              <div class="services__item">
-                <h3 class="purple">Azure Cloud Security Workshop</h3>
+            <div class="panel panel-default">
+              <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2"
+                href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                <div class="panel-heading" role="tab" id="headingNine">
+                  <h4 class="panel-title">
 
-                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Tanya Janca</strong></p>
-                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a
-                    href="https://twitter.com/shehackspurple" target="_blank"><strong>@shehackspurple</strong></a></p>
+                    Azure Cloud Security Workshop
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Tanya Janca</strong></p>
+                      <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                            <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/shehackspurple" target="_blank"><strong>@shehackspurple</strong></a>
+                      </p>
+
+                      <p class="services__item__text">Have you ever wondered how security is different ‘in the cloud'?
+                        How is Cloud Security and the "Cloud Native" approach different than a traditional data center?
+                        How can you see what's going
+                        on with your resources? How do you patch? Where can you see your server configs other important
+                        information? How do you manage a security incident? How do you even know that you're having an
+                        incident?
+
+                      </p>
+                      <p class="services__item__text">This workshop has 3 parts:</p>
+                      <ul class="custom-list">
+                        <li class="white">Group discussion of how cloud native security is different than traditional
+                          data centre security</li>
+                        <li class="white">Demo of Azure Security Centre
+                        </li>
+                        <li class="white">See demonstrations of cross-product orchestrations that integrate commercial
+                          tools.</li>
+                        <li class="white">Audience members investigate issues and mitigate security issues, in Azure, as
+                          a group</li>
+                      </ul>
+
+                      <p class="services__item__text">Demo will include:</p>
+                      <ul class="custom-list">
+                        <li class="white">Complete Azure Security Centre walkthrough</li>
+                        <li class="white">Policy and compliance, including subscription coverage
+                        </li>
+                        <li class="white">Resource Security Hygiene</li>
+                        <li class="white">Azure Security Centre Recommendations (mitigation of one or more items,
+                          dependent on time)</li>
+                        <li class="white">Threat Protection, Alerts and Logging</li>
+                        <li class="white">Applying System Updates
+                        </li>
+
+                      </ul>
+
+                      <p class="services__item__text">Audience Participation (people who do not have a laptop can follow
+                        along with the teacher)</p>
+                      <ul class="custom-list">
+                        <li class="white">Load Azure Labs into your trial subscription</li>
+                        <li class="white">Upgrade Security Centre to "Standard" coverage</li>
+                        <li class="white">Check your security configurations and settings to ensure your apps are safe
+                        </li>
+                        <li class="white">Implement some of the recommendations</li>
+                        <li class="white">Force HTTPS</li>
+                        <li class="white">Turn on Threat protection</li>
+                        <li class="white">Perform an SQL Injection, then investigate</li>
+                        <li class="white">More as time permits.</li>
+
+                      </ul>
+
+                      <p class="services__item__text">What you will need if you want to participate after the demo:</p>
+                      <ul class="custom-list">
+                        <li class="white">A laptop running any modern operating system (Mac OS, Windows, Linux)</li>
+                        <li class="white">Modern web browser (Edge, Chrome, FireFox)
+                        </li>
+                        <li class="white">Wi-fi and internet</li>
+                        <li class="white">An activated Azure Trial. Please activate your trial before the workshop. The
+                          workshop will not wait if you have not activated your trail.</li>
+                      </ul>
+
+                      <p class="services__item__text">To activate your free Azure trail for this workshop please go
+                        here: <a href="https://aka.ms/Azure-Cloud-Security-Workshop"
+                          target="_blank">https://aka.ms/Azure-Cloud-Security-Workshop</a>
+                      </p>
+                      <p class="services__item__text">** If you have previously used your free Azure Trail you will not
+                        be able to have another one or this workshop.</p>
+
+                      <p class="services__item__text">**You will need to use a credit card to activate your trial, but
+                        the trial itself is free for 30 days, up to $200. We will use up to $30 of your credit with this
+                        workshop.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
-
-          </div>
-          <div class="arrow-controls col-xs-12 col-md-12">
-
-            <div class="arrow arrow_back">
-              <div class="arrow__line-short arrow__line_up"></div>
-              <div class="arrow__line"></div>
-              <div class="arrow__line-short arrow__line_down"></div>
-            </div>
-
-            <div class="arrow arrow_front">
-              <div class="arrow__line-short arrow__line_up"></div>
-              <div class="arrow__line"></div>
-              <div class="arrow__line-short arrow__line_down"></div>
-            </div>
 
           </div>
         </div>
-        <div role="tabpanel" class="tab-pane fade active" id="category-3">
-          <!-- carousel container			 -->
-          <div class="owl-carousel owl-theme">
-            <div class="item">
-              <div class="services__item">
-                <h3 class="purple">ATT&CKing the Sentinel</h3>
+        <div role="tabpanel" class="tab-pane fade" id="category-3">
+          <div class="panel-group talks-panel-group" id="accordion-3" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <a class="panel-btn" role="button" data-toggle="collapse" data-parent="#accordion-3" href="#collapseTen"
+                aria-expanded="true" aria-controls="collapseTen">
+                <div class="panel-heading" role="tab" id="headingTen">
+                  <h4 class="panel-title">
 
-                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Edoardo Gerosa</strong></p>
-                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/netevert"
-                    target="_blank"><strong>@netevert</strong></a></p>
+                    ATT&CKing the Sentinel – deploying a threat hunting capability on Azure Sentinel using Sysmon and
+                    MITRE ATT&CK
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Edoardo Gerosa</strong></p>
+                      <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                              <p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/netevert" target="_blank"><strong>@netevert</strong></a></p>
+
+                      <p class="white"><strong class="white">Abstract:&nbsp;</strong></p>
+
+                      <p class="services__item__text">Azure Sentinel, Microsoft's new cloud SIEM solution, was recently
+                        released on the market. Notwithstanding its strengths Sentinel offers limited threat hunting
+                        capabilities out of the box and setting up an effective hunting solution is not straightforward.
+                        The Sentinel ATT&CK GitHub project is designed to provide guidance on setting up an
+                        ATT&CK-driven process monitoring solution within Sentinel; giving DFIR professionals a tool to
+                        effectively hunt in the Azure cloud.
+                      </p>
+                      <p class="services__item__text">The project, building on previous work from the open source DFIR
+                        community, provides instructions on how to properly configure Sysmon to monitor and detect
+                        specific processes in alignment with MITRE's ATT&CK framework. Secondly it provides clarity on
+                        how to onboard Sysmon logs from Windows virtual machines, shedding light on some poorly
+                        documented areas, while also offering an open source parser to correctly ingest Sysmon data in
+                        conformity with the Open Source Security Event Metadata information model. Thirdly it offers
+                        around 120 open source Kusto Query Language alerts ready for deployment; each mapped to a unique
+                        MITRE ATT&CK technique. Fourthly it provides a dedicated threat hunting dashboard to help DFIR
+                        professionals monitor their environment and execute precise hunts. Finally, Sentinel ATT&CK
+                        provides ready-made hunting queries to be leveraged when responding to alert notifications
+                        raised by the threat hunting dashboard.</p>
+                      <p class="services__item__text">
+                        This talk delivers an overview of how the Sentinel ATT&CK project can help organisations
+                        establish an effective threat hunting capability in Azure as well as an opportunity to share
+                        with the community the strengths and shortcomings of Sentinel when it comes to hunting
+                        adversaries within the Microsoft cloud.
+                      </p>
+
+                      <p class="services__item__text">The talk will be structured as follows:</p>
+                      <ul class="custom-list">
+                        <li class="white">Introductions (2 minutes): A brief introduction to provide our short
+                          biographies and a
+                          description of our current roles - both speakers</li>
+                        <li class="white">Project background (3 minutes): An overview of how the project came to be,
+                          covering previous
+                          Splunk work from the DFIR open source community that helped establish the foundations of
+                          Sentinel ATT&CK - both speakers</li>
+                        <li class="white">The problem (5 minutes): Although Azure Sentinel contains excellent features –
+                          for e.g. threat
+                          response automation with Logic Apps (1 minute), a powerful query language (1 minute) and
+                          incident grouping (1 minute); the platform offers limited threat hunting capabilities out of
+                          the
+                          box. Moreover, two major downsides make it difficult to quickly set up a robust,
+                          well-structured
+                          threat hunting capability; these are a) poor documentation around log onboarding (1 minute)
+                          and
+                          b) very limited data normalisation features at ingestion time (1 minute) - Edoardo Gerosa</li>
+                        <li class="white">The solution – Sentinel ATT&CK (10 minutes): An overview of the project and
+                          how it can help
+                          with quickly deploying an effective threat hunting solution for Sentinel – starting with a
+                          lighting overview of MITRE ATT&CK (1 minute) , then covering how to configure Sysmon to
+                          monitor
+                          specific ATT&CK techniques (2 minutes), how to onboard Sysmon logs into Azure (2 minutes),
+                          Sentinel parsing best practices (2 minutes), using Kusto to execute hunts (2 minutes) and
+                          concluding with an overview of the project's threat hunting dashboard (1 minute) - Edoardo
+                          Gerosa</li>
+                        <li class="white">Demo and Q&A session (10 minutes): we'll showcase a live instance of Sentinel
+                          ATT&CK deployed
+                          on our Azure lab to walk through the functionalities of the platform, execute a demo hunt and,
+                          if necessary, to provide practical deep-dives to participant questions - Olaf Hartong</li>
+
+                      </ul>
+                      <p class="services__item__text">In order to stimulate discussion during the demo and Q&A session
+                        we will have three questions in our back-pocket to ask participants; these will be as follows:
+                      </p>
+
+                      <ul class="custom-list">
+                        <li class="white">Who has used Sentinel and what is their opinion of the platform?</li>
+                        <li class="white">Who uses Sysmon as a process monitoring solution in their network and what is
+                          their opinion
+                          of the tool?</li>
+                        <li class="white">What are some of the response activities that could be performed with Sentinel
+                          on compromised
+                          virtual machines, especially considering the in-built SOAR capabilities of the platform?</li>
+
+
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="item">
-              <div class="services__item">
-                <h3 class="purple">PacBot - Policy as Code from T-Mobile OSS</h3>
+            <div class="panel panel-default">
+              <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-3"
+                href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                <div class="panel-heading" role="tab" id="headingEleven">
+                  <h4 class="panel-title">
 
-                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Setu Parimi</strong></p>
-                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="javascript:;"
-                    target="_blank"><strong>NA</strong></a></p>
+                    PacBot - Policy as Code from T-Mobile OSS
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Setu Parimi</strong></p>
+                      <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                              <p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="javascript:;"
+                          target="_blank"><strong>NA</strong></a>
+                      </p>
+
+                      <p class="white"><strong class="white">Abstract:&nbsp;</strong></p>
+
+                      <p class="services__item__text">Policy as Code Bot (PacBot) is a platform for continuous
+                        compliance monitoring, compliance reporting and security automation for the cloud. In PacBot,
+                        security and compliance policies are implemented as code. All resources discovered by PacBot are
+                        evaluated against these policies to gauge policy conformance. The PacBot auto-fix framework
+                        provides the ability to automatically respond to policy violations by taking predefined actions.
+                      </p>
+                      <p class="services__item__text">PacBot packs in powerful visualization features, giving a
+                        simplified view of compliance and making it easy to analyze and remediate policy violations.
+                        PacBot is more than a tool to manage cloud misconfiguration, it is a generic platform that can
+                        be used to do continuous compliance monitoring and reporting for any domain.</p>
+
+
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="item">
-              <div class="services__item">
-                <h3 class="purple">Rethinking Cloud Security with a Software-Defined Perimeter</h3>
+            <div class="panel panel-default">
+              <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-3"
+                href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                <div class="panel-heading" role="tab" id="headingTwelve">
+                  <h4 class="panel-title">
 
-                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Jason Garbis</strong></p>
-                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/JasonGarbis"
-                    target="_blank"><strong>@JasonGarbis</strong></a></p>
+                    Rethinking Cloud Security with a Software-Defined Perimeter
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Jason Garbis</strong></p>
+                      <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                              <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/JasonGarbis" target="_blank"><strong>@JasonGarbis</strong></a></p>
+
+                      <p class="services__item__text">TCP/IP has failed us. Its "implicit trust" philosophy permits
+                        anyone to connect to a system before authentication or authorization is applied. And, as we
+                        witness daily, the results are not pretty: Not only successful attacks, but ongoing operational
+                        headaches and complex toolsets required to manage cloud network access.
+                      </p>
+                      <p class="services__item__text">Even today's most advanced Cloud environments rely on TCP/IP, with
+                        all its shortcomings, and the
+                        widely available Cloud access controls fall short. It's imperative to change the way we approach
+                        network security, and adopt a fundamentally more secure, "zero trust" model. We need to realize
+                        that the ability to establish a network connection to a system is in fact a privilege, and
+                        therefore we must authorize all users before they can do so. This approach hides our systems
+                        from all unauthorized users, effectively eliminates DDoS attacks, and dramatically shrinks our
+                        network attack surface.</p>
+                      <p class="services__item__text">This session introduces an open model for Cloud network security:
+                        the Software-Defined Perimeter
+                        (SDP). This security architecture, published by the Cloud Security Alliance, provides a "zero
+                        trust" model built with a distributed, scalable, architecture comprising SDP Controller and
+                        network Gateways. All network resources remain hidden behind Gateways, unless users are
+                        permitted access via real-time policies. The SDP Controller and Gateways themselves are hidden
+                        on the network – users must authenticate via a highly efficient, cryptographically secured
+                        mechanism – Single Packet Authorization – before a connection to the system is permitted.</p>
+                      <p class="services__item__text">We introduce the SDP technical architecture, and show how it's
+                        deployed in a IaaS environment,
+                        to secure access to Cloud compute resources. We'll compare and contrast SDP with Cloud-native
+                        network security solutions (e.g. Security Groups, Direct Connect) as well as traditional
+                        security solutions (e.g. VPNs), and explain why SDP is superior. After a brief demonstration, we
+                        will conclude with a reference architecture for SDP in cloud environments.</p>
+                      <p class="services__item__text">Join us to learn why and how SDP literally makes network resources
+                        invisible to unauthorized
+                        users.</p>
+
+
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
 
-
-          </div>
-          <div class="arrow-controls col-xs-12 col-md-12">
-
-            <div class="arrow arrow_back">
-              <div class="arrow__line-short arrow__line_up"></div>
-              <div class="arrow__line"></div>
-              <div class="arrow__line-short arrow__line_down"></div>
-            </div>
-
-            <div class="arrow arrow_front">
-              <div class="arrow__line-short arrow__line_up"></div>
-              <div class="arrow__line"></div>
-              <div class="arrow__line-short arrow__line_down"></div>
-            </div>
 
           </div>
         </div>
-        <div role="tabpanel" class="tab-pane fade active" id="category-4">
-          <!-- carousel container			 -->
-          <div class="owl-carousel owl-theme">
-            <div class="item">
-              <div class="services__item">
-                <h3 class="purple">Security Battle Wounds from a Cloud SRE</h3>
+        <div role="tabpanel" class="tab-pane fade" id="category-4">
+          <div class="panel-group talks-panel-group" id="accordion-4" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <a class="panel-btn" role="button" data-toggle="collapse" data-parent="#accordion-4"
+                href="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen">
+                <div class="panel-heading" role="tab" id="headingThirteen">
+                  <h4 class="panel-title">
 
-                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Jane Miceli</strong></p>
-                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/janemiceli"
-                    target="_blank"><strong>@janemiceli </strong></a></p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="services__item">
-                <h3 class="purple">Dockerizing AWS CLI from the Horrors of Python</h3>
+                    Security Battle Wounds from a Cloud SRE
 
-                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Jeff Hagley</strong></p>
-                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="javascript:;"
-                    target="_blank"><strong>NA</strong></a></p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="services__item">
-                <h3 class="purple">Advanced Security Techniques - Galaxy Brain Edition</h3>
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseThirteen" class="panel-collapse collapse" role="tabpanel"
+                aria-labelledby="headingThirteen">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
 
-                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Trey Keown</strong></p>
-                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/treykeown"
-                    target="_blank"><strong>@treykeown</strong></a></p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="services__item">
-                <h3 class="purple">Building A "BadLab"</h3>
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Jane Miceli</strong></p>
+                      <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                                  <p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/janemiceli" target="_blank"><strong>@janemiceli </strong></a></p>
 
-                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Jerry Gamblin</strong></p>
-                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
-                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/jgamblin"
-                    target="_blank"><strong>@jgamblin</strong></a></p>
+                      <p class="white"><strong class="white">Abstract:&nbsp;</strong></p>
+
+                      <p class="services__item__text">Learn about a breach, what happens in the aftermath and why I
+                        can't tell my peers what happen. Learn the fallout and more importantly what application
+                        developers aren't thinking about.
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
 
-          </div>
-          <div class="arrow-controls col-xs-12 col-md-12">
 
-            <div class="arrow arrow_back">
-              <div class="arrow__line-short arrow__line_up"></div>
-              <div class="arrow__line"></div>
-              <div class="arrow__line-short arrow__line_down"></div>
-            </div>
-
-            <div class="arrow arrow_front">
-              <div class="arrow__line-short arrow__line_up"></div>
-              <div class="arrow__line"></div>
-              <div class="arrow__line-short arrow__line_down"></div>
-            </div>
 
           </div>
         </div>
