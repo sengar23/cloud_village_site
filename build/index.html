@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Cloud Village</title>
-  <meta name="description" content="An open space to meet folks interested in offensive and defensive aspects of cloud security.">
-  <meta property="og:image" content="https://cloud-village.org/images/seo.png"/>  
-  <meta property="og:title" content="Cloud Village"/>  
-  <meta property="og:description" content="An open space to meet folks interested in offensive and defensive aspects of cloud security.">
-	<!-- favicon -->
-	<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Village</title>
+  <meta name="description"
+    content="An open space to meet folks interested in offensive and defensive aspects of cloud security.">
+  <meta property="og:image" content="https://cloud-village.org/images/seo.png" />
+  <meta property="og:title" content="Cloud Village" />
+  <meta property="og:description"
+    content="An open space to meet folks interested in offensive and defensive aspects of cloud security.">
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
@@ -18,7 +21,7 @@
   <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
@@ -27,28 +30,32 @@
   <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <meta name="google-site-verification" content="dThKGfVv6X9a2RFcqTKRe1MwNJvEr0iypjxSU4on9FY" />
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:500|Source+Code+Pro:300,400,400i,600,700" rel="stylesheet">
-	<!-- bootstrap -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<!-- animate.css -->
-	<link rel="stylesheet" href="css/animate.min.css">
-	<!-- slider and carousel -->
-	<link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/slick.css">
-	<!-- popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<!-- icons set -->
-	<link rel="stylesheet" href="css/fontello.css">
-	<!-- custom main stylesheet -->
-	<link rel="stylesheet" href="css/styles.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500|Source+Code+Pro:300,400,400i,600,700"
+    rel="stylesheet">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- animate.css -->
+  <link rel="stylesheet" href="css/animate.min.css">
+  <!-- slider and carousel -->
+  <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <!-- popup -->
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <!-- icons set -->
+  <link rel="stylesheet" href="css/fontello.css">
+  <!-- custom main stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138455456-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-138455456-1');
@@ -56,341 +63,632 @@
 
   <!-- Hotjar Tracking Code for cloud-village.org -->
   <script>
-      (function(h,o,t,j,a,r){
-          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-          h._hjSettings={hjid:1283723,hjsv:6};
-          a=o.getElementsByTagName('head')[0];
-          r=o.createElement('script');r.async=1;
-          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-          a.appendChild(r);
-      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () {
+        (h.hj.q = h.hj.q || []).push(arguments)
+      };
+      h._hjSettings = {
+        hjid: 1283723,
+        hjsv: 6
+      };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script');
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
   </script>
 
 </head>
+
 <body>
-<div class="loading-wrap visible">
-  <div class="loading">
-    <span>L</span>
-    <span>o</span>
-    <span>a</span>
-    <span>d</span>
-    <span>i</span>
-    <span>n</span>
-    <span>g</span>
+  <div class="loading-wrap visible">
+    <div class="loading">
+      <span>L</span>
+      <span>o</span>
+      <span>a</span>
+      <span>d</span>
+      <span>i</span>
+      <span>n</span>
+      <span>g</span>
+    </div>
   </div>
-</div>
-  
-	
-<!--	Logo and menu
+
+
+  <!--	Logo and menu
 ****************************-->
-	<header class="header">
-		<div class="inner-header container">
-			<div class="header__logo">
-				<a href="index.html" class="logo__item"></a>
-			</div>
-			
-			<button class="btn_nav"><i class="icon-menu"></i></button>
+  <header class="header">
+    <div class="inner-header container">
+      <div class="header__logo">
+        <a href="index.html" class="logo__item"></a>
+      </div>
 
-			<nav class="navigation header__nav">
-				<ul class="nav__list">
-					
-					<li class="nav__item current"><a href="#cfp" class="nav__link"><span class="nav__item_underline"></span>CFP</a></li>
-					<li class="nav__item"><a href="#ctf" class="nav__link"><span class="nav__item_underline"></span>CTF</a></li>
-          <li class="nav__item"><a href="#about" class="nav__link"><span class="nav__item_underline"></span>About</a></li>
-					<li class="nav__item"><a href="#talks" class="nav__link"><span class="nav__item_underline"></span>Talks</a></li>
+      <button class="btn_nav"><i class="icon-menu"></i></button>
+
+      <nav class="navigation header__nav">
+        <ul class="nav__list">
+
+          <li class="nav__item current"><a href="#cfp" class="nav__link"><span
+                class="nav__item_underline"></span>CFP</a></li>
+          <li class="nav__item"><a href="#ctf" class="nav__link"><span class="nav__item_underline"></span>CTF</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link"><span class="nav__item_underline"></span>About</a>
+          </li>
+          <li class="nav__item"><a href="#talks" class="nav__link"><span class="nav__item_underline"></span>Talks</a>
+          </li>
           <!--<li class="nav__item"><a href="#venues" class="nav__link"><span class="nav__item_underline"></span>Venues</a></li>-->
-          <li class="nav__item"><a href="#timelines" class="nav__link"><span class="nav__item_underline"></span>Timelines</a></li>
-          <li class="nav__item"><a href="#sponsers" class="nav__link"><span class="nav__item_underline"></span>Sponsors</a></li>
-					<li class="nav__item"><a href="#contact" class="nav__link"><span class="nav__item_underline"></span>Contact</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	
-<!--	Slider set
+          <li class="nav__item"><a href="#timelines" class="nav__link"><span
+                class="nav__item_underline"></span>Timelines</a></li>
+          <li class="nav__item"><a href="#sponsers" class="nav__link"><span
+                class="nav__item_underline"></span>Sponsors</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link"><span
+                class="nav__item_underline"></span>Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--	Slider set
 *****************************-->
-<!-- slider container -->
-	<div class="slider section home-section">
-	<!-- slider item -->
-		<div class="slider__item slider__item_1">
-			<div class="container">
-				<div class="slider__wrapper">
-					<span class="item__text">CLOUD VILLAGE</span>
-					<h1 class="item__text item__text_big">Cloud village is an open space to meet folks interested in offensive and defensive aspects of cloud security.</h1>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" title="CFP for DEF CON 27" class="text__button inline-btn">CFP for DEF CON 27</a>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfIlR_-GZ_WqAwu64AobwRPdaiqw8DZusjTPNm4bVoOtH2k3g/viewform" target="_blank" class="text__button float-right-btn">Contribute/Volunteer</a>
+  <!-- slider container -->
+  <div class="slider section home-section">
+    <!-- slider item -->
+    <div class="slider__item slider__item_1">
+      <div class="container">
+        <div class="slider__wrapper">
+          <span class="item__text">CLOUD VILLAGE</span>
+          <h1 class="item__text item__text_big">Cloud village is an open space to meet folks interested in offensive and
+            defensive aspects of cloud security.</h1>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform"
+            target="_blank" title="CFP for DEF CON 27" class="text__button inline-btn">CFP for DEF CON 27</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfIlR_-GZ_WqAwu64AobwRPdaiqw8DZusjTPNm4bVoOtH2k3g/viewform"
+            target="_blank" class="text__button float-right-btn">Contribute/Volunteer</a>
 
-          
-				</div>
-			</div>
-		</div>
-	
-		
-	</div>
-	
-	
 
-	
-<!--	Animated pointer
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+  <!--	Animated pointer
 *****************************-->
-	<div class="pointer pointer_bottom">
-		<div class="pointer__arrow pointer__arrow_top"></div>
-		<div class="pointer__line"></div>
-		<div class="pointer__arrow pointer__arrow_bottom"></div>
-	</div>
+  <div class="pointer pointer_bottom">
+    <div class="pointer__arrow pointer__arrow_top"></div>
+    <div class="pointer__line"></div>
+    <div class="pointer__arrow pointer__arrow_bottom"></div>
+  </div>
 
 
 
-	
+
 
 
 
   <!--  Section CFP
 *****************************-->
-<section id="cfp" class="cfp section">
+  <section id="cfp" class="cfp section">
     <div class="container">
       <hr class="services__line">
       <div class="row">
 
         <div class="about__text col-xs-12 col-md-12">
           <h2 class="text__header">Call for Papers (DEF CON 27)</h2>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" class="text__button cta" title="CFP for DEF CON 27">CFP Submission Form</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform"
+            target="_blank" class="text__button cta" title="CFP for DEF CON 27">CFP Submission Form</a>
           <p class="copy-1 white"><span class="purple">CFP Open:</span> 28th April 2019</p>
           <p class="copy-1 white"><span class="purple">CFP Close:</span> 16th June 2019</p>
           <p class="copy-1 white"><span class="purple">Venue:</span> DEF CON, Las Vegas, Nevada</p>
 
-          <p class="text__par">Our CFP is now <strong class="green">OPEN</strong> for <strong class="green">DEF CON 27</strong>, and we are looking for presentations, workshops and tool demos to be part of our village.
+          <p class="text__par">Our CFP is now <strong class="green">OPEN</strong> for <strong class="green">DEF CON
+              27</strong>, and we are looking for presentations, workshops and tool demos to be part of our village.
           </p>
-          
-          <p class="text__par">CFP closes on <strong class="green">16th June 2019 23:59 GMT</strong>. Once CFP is closed, this form will no longer accept CFP submissions or modifications.
+
+          <p class="text__par">CFP closes on <strong class="green">16th June 2019 23:59 GMT</strong>. Once CFP is
+            closed, this form will no longer accept CFP submissions or modifications.
           </p>
           <p class="copy-1 purple">We accept four talk categories:</p>
           <ul class="custom-list">
             <li class="white">Talks (30 - 45 minutes - Detailed research talks)</li>
             <li class="white">Workshops (1 - 2 hours - Hands on or Instructor led training for free)</li>
             <li class="white">Tool Demo (20 - 30 minutes)</li>
-            <li class="white">Lightning Talks (10 - 20 minutes talk to cover quick, short-hand techniques)</li>
-            
-            
+            <li class="white">Lightning Talks (10 - 20 minutes talk to cover quick, shorthand techniques)</li>
+
+
           </ul>
           <p class="copy-1 purple">Speaker Benefits:</p>
           <ul class="custom-list">
             <li class="white">Exclusive Cloud Village Speaker Badge</li>
             <li class="white">Cloud Village Speaker T-shirt</li>
             <li class="white">Lot of love and respect from the team</li>
-            
+
           </ul>
           <p class="copy-1 green">Notes:</p>
           <ul class="custom-list">
-            <li class="white italics">Please do not submit to Cloud Village CFP if you are not already planning to attend DEF CON 27 as we are unable to provide any speaker assistance in terms of DEF CON Badges / travel / accommodation expenses. If you are already attending DEF CON and would like to speak, please send in your proposal through this <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank">CFP form</a>.</li>
+            <li class="white italics">Please do not submit to Cloud Village CFP if you are not already planning to
+              attend DEF CON 27 as we are unable to provide any speaker assistance in terms of DEF CON Badges / travel /
+              accommodation expenses. If you are already attending DEF CON and would like to speak, please send in your
+              proposal through this <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform"
+                target="_blank">CFP form</a>.</li>
             <li class="white italics">The only way to submit to our CFP is via this form.</li>
-            <li class="white italics">As you will submit the CFP form, you should get a confirmation email confirming your submission. If you do not receive this email, it simply means there is something wrong and we have not received your submission. In that case, we suggest you to submit again.</li>
-            
+            <li class="white italics">As you will submit the CFP form, you should get a confirmation email confirming
+              your submission. If you do not receive this email, it simply means there is something wrong and we have
+              not received your submission. In that case, we suggest you to submit again.</li>
+
           </ul>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" class="text__button inline-btn" title="CFP for DEF CON 27">CFP Submission Form</a>
-          
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform"
+            target="_blank" class="text__button inline-btn" title="CFP for DEF CON 27">CFP Submission Form</a>
+
         </div>
-        
+
       </div>
     </div>
   </section>
 
 
-    <!--  Section CTF
+  <!--  Section CTF
 *****************************-->
   <section id="ctf" class="ctf section">
     <div class="container">
       <div class="row">
         <div class="about__text col-xs-12 col-md-12">
           <h2 class="text__header">Cloud CTF</h2>
-          
-          
 
-          <p class="text__par">Our CTF is <strong class="green">three days jeopardy style</strong> contest where we will create bunch of challenges in multiple categories, related to cloud services though.
+
+
+          <p class="text__par">Our CTF is <strong class="green">three days jeopardy style</strong> contest where we will
+            create bunch of challenges in multiple categories, related to cloud services though.
           </p>
-          <p class="text__par">Teams / Individuals gain some points, (or loose points on using hints) on solving each challenge. Teams or Individuals who gain maximum points gets the winning rewards.
+          <p class="text__par">Teams / Individuals gain some points, (or loose points on using hints) on solving each
+            challenge. Teams or Individuals who gain maximum points gets the winning rewards.
           </p>
-          
-          
+
+
         </div>
-        
+
       </div>
     </div>
   </section>
 
-  <div class="container"><hr class="divider__line"></div>
+  <div class="container">
+    <hr class="divider__line">
+  </div>
 
-	<!-- Section About
+  <!-- Section About
 *****************************-->
   <section id="about" class="about section">
     <div class="container">
       <div class="row">
         <div class="about__text col-xs-12 col-md-12">
           <h2 class="text__header">About</h2>
-          <p class="text__par">Cloud village is an open space to meet folks interested in offensive and defensive aspects of cloud security. The village is home to various activities like talks, workshops, CTFs and discussions targeted around cloud services.
+          <p class="text__par">Cloud village is an open space to meet folks interested in offensive and defensive
+            aspects of cloud security. The village is home to various activities like talks, workshops, CTFs and
+            discussions targeted around cloud services.
           </p>
-          <p class="text__par"> If you are a professional who is looking to gain knowledge on securely maintaining the cloud stack and loves to be around like-minded security folks who share the similar zeal towards the community, Cloud Village is the perfect place for you.
+          <p class="text__par"> If you are a professional who is looking to gain knowledge on securely maintaining the
+            cloud stack and loves to be around like-minded security folks who share the similar zeal towards the
+            community, Cloud Village is the perfect place for you.
           </p>
           <p class="copy-1 purple">Crew Members:</p>
           <ul class="custom-list">
             <li>Jayesh Singh Chauhan (<a href="https://twitter.com/jayeshsch" target="_blank">@jayeshsch</a>)</li>
-            <li>Shivankar Madaan (<a href="https://twitter.com/shivankarmadaan" target="_blank">@shivankarmadaan</a>)</li>
+            <li>Shivankar Madaan (<a href="https://twitter.com/shivankarmadaan" target="_blank">@shivankarmadaan</a>)
+            </li>
             <li>Ranjeet Sengar (<a href="https://twitter.com/sengar23" target="_blank">@sengar23</a>)</li>
-            
+            <li>Madhu Akula (<a href="https://twitter.com/madhuakula" target="_blank">@madhuakula</a>)</li>
+
           </ul>
-          
+          <p class="copy-1 purple">CFP Review Panel (DEFCON 27):</p>
+          <ul class="custom-list">
+            <li>Bryce Kunz (<a href="https://twitter.com/TweekFawkes" target="_blank">@TweekFawkes</a>)</li>
+            <li>Anant Srivastava (<a href="https://twitter.com/anantshri" target="_blank">@anantshri</a>)</li>
+            <li>Akash Mahajan (<a href="https://twitter.com/makash" target="_blank">@makash</a>)</li>
+            <li>William Bengtson (<a href="https://twitter.com/__muscles?s=09" target="_blank">@__muscles</a>)</li>
+            <li>Sarah Young (<a href="https://twitter.com/_sarahyo" target="_blank">@_sarahyo</a>)</li>
+          </ul>
+
         </div>
-        
+
       </div>
     </div>
   </section>
 
-	
-<!--	Talks / Schedule
+
+  <!--	Talks / Schedule
 *****************************-->
-	<section id="talks" class="talks section">
-		<div class="container">
-			<div class="services__header-block">
-				
-				<h2 class="services__header col-xs-12 col-sm-6">Talks / Schedule</h2>
-					
-				<!--<div class="arrow-controls col-xs-12 col-sm-6">
-					
-					<div class="arrow arrow_back">
-						<div class="arrow__line-short arrow__line_up"></div>
-						<div class="arrow__line"></div>
-						<div class="arrow__line-short arrow__line_down"></div>
-					</div>
-						
-					<div class="arrow arrow_front">
-						<div class="arrow__line-short arrow__line_up"></div>
-						<div class="arrow__line"></div>
-						<div class="arrow__line-short arrow__line_down"></div>
-					</div>
-						
-				</div>-->
-			</div>
-			<hr class="services__line">
+  <section id="talks" class="talks section">
+    <div class="container">
+      <div class="services__header-block">
 
-<!-- carousel container			 -->
-			<!--<div class="owl-carousel owl-theme">
-				<div class="item">
-					<div class="services__item">
-						<h3 class="purple">The ultimate key to Rooting the human being</h3>
-						<p class="services__item__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-						<p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Ranjeet Sengar</strong></p>
-            <p class="green"><strong class="white">Twitter:&nbsp;</strong><strong>@sengar23</strong></p>
-            <p class="green"><strong class="white">Time:&nbsp;</strong><strong>10:15 am - 11:00 am</strong></p>
-					</div>
-				</div>
-				<div class="item">
-          <div class="services__item">
-            <h3 class="purple">The ultimate key to Rooting the human being</h3>
-            <p class="services__item__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-            <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Ranjeet Sengar</strong></p>
-            <p class="green"><strong class="white">Twitter:&nbsp;</strong><strong>@sengar23</strong></p>
-            <p class="green"><strong class="white">Time:&nbsp;</strong><strong>10:15 am - 11:00 am</strong></p>
+        <h2 class="services__header col-xs-12 col-sm-8">Talks / Schedule (DEF CON 27)</h2>
+
+
+      </div>
+      <hr class="services__line">
+
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#category-1" aria-controls="category-1" role="tab"
+            data-toggle="tab">Talks(<span class="ca-count"></span>)</a></li>
+        <li role="presentation"><a href="#category-2" aria-controls="category-2" role="tab"
+            data-toggle="tab">Workshops(<span class="ca-count"></span>)</a></li>
+        <li role="presentation"><a href="#category-3" aria-controls="category-3" role="tab" data-toggle="tab">Tool
+            Demo(<span class="ca-count"></span>)</a>
+        </li>
+        <li role="presentation"><a href="#category-4" aria-controls="category-4" role="tab" data-toggle="tab">Lightning
+            Talks(<span class="ca-count"></span>)</a>
+        </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="category-1">
+          <!-- carousel container			 -->
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="services__item">
+                <h3 class="purple">Exploiting IAM in the Google Cloud Platform</h3>
+                <!---<p class="services__item__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                  ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>-->
+                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Colin Estep</strong></p>
+                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/colinestep"
+                    target="_blank"><strong>@colinestep</strong></a></p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="services__item">
+                <h3 class="purple">Hacking into automotive clouds</h3>
+
+                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Rotem Bar</strong></p>
+                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/rotembar"
+                    target="_blank"><strong>@rotembar</strong></a></p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="services__item">
+                <h3 class="purple">Build to Hack, Hack to Build</h3>
+
+                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Chris Le Roy</strong></p>
+                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/brompwnie"
+                    target="_blank"><strong>@brompwnie</strong></a></p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="services__item">
+                <h3 class="purple">Your Blacklist is Dead. Airgap Everything: The Future of CNC is the Cloud</h3>
+
+                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Erick Galinkin</strong></p>
+                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a
+                    href="https://twitter.com/erickgalinkin" target="_blank"><strong>@erickgalinkin</strong></a></p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="services__item">
+                <h3 class="purple">Applying Pareto’s Principle for Securing AWS with SCPs</h3>
+
+                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Ayman Elsawah</strong></p>
+                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a
+                    href="https://twitter.com/coffeewithayman" target="_blank"><strong>@coffeewithayman</strong></a></p>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="arrow-controls col-xs-12 col-md-12">
+
+            <div class="arrow arrow_back">
+              <div class="arrow__line-short arrow__line_up"></div>
+              <div class="arrow__line"></div>
+              <div class="arrow__line-short arrow__line_down"></div>
+            </div>
+
+            <div class="arrow arrow_front">
+              <div class="arrow__line-short arrow__line_up"></div>
+              <div class="arrow__line"></div>
+              <div class="arrow__line-short arrow__line_down"></div>
+            </div>
+
           </div>
         </div>
-				<div class="item">
-          <div class="services__item">
-            <h3 class="purple">The ultimate key to Rooting the human being</h3>
-            <p class="services__item__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-            <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Ranjeet Sengar</strong></p>
-            <p class="green"><strong class="white">Twitter:&nbsp;</strong><strong>@sengar23</strong></p>
-            <p class="green"><strong class="white">Time:&nbsp;</strong><strong>10:15 am - 11:00 am</strong></p>
+        <div role="tabpanel" class="tab-pane fade active" id="category-2">
+          <!-- carousel container			 -->
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="services__item">
+                <h3 class="purple">Infrastructure-as-Code for Complete Beginners</h3>
+
+                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Nancy Gariché</strong></p>
+                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/nanzgtweets"
+                    target="_blank"><strong>@nanzgtweets</strong></a></p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="services__item">
+                <h3 class="purple">Learning AWS Pentesting with CloudGoat2</h3>
+
+                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Jeff Anderson</strong></p>
+                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a
+                    href="https://twitter.com/TheJBAnderson" target="_blank"><strong>@TheJBAnderson</strong></a></p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="services__item">
+                <h3 class="purple">Pragmatic Cloud Security Automation</h3>
+
+                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Rich Mogull</strong></p>
+                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/rmogull"
+                    target="_blank"><strong>@rmogull</strong></a></p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="services__item">
+                <h3 class="purple">Azure Cloud Security Workshop</h3>
+
+                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Tanya Janca</strong></p>
+                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a
+                    href="https://twitter.com/shehackspurple" target="_blank"><strong>@shehackspurple</strong></a></p>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="arrow-controls col-xs-12 col-md-12">
+
+            <div class="arrow arrow_back">
+              <div class="arrow__line-short arrow__line_up"></div>
+              <div class="arrow__line"></div>
+              <div class="arrow__line-short arrow__line_down"></div>
+            </div>
+
+            <div class="arrow arrow_front">
+              <div class="arrow__line-short arrow__line_up"></div>
+              <div class="arrow__line"></div>
+              <div class="arrow__line-short arrow__line_down"></div>
+            </div>
+
           </div>
         </div>
-				<div class="item">
-          <div class="services__item">
-            <h3 class="purple">The ultimate key to Rooting the human being</h3>
-            <p class="services__item__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-            <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Ranjeet Sengar</strong></p>
-            <p class="green"><strong class="white">Twitter:&nbsp;</strong><strong>@sengar23</strong></p>
-            <p class="green"><strong class="white">Time:&nbsp;</strong><strong>10:15 am - 11:00 am</strong></p>
+        <div role="tabpanel" class="tab-pane fade active" id="category-3">
+          <!-- carousel container			 -->
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="services__item">
+                <h3 class="purple">ATT&CKing the Sentinel</h3>
+
+                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Edoardo Gerosa</strong></p>
+                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/netevert"
+                    target="_blank"><strong>@netevert</strong></a></p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="services__item">
+                <h3 class="purple">PacBot - Policy as Code from T-Mobile OSS</h3>
+
+                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Setu Parimi</strong></p>
+                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="javascript:;"
+                    target="_blank"><strong>NA</strong></a></p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="services__item">
+                <h3 class="purple">Rethinking Cloud Security with a Software-Defined Perimeter</h3>
+
+                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Jason Garbis</strong></p>
+                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/JasonGarbis"
+                    target="_blank"><strong>@JasonGarbis</strong></a></p>
+              </div>
+            </div>
+
+
+
+          </div>
+          <div class="arrow-controls col-xs-12 col-md-12">
+
+            <div class="arrow arrow_back">
+              <div class="arrow__line-short arrow__line_up"></div>
+              <div class="arrow__line"></div>
+              <div class="arrow__line-short arrow__line_down"></div>
+            </div>
+
+            <div class="arrow arrow_front">
+              <div class="arrow__line-short arrow__line_up"></div>
+              <div class="arrow__line"></div>
+              <div class="arrow__line-short arrow__line_down"></div>
+            </div>
+
           </div>
         </div>
-				
-				
-			</div>-->
-      <div class="coming-soon green">To be announced. Stay tuned.</div>
-		</div>
-	</section>
-	
-<!--	Timelines
+        <div role="tabpanel" class="tab-pane fade active" id="category-4">
+          <!-- carousel container			 -->
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="services__item">
+                <h3 class="purple">Security Battle Wounds from a Cloud SRE</h3>
+
+                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Jane Miceli</strong></p>
+                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/janemiceli"
+                    target="_blank"><strong>@janemiceli </strong></a></p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="services__item">
+                <h3 class="purple">Dockerizing AWS CLI from the Horrors of Python</h3>
+
+                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Jeff Hagley</strong></p>
+                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="javascript:;"
+                    target="_blank"><strong>NA</strong></a></p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="services__item">
+                <h3 class="purple">Advanced Security Techniques - Galaxy Brain Edition</h3>
+
+                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Trey Keown</strong></p>
+                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/treykeown"
+                    target="_blank"><strong>@treykeown</strong></a></p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="services__item">
+                <h3 class="purple">Building A "BadLab"</h3>
+
+                <p class="green"><strong class="white">Speaker:&nbsp;</strong><strong>Jerry Gamblin</strong></p>
+                <p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>
+                <p class="green"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/jgamblin"
+                    target="_blank"><strong>@jgamblin</strong></a></p>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="arrow-controls col-xs-12 col-md-12">
+
+            <div class="arrow arrow_back">
+              <div class="arrow__line-short arrow__line_up"></div>
+              <div class="arrow__line"></div>
+              <div class="arrow__line-short arrow__line_down"></div>
+            </div>
+
+            <div class="arrow arrow_front">
+              <div class="arrow__line-short arrow__line_up"></div>
+              <div class="arrow__line"></div>
+              <div class="arrow__line-short arrow__line_down"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!---<div class="coming-soon green">To be announced. Stay tuned.</div>-->
+    </div>
+  </section>
+
+  <!--	Timelines
 *********************************-->
-	<section id="timelines" class="works section">
-		<div class="container">
-			<div class="row">
-			<!-- header and buttons of the gallery -->
-				<div class="works__header">
-					<h2 class="col-xs-12 col-sm-3">Timelines for 2019</h2>
-					<nav class="works__header__nav col-xs-12 col-sm-9">
-						<button data-filter="*" class="works__nav__item works__nav__item_active"><span class="works__button_underline"></span>All</button>
-						<button data-filter=".1st-quarter" class="works__nav__item"><span class="works__button_underline"></span>1st quarter</button>
-						<button data-filter=".2nd-quarter" class="works__nav__item"><span class="works__button_underline"></span>2nd quarter</button>
-						<button data-filter=".3rd-quarter" class="works__nav__item"><span class="works__button_underline"></span>3rd quarter</button>
-            <button data-filter=".4th-quarter" class="works__nav__item"><span class="works__button_underline"></span>4th quarter</button>
-					</nav>
-				</div>
-			</div>
+  <section id="timelines" class="works section">
+    <div class="container">
+      <div class="row">
+        <!-- header and buttons of the gallery -->
+        <div class="works__header">
+          <h2 class="col-xs-12 col-sm-3">Timelines for 2019</h2>
+          <nav class="works__header__nav col-xs-12 col-sm-9">
+            <button data-filter="*" class="works__nav__item works__nav__item_active"><span
+                class="works__button_underline"></span>All</button>
+            <button data-filter=".1st-quarter" class="works__nav__item"><span class="works__button_underline"></span>1st
+              quarter</button>
+            <button data-filter=".2nd-quarter" class="works__nav__item"><span class="works__button_underline"></span>2nd
+              quarter</button>
+            <button data-filter=".3rd-quarter" class="works__nav__item"><span class="works__button_underline"></span>3rd
+              quarter</button>
+            <button data-filter=".4th-quarter" class="works__nav__item"><span class="works__button_underline"></span>4th
+              quarter</button>
+          </nav>
+        </div>
+      </div>
 
-			<div class="gallery">
-			<!-- gallery container -->
-				<div class="gallery__items">
+      <div class="gallery">
+        <!-- gallery container -->
+        <div class="gallery__items">
           <!--<div class="coming-soon purple">To be announced. Stay tuned.</div>-->
-				<!-- gallery item -->
-					<div class="gallery__item gallery__item_1 col-xs-12 col-sm-6 1st-quarter">
-						<div class="gallery__item__hover">
-							<span class="item__hover__line"></span><span class="item__hover__tag">09th - 11th August, 2019</span>
-							
-							<h3 class="item__hover__header"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" title="CFP for DEF CON 27">CFP for Talks/Workshops/Tool Demo Open</a></h3>
-							<h4 class="item__hover__header-small">DEF CON 27, Las Vegas, Nevada</h4>
-							
-							<a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" class="item__hover__zoom" title="CFP for DEF CON 27">
-								
-								+&nbsp;More
-							</a>
-						</div>
-					</div>
+          <!-- gallery item -->
+          <div class="gallery__item gallery__item_1 col-xs-12 col-sm-6 1st-quarter">
+            <div class="gallery__item__hover">
+              <span class="item__hover__line"></span><span class="item__hover__tag">09th - 11th August, 2019</span>
 
-          
-          
-          
-				</div>
-			
-			
-			</div>
-		</div>
-	</section>
-	
-	<!-- clients and contacts section -->
-		<section id="sponsers" class="clients section">
-			<div class="container">
-				<div class="clients__header row">
-					<h2 class="col-xs-12 col-md-9">Become a sponsor</h2>
-          <div class="col-xs-12 col-md-12">
-            <p class="text__par">If you are interested in sponsoring Cloud Village, drop us an email at <a href="mailto:hello@cloud-village.org">hello@cloud-village.org</a> or fill in this quick <a href="https://docs.google.com/forms/d/e/1FAIpQLSfIlR_-GZ_WqAwu64AobwRPdaiqw8DZusjTPNm4bVoOtH2k3g/viewform" target="_blank">Google Form</a>.
-            </p>
-            <p class="text__par">We are a Not For Profit, community-driven village that strives to promote and support research in Cloud security community. All the money we get from sponsors goes in expenses of the village, i.e., t-shirts, badges, stickers, networking party, logistics, etc.
-            </p> 
-            <!--<p class="text__par">Below is the list of possible benefits we can provide to our Sponsors:
-            </p>-->    
-          </div> 
-				     
-				</div>
-          
+              <h3 class="item__hover__header"><a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform"
+                  target="_blank" title="CFP for DEF CON 27">CFP for Talks/Workshops/Tool Demo Open</a></h3>
+              <h4 class="item__hover__header-small">DEF CON 27, Las Vegas, Nevada</h4>
 
-			
-			</div>
-		</section>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform"
+                target="_blank" class="item__hover__zoom" title="CFP for DEF CON 27">
 
-		<!--	Contact us
+                +&nbsp;More
+              </a>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- clients and contacts section -->
+  <section id="sponsers" class="clients section sponsor-section">
+    <div class="container">
+      <div class="clients__header row">
+        <h2 class="col-xs-12 col-md-9">Become a sponsor</h2>
+        <div class="col-xs-12 col-md-12">
+          <p class="text__par">If you are interested in sponsoring Cloud Village, drop us an email at <a
+              href="mailto:hello@cloud-village.org">hello@cloud-village.org</a> or fill in this quick <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfIlR_-GZ_WqAwu64AobwRPdaiqw8DZusjTPNm4bVoOtH2k3g/viewform"
+              target="_blank">Google Form</a>.
+          </p>
+          <p class="text__par">We are a Not For Profit, community-driven village that strives to promote and support
+            research in Cloud security community. All the money we get from sponsors goes in expenses of the village,
+            i.e., t-shirts, badges, stickers, networking party, logistics, etc.
+          </p>
+          <!--<p class="text__par">Below is the list of possible benefits we can provide to our Sponsors:
+            </p>-->
+
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfIlR_-GZ_WqAwu64AobwRPdaiqw8DZusjTPNm4bVoOtH2k3g/viewform"
+            target="_blank" class="text__button inline-btn" title="Become a sponsor">Become a sponsor</a>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <!--	Contact us
 	*********************************-->
-		
-	
-		<footer class="contact container">
-      <!--<div class="row">
+
+
+  <footer class="contact container">
+    <!--<div class="row">
         <div class="col-xs-12 col-md-12">
           <p class="copy-1">Below is the list of possible benefits we can provide to our Sponsors:</p>
           <ul class="custom-list">
@@ -408,41 +706,43 @@
             </p>
         </div>
       </div>-->
-			<div class="row">
-				<div class="contact__inf col-xs-12 col-sm-6">
-					<h2 id="contact" class="section">Contact Us</h2>
+    <div class="row">
+      <div class="contact__inf col-xs-12 col-sm-6">
+        <h2 id="contact" class="section">Contact Us</h2>
 
-					<p class="contact__text">
-						Send us an email at<br>
-						<a class="contact__email" href="mailto:hello@cloud-village.org">hello@cloud-village.org</a>
-					</p>
+        <p class="contact__text">
+          Send us an email at<br>
+          <a class="contact__email" href="mailto:hello@cloud-village.org">hello@cloud-village.org</a>
+        </p>
 
-					
 
-			<!-- social networks -->
-					<div class="social">
-						<!--<div class="social__link-and-icon">
+
+        <!-- social networks -->
+        <div class="social">
+          <!--<div class="social__link-and-icon">
 							<span class="icon icon-facebook"></span><a class="social__link" href="javascript:void">Facebook<span class="social__link_underline"></span></a>
 							
 						</div>-->
-						<div class="social__link-and-icon">
-							<span class="icon icon-twitter"></span><a class="social__link" href="https://twitter.com/cloudvillage_dc" target="_blank">Twitter<span class="social__link_underline"></span></a>
-							
-						</div>
-						
-					</div>
+          <div class="social__link-and-icon">
+            <span class="icon icon-twitter"></span><a class="social__link" href="https://twitter.com/cloudvillage_dc"
+              target="_blank">Twitter<span class="social__link_underline"></span></a>
 
-					<p class="copyright">© 2019 Cloud Village - Powered by <a href="https://www.defcon.org/" target="_blank">DEF CON</a></p>
-				</div>
-        <div class="col-sm-6 col-xs-12 contact__inf">
-          <div class="contact-img"></div>
+          </div>
+
         </div>
-			</div>
-		</footer>
-		
-		<!--	clients logos
+
+        <p class="copyright">© 2019 Cloud Village - Powered by <a href="https://www.defcon.org/" target="_blank">DEF
+            CON</a></p>
+      </div>
+      <div class="col-sm-6 col-xs-12 contact__inf">
+        <div class="contact-img"></div>
+      </div>
+    </div>
+  </footer>
+
+  <!--	clients logos
 	*********************************-->
-		<!--<section class="clients-logos container">
+  <!--<section class="clients-logos container">
 			<div class="clients-logos__wrapper">
 				<img class="clients-logos__image" src="images/icons/newyork.png" alt="New York">
 				<img class="clients-logos__image" src="images/icons/brooks.png" alt="Brooks">
@@ -454,79 +754,80 @@
 			</div>
 		</section>
 	</section>-->
-	
 
-	<!-- jQuery -->
-	<script src="js/libs/jquery.min.js"></script>
-	<!-- carousel -->
-	<script src="js/libs/owl.carousel.min.js"></script>
-	<!-- slider -->
-	<script src="js/libs/slick.min.js"></script>
-	<!-- manipulation with text -->
-	<script src="js/libs/jquery.lettering-0.6.1.min.js"></script>
-	<script src="js/libs/jquery.textillate.js"></script>
-	<!-- gallery filter -->
-	<script src="js/libs/isotope.pkgd.min.js"></script>
-	<!-- popup -->
-	<script src="js/libs/jquery.magnific-popup.min.js"></script>
-	<!-- smooth scroll -->
-	<script src="js/libs/jquery.smooth-scroll.min.js"></script>
-	<!-- menu -->
-	<script src="js/menu.js"></script>
-	<!-- castom js script -->
-	<script src="js/main.js"></script>
-	
-	<!-- load more function -->
-	<script src="js/load_more.js"></script>
-	<!-- load more settings -->
-	<script>
-        items_set = [
-            {
-             filter: 'design',
-             backgroundImage: 'images/photos/laptop.jpg',
-             tagName: 'Design',
-             headingHref: 'javascript:void',
-             heading: 'Laptop and keyboard',
-             headingSmall: 'Awesome typing',
-             img: 'images/magnificpopup/redstrip.jpg',
-             title: 'Just simple block'
-         	},
-         	{
-         	 filter: 'identy',
-             backgroundImage: 'images/photos/cookie.jpg',
-             tagName: 'Identy',
-             headingHref: 'javascript:void',
-             heading: 'Cookie and Coffee',
-             headingSmall: 'Take a break',
-             img: 'images/magnificpopup/cookie.jpg',
-             title: 'Coffee Web Site'
-         	},
-         	{
-             filter: 'web',
-             backgroundImage: 'images/photos/essentials.jpg',
-             tagName: 'Web Design',
-             headingHref: 'javascript:void',
-             heading: 'Magazines',
-             headingSmall: 'Nice reading',
-             img: 'images/magnificpopup/essentials.jpg',
-             title: 'Coffee Web Site'
-         	},
-         	{
-         	 filter: 'identy',
-             backgroundImage: 'images/photos/softs.jpg',
-             tagName: 'Identy',
-             headingHref: 'javascript:void',
-             heading: 'Sheets of paper',
-             headingSmall: 'Getting correct information',
-             img: 'images/magnificpopup/softs.jpg',
-             title: 'Coffee Web Site'
-         	},
-        ];
 
-        $('.gallery__items').portfolio_addon({
-            load_count : 2,
-            items : items_set
-        });
-    </script>
+  <!-- jQuery -->
+  <script src="js/libs/jquery.min.js"></script>
+  <script src="js/libs/bootstrap.min.js"></script>
+  <!-- carousel -->
+  <script src="js/libs/owl.carousel.min.js"></script>
+  <!-- slider -->
+  <script src="js/libs/slick.min.js"></script>
+  <!-- manipulation with text -->
+  <script src="js/libs/jquery.lettering-0.6.1.min.js"></script>
+  <script src="js/libs/jquery.textillate.js"></script>
+  <!-- gallery filter -->
+  <script src="js/libs/isotope.pkgd.min.js"></script>
+  <!-- popup -->
+  <script src="js/libs/jquery.magnific-popup.min.js"></script>
+  <!-- smooth scroll -->
+  <script src="js/libs/jquery.smooth-scroll.min.js"></script>
+  <!-- menu -->
+  <script src="js/menu.js"></script>
+  <!-- castom js script -->
+  <script src="js/main.js"></script>
+
+  <!-- load more function -->
+  <script src="js/load_more.js"></script>
+  <!-- load more settings -->
+  <script>
+    items_set = [{
+        filter: 'design',
+        backgroundImage: 'images/photos/laptop.jpg',
+        tagName: 'Design',
+        headingHref: 'javascript:void',
+        heading: 'Laptop and keyboard',
+        headingSmall: 'Awesome typing',
+        img: 'images/magnificpopup/redstrip.jpg',
+        title: 'Just simple block'
+      },
+      {
+        filter: 'identy',
+        backgroundImage: 'images/photos/cookie.jpg',
+        tagName: 'Identy',
+        headingHref: 'javascript:void',
+        heading: 'Cookie and Coffee',
+        headingSmall: 'Take a break',
+        img: 'images/magnificpopup/cookie.jpg',
+        title: 'Coffee Web Site'
+      },
+      {
+        filter: 'web',
+        backgroundImage: 'images/photos/essentials.jpg',
+        tagName: 'Web Design',
+        headingHref: 'javascript:void',
+        heading: 'Magazines',
+        headingSmall: 'Nice reading',
+        img: 'images/magnificpopup/essentials.jpg',
+        title: 'Coffee Web Site'
+      },
+      {
+        filter: 'identy',
+        backgroundImage: 'images/photos/softs.jpg',
+        tagName: 'Identy',
+        headingHref: 'javascript:void',
+        heading: 'Sheets of paper',
+        headingSmall: 'Getting correct information',
+        img: 'images/magnificpopup/softs.jpg',
+        title: 'Coffee Web Site'
+      },
+    ];
+
+    $('.gallery__items').portfolio_addon({
+      load_count: 2,
+      items: items_set
+    });
+  </script>
 </body>
+
 </html>
