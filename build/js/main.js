@@ -6,6 +6,18 @@ $(document).ready(function () {
 		speed: 900
 	});
 
+
+
+	// animate text inside slide
+	// initialize text to animate
+	$('.item__text').textillate({
+		in: {
+			effect: 'flipInX',
+			delay: 5
+		},
+		loop: false
+	});
+	/*	
 	//set slider
 	//*************************************
 	var slider = $(".slider"),
@@ -19,37 +31,29 @@ $(document).ready(function () {
 		prevArrow: $(".pointer_prev"),
 		nextArrow: $(".pointer_next")
 	});
-
-	// animate text inside slide
-	// initialize text to animate
-	$('.item__text').textillate({
-		in: {
-			effect: 'flipInX',
-			delay: 5
-		},
-		loop: false
-	});
+	
+	
 	// set callbacks on swipe slider
-	slider.on('init', function (event, slick, currentSlide) {
+		slider.on('init', function (event, slick, currentSlide) {
 
-	});
-
-	slider.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-		var sliderItems = $(this).find('.slider__item');
-		$(sliderItems[nextSlide]).find('.item__text').css({
-			opacity: 0
-		});
-	});
-
-	slider.on('afterChange', function (event, slick, currentSlide) {
-		var sliderItems = $(this).find('.slider__item');
-		$(sliderItems[currentSlide]).find('.item__text').css({
-			opacity: 1
 		});
 
-		$('.item__text').textillate('start');
-	});
+		slider.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+			var sliderItems = $(this).find('.slider__item');
+			$(sliderItems[nextSlide]).find('.item__text').css({
+				opacity: 0
+			});
+		});
 
+		slider.on('afterChange', function (event, slick, currentSlide) {
+			var sliderItems = $(this).find('.slider__item');
+			$(sliderItems[currentSlide]).find('.item__text').css({
+				opacity: 1
+			});
+
+			$('.item__text').textillate('start');
+		});
+	*/
 	setTimeout(function () {
 		$(".loading-wrap").removeClass("visible");
 		setTimeout(function () {
@@ -134,57 +138,57 @@ $(document).ready(function () {
 	});
 */
 
-
-	//	clients owl-carousel setup
-	//	***********************************
-	var owl2 = $("#clients .owl-carousel"),
-		clientsItems = $("#clients .item").length,
-		clientsCurrentItem = 1;
-
-	// get counter items
-	var current = $('.clients__counter__item1'),
-		allCount = $('.clients__counter__item2');
-
-	allCount.text(clientsItems);
-	current.text(clientsCurrentItem);
-
-	owl2.owlCarousel({
-		loop: true,
-		margin: 10,
-		responsiveClass: true,
-		rewind: false,
-		dots: false,
-		items: 1
-	});
-
-	// Go to the next item
-	$('.clients__arrow_next').click(function (event) {
-		if (clientsCurrentItem == clientsItems) {
+	/*
+		//	clients owl-carousel setup
+		//	***********************************
+		var owl2 = $("#clients .owl-carousel"),
+			clientsItems = $("#clients .item").length,
 			clientsCurrentItem = 1;
-			current.text(clientsCurrentItem);
-			owl2.trigger('next.owl.carousel');
-		} else {
-			clientsCurrentItem++;
-			current.text(clientsCurrentItem);
-			owl2.trigger('next.owl.carousel');
-		}
-	});
 
-	// Go to the previous item
-	$('.clients__arrow_back').click(function (event) {
-		if (clientsCurrentItem == 1) {
-			clientsCurrentItem = clientsItems;
-			current.text(clientsCurrentItem);
-			owl2.trigger('prev.owl.carousel', [300]);
-		} else {
-			clientsCurrentItem--;
-			current.text(clientsCurrentItem);
-			// With optional speed parameter
-			// Parameters has to be in square bracket '[]'
-			owl2.trigger('prev.owl.carousel', [300]);
-		}
-	});
+		// get counter items
+		var current = $('.clients__counter__item1'),
+			allCount = $('.clients__counter__item2');
 
+		allCount.text(clientsItems);
+		current.text(clientsCurrentItem);
+
+		owl2.owlCarousel({
+			loop: true,
+			margin: 10,
+			responsiveClass: true,
+			rewind: false,
+			dots: false,
+			items: 1
+		});
+
+		// Go to the next item
+		$('.clients__arrow_next').click(function (event) {
+			if (clientsCurrentItem == clientsItems) {
+				clientsCurrentItem = 1;
+				current.text(clientsCurrentItem);
+				owl2.trigger('next.owl.carousel');
+			} else {
+				clientsCurrentItem++;
+				current.text(clientsCurrentItem);
+				owl2.trigger('next.owl.carousel');
+			}
+		});
+
+		// Go to the previous item
+		$('.clients__arrow_back').click(function (event) {
+			if (clientsCurrentItem == 1) {
+				clientsCurrentItem = clientsItems;
+				current.text(clientsCurrentItem);
+				owl2.trigger('prev.owl.carousel', [300]);
+			} else {
+				clientsCurrentItem--;
+				current.text(clientsCurrentItem);
+				// With optional speed parameter
+				// Parameters has to be in square bracket '[]'
+				owl2.trigger('prev.owl.carousel', [300]);
+			}
+		});
+		*/
 	//	gallery isotope filtering
 	//	************************************
 	var galleryContainer = $(".gallery__items"),
@@ -203,71 +207,72 @@ $(document).ready(function () {
 
 		$(this).addClass('works__nav__item_active');
 	});
+	/*
+		//	gallery magnific popup
+		//	************************************
+		var magnificPopup = $.magnificPopup.instance;
 
-	//	gallery magnific popup
-	//	************************************
-	var magnificPopup = $.magnificPopup.instance;
-
-	$('.gallery__items').magnificPopup({
-		delegate: '.item__hover__zoom',
-		type: 'image',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: false, // for correct counter working
-			preload: [0, 2],
-			tCounter: '<span class="popup-counter">%curr% / %total%</span>',
-			arrowMarkup: ''
-		},
-		zoom: {
-			enabled: true,
-			duration: 300, // don't foget to change the duration also in CSS
-			opener: function (element) {
-				return element.find('img');
-			}
-		},
-		image: {
-			verticalFit: true,
-			titleSrc: function (item) {
-				return item.el.attr('title');
-			}
-		},
-		callbacks: {
-			open: function () {
-				movePopup();
+		$('.gallery__items').magnificPopup({
+			delegate: '.item__hover__zoom',
+			type: 'image',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: false, // for correct counter working
+				preload: [0, 2],
+				tCounter: '<span class="popup-counter">%curr% / %total%</span>',
+				arrowMarkup: ''
 			},
-			change: function () {
-				// append popup's controls
-				$(this.content).find('.mfp-counter').append('<div class="popup__arrow popup__arrow_next"><div class="popup__arrow__line-short popup__arrow__line-up"></div><div class="popup__arrow__line"></div><div class="popup__arrow__line-short popup__arrow__line-down"></div></div>');
-				$(this.content).find('.mfp-counter').prepend('<div class="popup__arrow popup__arrow_back"><div class="popup__arrow__line-short popup__arrow__line-up"></div><div class="popup__arrow__line"></div><div class="popup__arrow__line-short popup__arrow__line-down"></div></div>');
+			zoom: {
+				enabled: true,
+				duration: 300, // don't foget to change the duration also in CSS
+				opener: function (element) {
+					return element.find('img');
+				}
+			},
+			image: {
+				verticalFit: true,
+				titleSrc: function (item) {
+					return item.el.attr('title');
+				}
+			},
+			callbacks: {
+				open: function () {
+					movePopup();
+				},
+				change: function () {
+					// append popup's controls
+					$(this.content).find('.mfp-counter').append('<div class="popup__arrow popup__arrow_next"><div class="popup__arrow__line-short popup__arrow__line-up"></div><div class="popup__arrow__line"></div><div class="popup__arrow__line-short popup__arrow__line-down"></div></div>');
+					$(this.content).find('.mfp-counter').prepend('<div class="popup__arrow popup__arrow_back"><div class="popup__arrow__line-short popup__arrow__line-up"></div><div class="popup__arrow__line"></div><div class="popup__arrow__line-short popup__arrow__line-down"></div></div>');
+				}
 			}
-		}
-	});
+		});
 
-	// change image by click on arrow
-	function movePopup() {
-		if (magnificPopup.index + 1 == magnificPopup.items.length)
-			$('.popup__arrow_next').addClass('popup__arrow_gray');
-		else if (magnificPopup.index == 0)
-			$('.popup__arrow_back').addClass('popup__arrow_gray');
-
-		$('.popup__arrow_next').click(function () {
+		// change image by click on arrow
+		function movePopup() {
 			if (magnificPopup.index + 1 == magnificPopup.items.length)
-				return;
-			else {
-				magnificPopup.next();
-				movePopup();
-			}
-		});
+				$('.popup__arrow_next').addClass('popup__arrow_gray');
+			else if (magnificPopup.index == 0)
+				$('.popup__arrow_back').addClass('popup__arrow_gray');
 
-		$('.popup__arrow_back').click(function () {
-			if (magnificPopup.index == 0)
-				return;
-			else {
-				magnificPopup.prev();
-				movePopup();
-			}
-		});
-	}
+			$('.popup__arrow_next').click(function () {
+				if (magnificPopup.index + 1 == magnificPopup.items.length)
+					return;
+				else {
+					magnificPopup.next();
+					movePopup();
+				}
+			});
+
+			$('.popup__arrow_back').click(function () {
+				if (magnificPopup.index == 0)
+					return;
+				else {
+					magnificPopup.prev();
+					movePopup();
+				}
+			});
+		}
+		*/
 });
 
 function add_talk_count() {
