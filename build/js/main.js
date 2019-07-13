@@ -17,6 +17,33 @@ $(document).ready(function () {
 		},
 		loop: false
 	});
+
+	$(".schedule-item").click(function () {
+		var el = $(this);
+		var article_id = el.data("id");
+		if(article_id){
+			article_id = "#" + article_id;
+    		var article_parent = $(article_id).parent().parent().parent();
+    		var article_opened = $("#talks .panel-collapse.collapse.in");
+    		if(article_opened.length > 0){
+    			article_opened.collapse("toggle");
+    		}
+    		var article_parent_id = article_parent.attr("id");
+    		$('.nav.nav-tabs a[href="#'+article_parent_id+'"]').tab('show');
+    		setTimeout(function(){
+    			var t = $(article_id).siblings(".panel-btn").offset().top;
+    			$.smoothScroll({
+				    
+				    scrollTarget: $(article_id).siblings(".panel-btn"),
+				    offset: -100
+				});
+    			$(article_id).collapse("toggle");
+    		},300);
+    		
+		}
+    	
+	});
+
 	/*	
 	//set slider
 	//*************************************
