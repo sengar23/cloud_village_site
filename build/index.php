@@ -46,7 +46,7 @@
   <!-- icons set -->
   <link rel="stylesheet" href="css/fontello.css">
   <!-- custom main stylesheet -->
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css?<?php $t=time(); echo $t; ?>">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138455456-1"></script>
@@ -136,8 +136,7 @@
       <div class="container">
         <div class="slider__wrapper">
           <span class="item__text">CLOUD VILLAGE</span>
-          <h1 class="item__text item__text_big">Cloud village is an open space to meet folks interested in offensive and
-            defensive aspects of cloud security.</h1>
+          <h1 class="item__text item__text_big">Cloud village is an open space to meet folks interested in offensive and defensive aspects of cloud security.</h1>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform"
             target="_blank" title="CFP for DEF CON 27" class="text__button inline-btn">CFP for DEF CON 27</a>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSfIlR_-GZ_WqAwu64AobwRPdaiqw8DZusjTPNm4bVoOtH2k3g/viewform"
@@ -553,11 +552,302 @@
               </div>
             </div>
 
-          </div>
+            <div class="panel panel-default">
+              <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1"
+                href="#collapseDani" aria-expanded="false" aria-controls="collapseDani">
+                <div class="panel-heading" role="tab" id="headingDani">
+                  <h4 class="panel-title">
+
+                    Battle in the Clouds: Attacker vs Defender on AWS
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseDani" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingDani">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Dani Goland</strong></p>
+                      <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                          <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/DaniGoland"
+                          target="_blank"><strong>@DaniGoland</strong></a></p>
+
+                      <p class="services__item__text">The interaction between attackers and defenders is like a ping pong game, and that is exactly how we did this research. On the offensive Mo will share his tools and tactics attacking AWS Infrastructures from Recon to Attacks to Post Exploitation on different services with a focus on Elastic Container Service(ECS). After each attack step, Dani will explain the defensive side and tools and tactics for hardening the AWS Infrastructure from Designing a secure Cloud Architecture to Detection to Hardening specific services like Docker containers on ECS. After the battle, we will both walk-through common misconfiguration problems, one-click solutions for monitoring and attack detection, and workflows for pentesters on AWS. One of the most important lessons from our research is the importance of the interaction between pentesters and developers/DevOps engineers, and how a few days of working side by side can help us secure our current systems and learn to develop future systems with security in mind.
+
+                      </p>
+                      <p class="services__item__text">Dani and Mohsan will demonstrate an entire kill chain on a hypothetical organization operating in an AWS environment and pivoting into their internal Active Directory network. The demonstration will cover reconnaissance methods for a cloud environment, an attack on a AWS hosted webserver that results in compromise of access keys.  The access keys will be utilized to access a separate AWS service, followed by escalation of privileges to administrator.  We will further demonstrate exfiltration methods, setting up persistence in AWS, and last but not least pivoting to the internal AD environment and obtaining Domain Admin privileges.</p>
+                      <p class="services__item__text">Many open source tools will be used as well as some custom python scripts on the offensive side, for example: TruffleHog for scanning for leaked keys on github, S3Scanner for enumerating S3 buckets, amass for DNS Mapping and Subdomain Enumeration, Cloud Mapper for reconnaissance and auditing, Prowler for assessing security, Pacu and Metasploit for exploitation, and more.</p>
+                      <p class="services__item__text">On the defensive side, we will introduce Open Source tools like HashiCorp Vault and AWS Parameter Store for secret management, NAXSI as an open source WAF, Vulnerability scanners for Docker, AWS KMS for creating and rotating keys for in-transit and at-rest data encryption, CloudTrail and CloudWatch for detection of suspicious activity and alarming, and more.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1"
+                href="#collapseTanya" aria-expanded="false" aria-controls="collapseTanya">
+                <div class="panel-heading" role="tab" id="headingTanya">
+                  <h4 class="panel-title">
+
+                    DYI Azure Security Assessment
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseTanya" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTanya">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Tanya Janca & Teri Radichel</strong></p>
+                      <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                          <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/SheHacksPurple"
+                          target="_blank"><strong>@SheHacksPurple</strong></a></p>
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/TeriRadichel"
+                          target="_blank"><strong>@TeriRadichel</strong></a></p>
+
+                      <p class="services__item__text">PenTesters, Blue & Red teamers, network admins and cloud enthusiasts, this talk will layout from start to finish how to verify the security of your Azure implementation. This talk will be 80%+ demos of where to look, what to do, and how to prioritize what you find. Topics include: Azure Security Center, setting scope, setting policy, threat protection, more.
+                      </p>
+                      <p class="services__item__text"><strong>Detailed Outline:</strong> There are two articles as well as a video we will share at the end to give the audience more information and a checklist of how they can assess their own Azure instances after the talk is over.</p>
+                      <p class="services__item__text">Here is the outline of what we plan to cover in this session:<br>Do not test the Azure Infrastructure. That is violation of the user agreement for Azure and will get you into hot water with Microsoft. No one wants that.<br>Be extremely careful to only test things that are IN SCOPE for your client.<br>Is Azure Security Center turned on? If not, turn it on. I ❤ ASC.<br>Do all subscriptions/sub-subscriptions have it on? Do you have complete coverage? If not, definitely report it.<br>Is there a policy set (settings that the org has chosen as “secure”, such as all storage must be encrypted at rest)? If so, what are the settings? Do they look good? Also, what level of compliance do they have? Everything that is not compliant should be reported.<br>Is threat protection (storage and databases only), monitoring and auditing set up on every possible resource? If not, report it.<br>Look at the network, in the same way you would look at a traditional network, is anything out of place? Also, are they doing Zoning or Zero-trust or something else? Which network security model are they using? Make sure they are compliant with their own plan. Ask them what their plan is for their network to start. If they don't have an answer, that's another issue altogether.<br>Do they have “just in time” (JIT) set up on all ports on all servers/VMs? Or are they using a JumpBox to access VMs from outside Azure? Or is that not allowed at all? They should use JIT and Network Security Groups (NSGs)for *everything*.Do they have app whitelisting enabled on VMs? It's called Adaptive Application Controls, and it's right underneath JIT in the security center (ASC) menu, under “Advanced Cloud Defense”. They should have that turned on for *all* servers.Are they using a SIEM (Security incident and event management system)? Are they using it well? Are they monitoring it? What kind of coverage is it getting? Does ASC feed into it? It should.<br>Are they using a WAF (Web Application Firewall)? If so, test it. If they aren't, mark it as advice for improvement.Any other 3rd party security tools (IPS/IDS/HIPS/Other)? If so, are those getting complete coverage of all assets that are covered by this test? And are they configured well?<br>Look in “Recommendations” tab of Azure Security Center and it will tell you all the problems (network issues, config errors, missing patches, more) that you haven't spotted yet. 😊 Really, you could likely start here. This is a list of everything that is not compliant with your policy, in order of importance.<br>If you are assessing web apps within Azure, APIs and functions (serverless), that's a whole other topic, but all of the regular security testing rules would apply, Azure or not.<br>If your org is using Azure DevOps I suggest adding several security tests to your pipeline including Azure Secure DevOps Kit. It's strict; you likely won't pass the first few times around, so prepare your developers for a bit of disappointment. There are a TON of great security tools in the Azure Marketplace, add a few, one is not enough.Turn on VA for SQL DataBases as part of the Azure Threat Protection, and kick off a scan right away to see if anything is happening. It will likely had a lot of advice for you.<br>Look in the Threat Detection part of Security Centre, verify that there are no active attacks happening or recent ones, investigate accordingly.</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          
+          <div class="panel panel-default">
+              <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1"
+                href="#collapseRod" aria-expanded="false" aria-controls="collapseRod">
+                <div class="panel-heading" role="tab" id="headingRod">
+                  <h4 class="panel-title">
+                    Using Splunk for Auditing AWS/GCP/Azure Security posture
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseRod" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingRod">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Rod Soto</strong></p>
+                      <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                          <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/rodsoto"
+                          target="_blank"><strong>@rodsoto</strong></a></p>
+
+                      <p class="services__item__text">This presentation shows how to use Splunk to provide the analyst with a comprehensive vision of AWS/GCP/Azure security posture. Presenters will outline how to ingest the audit data provided by open source tool Cloud Security Suite into Splunk to analyze cloud vulnerability, harden multi-cloud deployments and visualize multi-cloud threat surface. Presenters will also demonstrate use cases based on Splunk knowledge objects (Tables, Dashboards, Alerts, Field extractions, Lookups, etc), in order to take advantage of the information provided by various supporting tools like Scout2 and G-Scout projects for cloud API auditing.
+
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="panel panel-default">
+              <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1"
+                href="#collapseJames" aria-expanded="false" aria-controls="collapseJames">
+                <div class="panel-heading" role="tab" id="headingJames">
+                  <h4 class="panel-title">
+                    Scaling Security in the Cloud With Open Source
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseJames" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingJames">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>James Strassburg</strong></p>
+                      <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                          <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/jstrassburg"
+                          target="_blank"><strong>@jstrassburg</strong></a></p>
+
+                      <p class="services__item__text">The programmability of the cloud has revolutionized infrastructure deployments at scale and, at the same time, has enabled the automation of both the attack and defense of these deployments. In this talk, I will discuss the open-source tools and the techniques that my organization has used to scale security in the cloud to keep pace with our deployments. I'll also cover how we've used automation to adapt security processes to cloud strategies such as immutable servers. Some topics include: temporal leasing of API access keys and database credentials, automation of patching groups and scans, and automated enforcement of configuration policy.
+
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="panel panel-default">
+              <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1"
+                href="#collapseCheryl" aria-expanded="false" aria-controls="collapseCheryl">
+                <div class="panel-heading" role="tab" id="headingCheryl">
+                  <h4 class="panel-title">
+                    Mining Malevolence: Cryptominers in the Cloud
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseCheryl" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingCheryl">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Cheryl Biswas</strong></p>
+                      <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                          <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/3ncr1pt3d"
+                          target="_blank"><strong>@3ncr1pt3d</strong></a></p>
+
+                      <p class="services__item__text">
+                      Cloud. It's the land of opportunity. Enterprises are doing mass migrations from older and legacy systems to harness greater power and efficiency from innovative new tech. Following that money trail are opportunistic attackers, seeking the computing strength and near-invisibility afforded by enterprise cloud environments to mine bitcoin. Cryptominers are everywhere. And yes, Virginia, they are in the Cloud.<br>These nebulous power-rich realms let attackers set up mining rigs to feast on enterprise resources, while flying below the detection of cloud or conventional security resources.  The concern here is that once attackers gain access to our networks, they can pivot and move laterally, to find even greater reward in the vast amounts of data available. Let's talk about what we do and don't know when it comes to securing our cloud environments against malicious miners. Because it isn't just a question of what they can take – it's about the payloads they can leave behind. <br>Introduction: (5 min)<br>
+• Enterprise and Cloud: If you work for a major organization, you're probably undergoing or have just gone through a major migration to the Cloud. This is the big push according to a recent Gartner report, with 37% of enterprises reporting it as their top priority, and ranking at 39% for CIOs, ahead of cybersecurity (why are we not surprised).<br>
+• An Evolution of Evil: the rise of miners. Easy to get into. Low bar for entry. Starter toolkits cost $30 online. Cryptojacking increased by 4000% in 2018. <br>
+• Major miners like XMRig<br>
+• Main attack vectors: brute force credentials for access; leverage multiple vulnerabilities for access and movement internally.<br>
+• Motivation: almost 100% return on investment. No overhead <br>
+
+Miners in the Sky: (5 min)<br>
+• Why it's expected to continue<br>
+o The return on investment is lucrative in terms of computing power <br>
+o Lack of detection<br>
+• Most organizations don't have mature cloud security programs. By design, yes, in reality – not so much. Cloud has huge amounts of processing power with built-in auto-scaling<br>
+• attackers can operate with almost no detection <br>
+• The bigger the account, the longer attackers can go<br>
+• Enterprises are migrating to the Cloud.  We love our containers: Docker, AWS, Azure. <br>
+
+Charting the rise of malicious miners in cloud environments by attacks: (10 min)<br>
+Overview of what we're seeing:<br>
+• attacks on containers and container management<br>
+• control panel exploitation<br>
+• theft of APIs<br>
+• spreading malicious Docker images<br>
+• leveraging current and older enterprise vulnerabilities<br>
+• EternalBlue<br>
+
+Let's Start Here: The attack on Tesla's AWS S3 public cloud in February 2018. Researchers at RedLock found mining malware from a wide-spread, well-concealed cryptomining campaign in Tesla's AWS cloud.  RedLock found it when they scanned public internet for misconfigured and unsecured cloud servers – there's been a few of those. They saw an open server. Further investigation revealed it was running Kubernetes, the open source admin console for cloud application mgmt., which was doing cryptomining. The Kubernetes console was not password protected. The attackers found login credentials for Tesla's AWS in one of the pods. They went from there to deploy malware scripts for Stratum bitcoin mining.<br>
+
+Abusing exposed Docker APIs: Hundreds of vulnerable and exposed Docker hosts were abused in cryptojacking campaigns in March this year. Attackers exploited CVE-2019-5736, a runc vulnerability identified in February, that could trigger a container escape. Now, that kind of defeats the whole purpose of having a container when it means the attacker can access the host filesystem and overwrite the runc binary to run arbitrary commands on the host. Attackers scan for exposed Docker APIs on port 2375. They deployed malicious self-propagating Docker images infected with malware to load Monero miners and find other vulnerable targets via Shodan.  External access to API ports will enable attackers to gain ownership of the host. They can tamper with instances running inside, drop malware, access user's servers and resources.
+Discussion point: Misconfiguration is prevalent – why? How can we help users do this better?<br>
+
+Uninstalling Cloud Security: A new cryptomining malware family that targets Linux servers gained admin rights on systems by uninstalling cloud security products.  We'll talk about the Chinese-language threat actor behind this and other attacks, Rocke group. Consider how nation-state adversaries and advanced persistent threats (APTs) could seek to leverage this kind of attack in sophisticated campaigns.<br>
+Discussion point: We've seen conventional malware evade and disable existing AV. If we can't detect it, how do we protect against it? How are we extending this to malware targeting Cloud?<br>
+
+Targeting Elasticsearch servers: in the “Cryptosink” campaign, attackers exploit a five year old vulnerability that could lead to executing arbitrary Java code, CVE-2014-3120, that affects Elasticsearch running on both Windows and Linux platforms. They download malware that has not been detected by AV on Linux. The attackers backdoor the servers for future access, eliminate competitors on the infected system by redirecting their mining pool traffic to a sinkhole, and achieve persistence by replacing the Linux remove command.  <br>
+
+What else could be at risk: Abusing instant metadata API.  This functionality is offered by all cloud providers. If it isn't secured or monitored well, and attacker can exploit it via vulnerable reverse proxies or malicious Docker images.<br>  
+
+What could this lead to: Once attackers are in your network, they aren't limited to just mining Monero. They have access to all your data-rich environments. If the attacker is looking for satisfaction that money can't buy, yes they can deliver a very damaging payload with ransomware or worse. Think NotPetya.  <br>
+
+Review of Vulnerabilities & Exploits: (5 min)<br>
+• Misconfiguration: security researcher and attackers are actively seeking and finding many exposed and unsecured instances online. Human error is at the brunt of things, but Cloud isn't traditional infrastructure. It's a complex, dynamic network that requires specialized knowledge and training to do configuration right. <br>
+• EternalBlue: believe it. There are still plenty of unpatched instances out there and attackers continue to leverage this exploit to gain access, spread and move laterally within networks<br>
+• Oracle WebLogic vulnerability CVE-2019-2725: There have been a series of critical vulnerabilities in this popular enterprise software<br>
+• Remote code execution: Miners have been using a group of vulnerabilities for RCE as initial access and more<br>
+o CVE-2012-0874: JBoss Enterprise Application Platform Multiple Security Bypass Vulnerabilities.<br>
+o CVE-2010-1871: JBoss Seam Framework <br>
+o JBoss AS 3/4/5/6: CVE-2017-10271: Oracle WebLogic wls-wsat Component Deserialization RCE<br>
+o CVE-2018-2894: Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware.<br>
+o Hadoop YARN ResourceManager - Command Execution<br>
+o CVE-2016-3088: Apache ActiveMQ Fileserver File Upload<br>
+• PSMiner targets known vulnerabilities in Elasticsearch, Hadoop, PHP, Oracle WebLogic<br>
+• Fake certificates: attackers increasingly use this to evade detection and infiltrate conventional systems. How can we apply what we're learning to protect in the Cloud?<br>
+
+What we can do: (5 min)<br>
+• Countermeasures: <br>
+o rotate access keys<br>
+o restrict outbound traffic<br>
+o cryptojacking blockers for Web browsers<br>
+• Monitoring user behavior<br>
+• Follow the principle of least privilege when issuing credentials<br>
+• EternalBlue is still actively leveraged against vulnerable systems. Think third party compromise<br>
+• Visibility. Be able to see down to the process level. <br>
+• Micro-segmentation to control lateral movement and spread <br>
+• Apply, monitor and enforce best practices<br>
+• Resources like Yara rules to detect miners (will make available)<br>
+• Unusual deletions or spinning up containers<br>
+• IoCs<br>
+
+Conclusion and Q&A<br>
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1"
+                href="#collapseAshwini" aria-expanded="false" aria-controls="collapseAshwini">
+                <div class="panel-heading" role="tab" id="headingAshwini">
+                  <h4 class="panel-title">
+                    Phishing in the cloud era
+
+                  </h4>
+                  <div class="plus-sym"></div>
+                </div>
+              </a>
+              <div id="collapseAshwini" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAshwini">
+                <div class="panel-body">
+                  <div class="item">
+                    <div class="services__item">
+
+                      <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Ashwin Vamshi</strong></p>
+                      <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
+                          <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
+                          href="https://twitter.com/_ashwin_vamshi"
+                          target="_blank"><strong>@_ashwin_vamshi</strong></a></p>
+
+                      <p class="services__item__text">
+
+                      Cloud services are built for increased collaboration and productivity, and provide capabilities like auto sync and API level communication. This has led enterprises to exclusively use SaaS, PaaS and IaaS services for storing and sharing critical and confidential data. End users as well as security products tend to place implicit trust in cloud vendors such as Microsoft, AWS, Google, and SaaS app vendors such as Box, Salesforce, DropBox. As a result, cybercriminals have started launching their attacks from these trusted cloud services. This talk will focus on how attackers are abusing these trusted cloud services to create Phishing attacks that are highly effective and hard to detect.<br>
+
+We will begin the presentation by sharing some statistics that illustrate the wide-scale adoption of cloud services by cybercriminals. In particular, we focus in on the usage of cloud services as a launching point of an attack. In the next section, we will discuss some of the novel, offensive phishing techniques that the attackers have employed, including: abusing SaaS APIs, abusing trusted API redirects, and hosting attack pages in cloud services.<br>
+
+We will deep dive into three specific techniques we discovered in the wild:<br>
+
+Targeted BEC (Business email compromise) - phishing attacks abusing popular services like S3, GCS, Azure Storage, and GCP Google's App engine. The S3, GCS, and Azure Storage based attacks used static web hosting to serve up convincing baits, complete with Amazon, Google, or Microsoft issued SSL certs.  We will provide a few examples of some successful attacks of this type. The App Engine attack used an open redirect to make it appear that the bait was being delivered from Google.  We provide a detailed breakdown of how this was done and what made this attack successful. At the time of writing this draft, Google shows its standard redirection notice when users click on one of these AppEngine links, making it more obvious to the user that they are being redirected.<br>
+
+“Default Allow” action in popular PDF readers and Annotations used in themed decoy templates. This action only warns the user that it is trying to connect to a trusted cloud service, which looks benign at face value. By taking advantage of the “default allow” action in popular PDF readers, the attacker can easily deploy multiple attacks without getting the security warning after the first alert.  In this section, we provide examples of multiple attacks leveraging this techniques, including the preceding BEC.<br>
+
+PhaaS(Phishing-as-a-Service): Criminals hosting a full-fledged phishing infrastructure over cloud and selling it as a B-to-C model. These on-demand service based models provides an essence of a criminal version of software-as-a-service which allows purchasing site login accounts along with crafting and hosting phished links. In this section, we provide an overview of one of these services and describe how it is using public cloud services to drive its success.<br>
+
+The idea is to educate our audience about the new wave of sophisticated attacks abusing highly trusted services like Google and its App engine APIs, object stores in AWS/Azure/GCP and other Tier-1 SaaS applications. The attackers not only craft a “near original” phishing bait but also make it hard for security products to detect such attacks.<br>
+
+We will then discuss some inherent design constraints and weaknesses in these services which are benefiting the cybercriminals in creating attacks to bypass modern day security solutions. Most end users are savvy enough now to understand that links that include random IP addresses or suspicious sounding domain names should not be clicked on, but they don't have a similar awareness of risk associated with cloud services. Users tend to click on an email invite from a cloud application or a phishing document hosted in a cloud environment as it is convincing and difficult to recognize as phishing.<br>
+
+We will then understand the motivation behind this new trend, its monetary impact in the cybercrime market and its simplicity, which is appealing more and more novice cybercriminals into building their attack surfaces by abusing such services.<br> 
+
+We will conclude the talk by sharing details about our responsible disclosure to tier 1 vendors and proposing detection and remediation techniques for such type of attacks
+
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
         </div>
         <div role="tabpanel" class="tab-pane fade" id="category-2">
           <div class="panel-group talks-panel-group" id="accordion-2" role="tablist" aria-multiselectable="true">
-            <div class="panel panel-default">
+            <!--<div class="panel panel-default">
               <a class="panel-btn" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseSix"
                 aria-expanded="true" aria-controls="collapseSix">
                 <div class="panel-heading" role="tab" id="headingSix">
@@ -575,8 +865,7 @@
                     <div class="services__item">
 
                       <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Nancy Gariché</strong></p>
-                      <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                          <p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      
                       <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
                           href="https://twitter.com/nanzgtweets" target="_blank"><strong>@nanzgtweets</strong></a></p>
 
@@ -598,8 +887,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="panel panel-default">
+            </div>-->
+            <!--<div class="panel panel-default">
               <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2"
                 href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                 <div class="panel-heading" role="tab" id="headingSeven">
@@ -618,8 +907,7 @@
 
 
                       <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Jeff Anderson</strong></p>
-                      <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                          <p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                      
                       <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
                           href="https://twitter.com/TheJBAnderson" target="_blank"><strong>@TheJBAnderson</strong></a>
                       </p>
@@ -648,7 +936,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div>-->
             <div class="panel panel-default">
               <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2"
                 href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
@@ -696,7 +984,8 @@
                 </div>
               </div>
             </div>
-            <div class="panel panel-default">
+
+            <!--<div class="panel panel-default">
               <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2"
                 href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                 <div class="panel-heading" role="tab" id="headingNine">
@@ -714,8 +1003,7 @@
                     <div class="services__item">
 
                       <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Tanya Janca</strong></p>
-                      <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p>
-                            <p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
+                     
                       <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a
                           href="https://twitter.com/shehackspurple" target="_blank"><strong>@shehackspurple</strong></a>
                       </p>
@@ -793,7 +1081,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div>-->
 
 
           </div>
@@ -1077,7 +1365,7 @@
 
       <div class="tab-content r-mt-6">
         <div role="tabpanel" class="tab-pane fade in active" id="day-1">
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseOne">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="">
             <div class="row">
               <div class="col-md-2 col-xs-3">
                 <p class="white"><strong>08:00 - 12:00</strong></p>
@@ -1090,7 +1378,7 @@
 
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseTwo">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="">
             <div class="row">
               <div class="col-md-2 col-xs-3">
                 <p class="white"><strong>12:00 - 12:20</strong></p>
@@ -1104,7 +1392,7 @@
 
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseThree">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="">
             <div class="row">
               <div class="col-md-2 col-xs-3">
                 <p class="white"><strong>12:20 - 13:00 </strong></p>
@@ -1118,43 +1406,40 @@
 
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseSix">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseOne">
             <div class="row">
               <div class="col-md-2 col-xs-3">
                 <p class="white"><strong>13:00 - 13:40</strong></p>
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Comprehensive Talk
-                  (35 minutes + 5)
+                  Colin Estep - Exploiting IAM in the Google Cloud Platform
                 </p>
               </div>
 
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseDani">
             <div class="row">
               <div class="col-md-2 col-xs-3">
                 <p class="white"><strong>13:40 - 14:20</strong></p>
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Comprehensive Talk
-                  (35 minutes + 5)
+                  Dani Goland, Mohsan - Battle in the Clouds: Attacker vs Defender on AWS
                 </p>
               </div>
 
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseTen">
             <div class="row">
               <div class="col-md-2 col-xs-3">
                 <p class="white"><strong>14:20 - 14:50</strong></p>
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Tool Demo
-                  (25 minutes +5)
+                  Edoardo Gerosa - ATT&CKing the Sentinel – deploying a threat hunting capability on Azure Sentinel using Sysmon and MITRE ATT&CK
                 </p>
               </div>
 
@@ -1167,35 +1452,32 @@
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Sponsered Talk
-                  (30 minutes +5)
+                  Claranet
                 </p>
               </div>
 
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseThirteen">
             <div class="row">
               <div class="col-md-2 col-xs-3">
                 <p class="white"><strong>15:25 - 15:50</strong></p>
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Lightning Talk
-                  (15 minutes + 5)
+                  Jane Miceli - Security Battle Wounds from a Cloud SRE
                 </p>
               </div>
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseEight">
             <div class="row">
               <div class="col-md-2 col-xs-3">
                 <p class="white"><strong>16:50 - 18:00</strong></p>
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Workshop(Andrew)
-                  (120 minutes)
+                  Rich Mogull - Pragmatic Cloud Security Automation
                 </p>
               </div>
             </div>
@@ -1224,7 +1506,7 @@
 
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseThree">
             <div class="row">
               <div class="col-md-2 col-xs-3">
                 <p class="white"><strong>10:00 - 10:40</strong></p>
@@ -1232,22 +1514,20 @@
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
 
-                  Comprehensive Talk
-                  (35 minutes + 5)
+                  Chris le roy - Build to Hack, Hack to Build
                 </p>
               </div>
 
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseFive">
             <div class="row">
               <div class="col-md-2 col-xs-3">
                 <p class="white"><strong>10:40 - 11:20</strong></p>
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Comprehensive Talk
-                  (35 minutes + 5)
+                  Ayman Elsawah - Applying Pareto's Principle for Securing AWS with SCPs
                 </p>
               </div>
 
@@ -1267,85 +1547,79 @@
 
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseEleven">
             <div class="row">
               <div class="col-md-2 col-xs-3">
                 <p class="white"><strong>11:45 - 12:15</strong></p>
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Tool Demo
-                  (25 minutes +5)
+                  Setu Parimi - PacBot - Policy as Code from T-Mobile OSS
                 </p>
               </div>
 
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseTwo">
             <div class="row">
               <div class="col-md-2 col-xs-3">
-                <p class="white"><strong>12:15 - 13:05</strong></p>
+                <p class="white"><strong>12:15 - 13:00</strong></p>
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Comprehensive Talk
-                  (45 minutes + 5)
+                  Rotem Bar - Hacking into automotive clouds
                 </p>
               </div>
 
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseTanya">
             <div class="row">
               <div class="col-md-2 col-xs-3">
-                <p class="white"><strong>13:05 - 13:55</strong></p>
+                <p class="white"><strong>13:00 - 13:45</strong></p>
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Comprehensive Talk
-                  (45 minutes + 5)
+                  Tanya Janca - DYI Azure Security Assessment
                 </p>
               </div>
 
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseRod">
             <div class="row">
               <div class="col-md-2 col-xs-3">
-                <p class="white"><strong>13:55 - 14:35</strong></p>
+                <p class="white"><strong>13:45 - 14:25</strong></p>
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Comprehensive Talk
-                  (35 minutes + 5)
+                  Rod Soto - Using Splunk for Auditing AWS/GCP/Azure Security posture
                 </p>
               </div>
 
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseJames">
             <div class="row">
               <div class="col-md-2 col-xs-3">
-                <p class="white"><strong>14:35 - 15:00</strong></p>
+                <p class="white"><strong>14:25 - 15:05</strong></p>
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Lightening Talk
-                  (20 minutes +5)
+                  James Strassburg - Scaling Security in the Cloud With Open Source
                 </p>
               </div>
 
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseFour">
             <div class="row">
               <div class="col-md-2 col-xs-3">
-                <p class="white"><strong>15:00 - 15:45</strong></p>
+                <p class="white"><strong>15:05 - 15:50</strong></p>
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Comprehensive Talk
-                  (45 minutes + 5)
+                  Erick Galinkin - Your Blacklist is Dead: Why the Future of Command and Control is the Cloud
                 </p>
               </div>
 
@@ -1358,8 +1632,7 @@
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Workshop
-                  (120 minutes)
+                  Andrew Krug - MozDef
                 </p>
               </div>
 
@@ -1385,15 +1658,14 @@
 
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseCheryl">
             <div class="row">
               <div class="col-md-2 col-xs-3">
                 <p class="white"><strong>10:00 - 11:50</strong></p>
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Comprehensive Talk
-                  (45 minutes + 5)
+                  Cheryl Biswas - Mining Malevolence: Cryptominers in the Cloud
                 </p>
               </div>
 
@@ -1406,22 +1678,20 @@
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Lightening Talk
-                  (20 minutes +5)
+                  Josh Mize - Securing Multi-cloud Kubernetes
                 </p>
               </div>
 
             </div>
           </div>
-          <div class="schedule-item dashed-line r-mb-2 r-mt-2">
+          <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseAshwini">
             <div class="row">
               <div class="col-md-2 col-xs-3">
                 <p class="white"><strong>12:15 - 13:00</strong></p>
               </div>
               <div class="col-md-10 col-xs-9 vertical-line">
                 <p class="green">
-                  Comprehensive Talk
-                  (40 minutes + 5)
+                  Ashwin Vamshi, Abhinav Singh - Phishing in the cloud era
                 </p>
               </div>
 
@@ -1517,9 +1787,17 @@
 
       </div>
 
-
+      <div class="logo-container row clearfix">
+          <h2 class="col-xs-12 col-md-9 text__header white">Our sponsors (Gold)</h2>
+          <div class="col-md-12">
+            <ul class="logo-list">
+              <li><img src="images/claranet.png" alt="Claranet"></li>
+            </ul>
+          </div>
+        </div>
 
     </div>
+
   </section>
 
   <!--	Contact us
@@ -1614,7 +1892,7 @@
   <!-- menu -->
   <script src="js/menu.js"></script>
   <!-- castom js script -->
-  <script src="js/main.js"></script>
+  <script src="js/main.js?<?php $t=time(); echo $t; ?>"></script>
 
   <!-- load more function -->
   <script src="js/load_more.js"></script>
