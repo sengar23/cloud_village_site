@@ -2049,6 +2049,48 @@ a:focus {
  	margin: 48px 0;
  }
 
+/* Slider */
+.slider-wrap{
+	width: 100%;
+}
+.slider-item{
+	width: 100%;
+	height: 70vh;
+}
+.slider-item img{
+	width: auto;
+	max-width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+.slick-dots{
+	bottom: -40px;
+}
+.slick-dots li button:before{
+	color: #fff;
+	font-size: 12px;
+}
+.slick-dots li.slick-active button:before{
+	color: #fff;
+}
+.slick-prev:before, .slick-next:before{
+	font-size: 32px;
+}
+.slick-next {
+    right: -40px;
+}
+.slick-prev {
+    left: -40px;
+}
+
+/* Deck pdf */
+
+.pdfobject-container {
+    height: 30rem;
+    border: 1rem solid rgba(0,0,0,.1);
+    margin-bottom: 32px;
+}
 
  /*animation for arrow on slider *******************************/
 
@@ -2248,7 +2290,7 @@ a:focus {
  	}
 
  	.slider__wrapper {
- 		bottom: 15%;
+ 		bottom: 25%;
  	}
 
  	.cta {
@@ -2356,7 +2398,8 @@ a:focus {
 
  	.item__text_big {
  		margin-top: 10px;
- 		font-size: 1.3125rem;
+ 		/*font-size: 1.3125rem;*/
+ 		font-size: 2rem;
  	}
 
  	.pointer_bottom {

@@ -31,6 +31,8 @@
    <link rel="stylesheet" href="css/animate.min.css">
    <!--<link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css"> <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">--> 
    <link rel="stylesheet" href="css/fontello.css">
+   <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="css/slick-theme.css">
    <link rel="stylesheet" href="css/styles.css?<?php $t=time(); echo $t; ?>">
    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138455456-1"></script> <script>window.dataLayer=window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date()); gtag('config', 'UA-138455456-1'); </script> <script>(function (h, o, t, j, a, r){h.hj=h.hj || function (){(h.hj.q=h.hj.q || []).push(arguments)}; h._hjSettings={hjid: 1283723, hjsv: 6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script'); r.async=1; r.src=t + h._hjSettings.hjid + j + h._hjSettings.hjsv; a.appendChild(r);})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv='); </script> 
 </head>
@@ -63,7 +65,8 @@
             <div class="slider__wrapper">
                <span class="item__text">CLOUD VILLAGE</span> 
                <h1 class="item__text item__text_big">Cloud village is an open space to meet folks interested in offensive and defensive aspects of cloud security.</h1>
-               <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" title="CFP for DEF CON 27" class="text__button inline-btn">CFP for DEF CON 27</a> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfIlR_-GZ_WqAwu64AobwRPdaiqw8DZusjTPNm4bVoOtH2k3g/viewform" target="_blank" class="text__button float-right-btn">Contribute/Volunteer</a> 
+               <!--<a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" title="CFP for DEF CON 27" class="text__button inline-btn">CFP for DEF CON 27</a> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfIlR_-GZ_WqAwu64AobwRPdaiqw8DZusjTPNm4bVoOtH2k3g/viewform" target="_blank" class="text__button float-right-btn">Contribute/Volunteer</a> -->
+               <p class="copy-1 white r-mt-3"><span class="purple">Hosted for DEF CON 27 at:</span> Flamingo Hotel, Reno 1, Las Vegas, Nevada</p>
             </div>
          </div>
       </div>
@@ -85,6 +88,7 @@
                <p class="copy-1 white"><span class="purple">CFP Open:</span> 28th April 2019</p>
                <p class="copy-1 white"><span class="purple">CFP Close:</span> 16th June 2019</p>
                <p class="copy-1 white"><span class="purple">Venue:</span> DEF CON, Las Vegas, Nevada</p>
+               <p class="copy-1 white"><span class="purple">Hosted in:</span> Flamingo Hotel, Reno 1, Las Vegas, Nevada</p>
                <p class="text__par">Our CFP is now <strong class="green">OPEN</strong> for <strong class="green">DEF CON 27</strong>, and we are looking for presentations, workshops and tool demos to be part of our village. </p>
                <p class="text__par">CFP closes on <strong class="green">16th June 2019 23:59 GMT</strong>. Once CFP is closed, this form will no longer accept CFP submissions or modifications. </p>
                <p class="copy-1 purple">We accept four talk categories:</p>
@@ -117,8 +121,13 @@
          <div class="row">
             <div class="about__text col-xs-12 col-md-12">
                <h2 class="text__header">Cloud CTF</h2>
+               <p class="text__par">Cloud Village CTF @DEF CON 27: <a href="http://ctf.cloud-village.org" target="_blank">http://ctf.cloud-village.org </a></p>
+               <p class="text__par">CTF start time - <strong class="green"> 9th August, 12:15 PM</strong></p>
+               <p class="text__par">CTF close time - <strong class="green"> 11th August, 12:00 PM</strong></p>
+               <br><br>
                <p class="text__par">Our CTF is <strong class="green">three days jeopardy style</strong> contest where we will create bunch of challenges in multiple categories, related to cloud services though. </p>
                <p class="text__par">Teams / Individuals gain some points, (or loose points on using hints) on solving each challenge. Teams or Individuals who gain maximum points gets the winning rewards. </p>
+
             </div>
          </div>
       </div>
@@ -140,6 +149,10 @@
                   <li>Shivankar Madaan (<a href="https://twitter.com/shivankarmadaan" target="_blank">@shivankarmadaan</a>) </li>
                   <li>Ranjeet Sengar (<a href="https://twitter.com/sengar23" target="_blank">@sengar23</a>)</li>
                   <li>Madhu Akula (<a href="https://twitter.com/madhuakula" target="_blank">@madhuakula</a>)</li>
+                  <li>Akshay Katheria (<a href="https://twitter.com/jayeshsch" target="_blank">@jayeshsch</a>)</li>
+                  <li>Geoff Hill</li>
+                  <li>Jerin Saji</li>
+                  <li>Setu Parimi</li>
                </ul>
                <p class="copy-1 purple">CFP Review Panel (DEFCON 27):</p>
                <ul class="custom-list">
@@ -148,6 +161,8 @@
                   <li>Akash Mahajan (<a href="https://twitter.com/makash" target="_blank">@makash</a>)</li>
                   <li>Sarah Young (<a href="https://twitter.com/_sarahyo" target="_blank">@_sarahyo</a>)</li>
                </ul>
+               
+               
             </div>
          </div>
       </div>
@@ -169,16 +184,18 @@
             <div role="tabpanel" class="tab-pane fade in active" id="category-1">
                <div class="panel-group talks-panel-group" id="accordion-1" role="tablist" aria-multiselectable="true">
                   <div class="panel panel-default">
-                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseSean" aria-expanded="false" aria-controls="collapseSean">
+                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#seanmetcalf" aria-expanded="false" aria-controls="seanmetcalf">
                         <div class="panel-heading" role="tab" id="headingSean">
                            <h4 class="panel-title"> Keynote - Cloudy Vision: How Cloud Integration Complicates Security </h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
-                     <div id="collapseSean" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSean">
+                     <div id="seanmetcalf" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSean">
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
+                                 <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
+                                 <div id="seanmetcalf-pdf" class="pdfobject-container"></div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Sean Metcalf</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/PyroTek3" target="_blank"><strong>@PyroTek3</strong></a></p>
@@ -192,16 +209,18 @@
                      </div>
                   </div>
                   <div class="panel panel-default">
-                     <a class="panel-btn" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     <a class="panel-btn" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#colinestep" aria-expanded="true" aria-controls="colinestep">
                         <div class="panel-heading" role="tab" id="headingOne">
                            <h4 class="panel-title"> Exploiting IAM in the Google Cloud Platform </h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
-                     <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                     <div id="colinestep" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
+                                 <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
+                                 <div id="colinestep-pdf" class="pdfobject-container"></div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Colin Estep</strong></p>
                                  <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/colinestep" target="_blank"><strong>@colinestep</strong></a></p>
@@ -215,13 +234,13 @@
                      </div>
                   </div>
                   <div class="panel panel-default">
-                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#rotembar" aria-expanded="false" aria-controls="rotembar">
                         <div class="panel-heading" role="tab" id="headingTwo">
                            <h4 class="panel-title"> Hacking into automotive clouds </h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
-                     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                     <div id="rotembar" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
@@ -246,16 +265,18 @@
                      </div>
                   </div>
                   <div class="panel panel-default">
-                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#chrisleroy" aria-expanded="false" aria-controls="chrisleroy">
                         <div class="panel-heading" role="tab" id="headingThree">
                            <h4 class="panel-title"> Build to Hack, Hack to Build </h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
-                     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                     <div id="chrisleroy" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
+                                 <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
+                                 <div id="chrisleroy-pdf" class="pdfobject-container"></div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Chris Le Roy</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/brompwnie" target="_blank"><strong>@brompwnie</strong></a></p>
@@ -268,16 +289,18 @@
                      </div>
                   </div>
                   <div class="panel panel-default">
-                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#erickgalinkin" aria-expanded="false" aria-controls="erickgalinkin">
                         <div class="panel-heading" role="tab" id="headingFour">
                            <h4 class="panel-title"> Your Blacklist is Dead. Airgap Everything: The Future of CNC is the Cloud </h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
-                     <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                     <div id="erickgalinkin" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
+                                 <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
+                                 <div id="erickgalinkin-pdf" class="pdfobject-container"></div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Erick Galinkin</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/erickgalinkin" target="_blank"><strong>@erickgalinkin</strong></a> </p>
@@ -313,16 +336,18 @@
                      </div>
                   </div>
                   <div class="panel panel-default">
-                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseDani" aria-expanded="false" aria-controls="collapseDani">
+                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#danimohsan" aria-expanded="false" aria-controls="danimohsan">
                         <div class="panel-heading" role="tab" id="headingDani">
                            <h4 class="panel-title"> Battle in the Clouds: Attacker vs Defender on AWS </h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
-                     <div id="collapseDani" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingDani">
+                     <div id="danimohsan" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingDani">
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
+                                 <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
+                                 <div id="danimohsan-pdf" class="pdfobject-container"></div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Dani Goland & Mohsan Farid</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/DaniGoland" target="_blank"><strong>@DaniGoland</strong></a></p>
@@ -371,6 +396,11 @@
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
+                                 <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
+                                 
+                                 <div class="r-mb-4">
+                                    <a href="https://medius.studios.ms/Embed/video/B19-CFS2013?source=post_page---------------------------" target="_blank">Click here for the presentation</a>
+                                 </div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Tanya Janca & Teri Radichel</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/SheHacksPurple" target="_blank"><strong>@SheHacksPurple</strong></a></p>
@@ -386,16 +416,18 @@
                      </div>
                   </div>
                   <div class="panel panel-default">
-                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseRod" aria-expanded="false" aria-controls="collapseRod">
+                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#rodjose" aria-expanded="false" aria-controls="rodjose">
                         <div class="panel-heading" role="tab" id="headingRod">
                            <h4 class="panel-title"> Using Splunk or ELK for Auditing AWS/GCP/Azure Security posture </h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
-                     <div id="collapseRod" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingRod">
+                     <div id="rodjose" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingRod">
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
+                                 <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
+                                 <div id="rodjose-pdf" class="pdfobject-container"></div>
                                  <p class="purple"><strong class="white">Speaker 1:&nbsp;</strong><strong>Rod Soto</strong></p>
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/rodsoto" target="_blank"><strong>@rodsoto</strong></a></p>
                                  <p class="purple"><strong class="white">Speaker 2:&nbsp;</strong><strong>Jose Hernandez</strong></p>
@@ -409,16 +441,18 @@
                      </div>
                   </div>
                   <div class="panel panel-default">
-                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseJames" aria-expanded="false" aria-controls="collapseJames">
+                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#jamesstrassburg" aria-expanded="false" aria-controls="jamesstrassburg">
                         <div class="panel-heading" role="tab" id="headingJames">
                            <h4 class="panel-title"> Scaling Security in the Cloud With Open Source </h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
-                     <div id="collapseJames" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingJames">
+                     <div id="jamesstrassburg" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingJames">
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
+                                 <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
+                                 <div id="jamesstrassburg-pdf" class="pdfobject-container"></div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>James Strassburg</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/jstrassburg" target="_blank"><strong>@jstrassburg</strong></a></p>
@@ -430,16 +464,18 @@
                      </div>
                   </div>
                   <div class="panel panel-default">
-                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseCheryl" aria-expanded="false" aria-controls="collapseCheryl">
+                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#cherylbiswas" aria-expanded="false" aria-controls="cherylbiswas">
                         <div class="panel-heading" role="tab" id="headingCheryl">
                            <h4 class="panel-title"> Mining Malevolence: Cryptominers in the Cloud </h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
-                     <div id="collapseCheryl" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingCheryl">
+                     <div id="cherylbiswas" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingCheryl">
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
+                                 <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
+                                 <div id="cherylbiswas-pdf" class="pdfobject-container"></div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Cheryl Biswas</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/3ncr1pt3d" target="_blank"><strong>@3ncr1pt3d</strong></a></p>
@@ -451,16 +487,18 @@
                      </div>
                   </div>
                   <div class="panel panel-default">
-                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseAshwini" aria-expanded="false" aria-controls="collapseAshwini">
+                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#ashwinabhinav" aria-expanded="false" aria-controls="ashwinabhinav">
                         <div class="panel-heading" role="tab" id="headingAshwini">
                            <h4 class="panel-title"> Phishing in the cloud era </h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
-                     <div id="collapseAshwini" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAshwini">
+                     <div id="ashwinabhinav" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAshwini">
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
+                                 <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
+                                 <div id="ashwinabhinav-pdf" class="pdfobject-container"></div>
                                  <p class="purple"><strong class="white">Speaker 1:&nbsp;</strong><strong>Ashwin Vamshi</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/_ashwin_vamshi" target="_blank"><strong>@_ashwin_vamshi</strong></a></p>
@@ -475,7 +513,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="panel panel-default">
+                  <!--<div class="panel panel-default">
                      <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseMarinho" aria-expanded="false" aria-controls="collapseMarinho">
                         <div class="panel-heading" role="tab" id="headingMarinho">
                            <h4 class="panel-title">Is the cloud secure? How can you modernize your infrastructure defensive mechanisms in the cloud </h4>
@@ -488,7 +526,7 @@
                               <div class="services__item">
                                  <p class="purple"><strong class="white">Speaker 1:&nbsp;</strong><strong>Eric Marinho</strong></p>
                                  
-                                 <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/" target="_blank"><strong>@</strong></a></p>
+                                 <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/emarinho" target="_blank"><strong>@emarinho</strong></a></p>
                                  <p class="purple"><strong class="white">Speaker 2:&nbsp;</strong><strong>Alexandre</strong></p>
                                  
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/" target="_blank"><strong>@</strong></a></p>
@@ -508,18 +546,20 @@
                            </div>
                         </div>
                      </div>
-                  </div>
+                  </div>-->
                   <div class="panel panel-default">
-                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseJenko" aria-expanded="false" aria-controls="collapseJenko">
+                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#jenkohwong" aria-expanded="false" aria-controls="jenkohwong">
                         <div class="panel-heading" role="tab" id="headingJenko">
                            <h4 class="panel-title">Here for a good time, not a long time: exploiting AWS loopholes with temporary credentials </h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
-                     <div id="collapseJenko" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingJenko">
+                     <div id="jenkohwong" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingJenko">
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
+                                 <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
+                                 <div id="jenkohwong-pdf" class="pdfobject-container"></div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Jenko Hwong</strong></p>
                                  
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/jenkohwong" target="_blank"><strong>@jenkohwong</strong></a></p>
@@ -586,16 +626,18 @@
             <div role="tabpanel" class="tab-pane fade" id="category-2">
                <div class="panel-group talks-panel-group" id="accordion-2" role="tablist" aria-multiselectable="true">
                   <div class="panel panel-default">
-                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#richmogull" aria-expanded="false" aria-controls="richmogull">
                         <div class="panel-heading" role="tab" id="headingEight">
                            <h4 class="panel-title"> Pragmatic Cloud Security Automation </h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
-                     <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+                     <div id="richmogull" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
+                                 <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
+                                 <div id="richmogull-pdf" class="pdfobject-container"></div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Rich Mogull</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/rmogull" target="_blank"><strong>@rmogull</strong></a></p>
@@ -614,21 +656,26 @@
                      </div>
                   </div>
                   <div class="panel panel-default">
-                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseAndrew" aria-expanded="false" aria-controls="collapseAndrew">
+                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#andrewnathan" aria-expanded="false" aria-controls="andrewnathan">
                         <div class="panel-heading" role="tab" id="headingAndrew">
-                           <h4 class="panel-title"> MozDef </h4>
+                           <h4 class="panel-title">An Open Source Adventure in the Cloud : Detection and Response in AWS</h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
-                     <div id="collapseAndrew" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAndrew">
+                     <div id="andrewnathan" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAndrew">
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
-                                 <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Andrew Krug</strong></p>
+                                 <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
+                                 <div id="andrewnathan-pdf" class="pdfobject-container"></div>
+                                 <p class="purple"><strong class="white">Speaker 1:&nbsp;</strong><strong>Andrew Krug</strong></p>
+                                 
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/andrewkrug" target="_blank"><strong>@andrewkrug</strong></a></p>
+                                 <p class="purple"><strong class="white">Speaker 2:&nbsp;</strong><strong>Nathan Case</strong></p>
                                  <p class="services__item__text">In this workshop, you learn about open-source projects and how they can support your security detection and response in the cloud. Learn how open-source technologies can help you assess and deal with incidents in your environment. Look at automated response, and learn how to respond to and remediate issues in your cloud environment using open-source systems, specifically Mozilla MozDef : Enterprise Defense Platform. </p>
                                  <p class="services__item__text"><strong class="white">About Andrew: </strong>Andrew Krug is the founder of open source project ThreatResponse which includes popular tools like AWS_IR and MargaritaShotgun. Krug works as a Staff Security Engineer at Mozilla focused on Identity and Access Management and Cloud Security. Previously Krug has been a re: Invent, re: Inforce, BlackHat, BSides PDX speaker, and more.</p>
+                                 <p class="services__item__text"><strong class="white">About Nathan: </strong>Security Geek AWS</p>
                               </div>
                            </div>
                         </div>
@@ -639,19 +686,24 @@
             <div role="tabpanel" class="tab-pane fade" id="category-3">
                <div class="panel-group talks-panel-group" id="accordion-3" role="tablist" aria-multiselectable="true">
                   <div class="panel panel-default">
-                     <a class="panel-btn" role="button" data-toggle="collapse" data-parent="#accordion-3" href="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                     <a class="panel-btn" role="button" data-toggle="collapse" data-parent="#accordion-3" href="#olafedoardo" aria-expanded="true" aria-controls="olafedoardo">
                         <div class="panel-heading" role="tab" id="headingTen">
                            <h4 class="panel-title"> ATT&CKing the Sentinel – deploying a threat hunting capability on Azure Sentinel using Sysmon and MITRE ATT&CK </h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
-                     <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
+                     <div id="olafedoardo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
-                                 <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Edoardo Gerosa</strong></p>
+                                 <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
+                                 <div id="olafedoardo-pdf" class="pdfobject-container"></div>
+                                 <p class="purple"><strong class="white">Speaker 1:&nbsp;</strong><strong>Olaf Hartong</strong></p>
                                  <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/netevert" target="_blank"><strong>@netevert</strong></a></p>
+                                 <p class="purple"><strong class="white">Speaker 2:&nbsp;</strong><strong>Edoardo Gerosa</strong></p>
+                                 <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
+                                 <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/olafhartong" target="_blank"><strong>@olafhartong</strong></a></p>
                                  <p class="services__item__text"><strong class="white">Abstract: </strong> Azure Sentinel, Microsoft's new cloud SIEM solution, was recently released on the market. Notwithstanding its strengths Sentinel offers limited threat hunting capabilities out of the box and setting up an effective hunting solution is not straightforward. The Sentinel ATT&CK GitHub project is designed to provide guidance on setting up an ATT&CK-driven process monitoring solution within Sentinel; giving DFIR professionals a tool to effectively hunt in the Azure cloud. </p>
                                  <p class="services__item__text">The project, building on previous work from the open source DFIR community, provides instructions on how to properly configure Sysmon to monitor and detect specific processes in alignment with MITRE's ATT&CK framework. Secondly it provides clarity on how to onboard Sysmon logs from Windows virtual machines, shedding light on some poorly documented areas, while also offering an open source parser to correctly ingest Sysmon data in conformity with the Open Source Security Event Metadata information model. Thirdly it offers around 120 open source Kusto Query Language alerts ready for deployment; each mapped to a unique MITRE ATT&CK technique. Fourthly it provides a dedicated threat hunting dashboard to help DFIR professionals monitor their environment and execute precise hunts. Finally, Sentinel ATT&CK provides ready-made hunting queries to be leveraged when responding to alert notifications raised by the threat hunting dashboard.</p>
                                  <p class="services__item__text"> This talk delivers an overview of how the Sentinel ATT&CK project can help organisations establish an effective threat hunting capability in Azure as well as an opportunity to share with the community the strengths and shortcomings of Sentinel when it comes to hunting adversaries within the Microsoft cloud. </p>
@@ -670,22 +722,25 @@
                                     <li class="white">What are some of the response activities that could be performed with Sentinel on compromised virtual machines, especially considering the in-built SOAR capabilities of the platform?</li>
                                  </ul>
                                  <p class="services__item__text"><strong class="white">About Edoardo: </strong>Edoardo Gerosa works for Deloitte AG's Cyber Risk Services, where he leads a team specialised in providing technical consultancy services to client SOC's across Switzerland. Previously he led Deloitte UK's Cyber Engineering DevOps team, where he oversaw the development of automated reconnaissance tools to support red teaming and cyber threat intelligence engagements. He loves the shores of Zürisee much more than the streets of London, where he previously used to live.</p>
+                                 <p class="services__item__text"><strong class="white">About Olaf: </strong>Photographer | DFIR | Threat hunter | Data Dweller | Splunk | Sysmon |</p>
                               </div>
                            </div>
                         </div>
                      </div>
                   </div>
                   <div class="panel panel-default">
-                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-3" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-3" href="#setuparimi" aria-expanded="false" aria-controls="setuparimi">
                         <div class="panel-heading" role="tab" id="headingEleven">
                            <h4 class="panel-title"> PacBot - Policy as Code from T-Mobile OSS </h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
-                     <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
+                     <div id="setuparimi" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
+                                 <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
+                                 <div id="setuparimi-pdf" class="pdfobject-container"></div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Setu Parimi</strong></p>
                                  <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="javascript:;" target="_blank"><strong>NA</strong></a> </p>
@@ -702,16 +757,18 @@
             <div role="tabpanel" class="tab-pane fade" id="category-4">
                <div class="panel-group talks-panel-group" id="accordion-4" role="tablist" aria-multiselectable="true">
                   <div class="panel panel-default">
-                     <a class="panel-btn" role="button" data-toggle="collapse" data-parent="#accordion-4" href="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen">
+                     <a class="panel-btn" role="button" data-toggle="collapse" data-parent="#accordion-4" href="#janemiceli" aria-expanded="true" aria-controls="janemiceli">
                         <div class="panel-heading" role="tab" id="headingThirteen">
                            <h4 class="panel-title"> Security Battle Wounds from a Cloud SRE </h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
-                     <div id="collapseThirteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThirteen">
+                     <div id="janemiceli" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThirteen">
                         <div class="panel-body">
                            <div class="item">
                               <div class="services__item">
+                                 <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
+                                 <div id="janemiceli-pdf" class="pdfobject-container"></div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Jane Miceli</strong></p>
                                  <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/janemiceli" target="_blank"><strong>@janemiceli </strong></a></p>
@@ -722,7 +779,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="panel panel-default">
+                  <!--<div class="panel panel-default">
                      <a class="panel-btn" role="button" data-toggle="collapse" data-parent="#accordion-4" href="#collapseJosh" aria-expanded="true" aria-controls="collapseJosh">
                         <div class="panel-heading" role="tab" id="headingJosh">
                            <h4 class="panel-title"> Securing Multi-cloud Kubernetes </h4>
@@ -734,7 +791,7 @@
                            <div class="item">
                               <div class="services__item">
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Josh Mize</strong></p>
-                                 <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
+                                  
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/jgmize" target="_blank"><strong>@jgmize </strong></a></p>
                                  <p class="services__item__text"><strong class="white">Abstract: </strong> This presentation will give an overview of the security practices and lessons learned from real world incidents managing the production multi-cloud deployments of Mozilla websites. Topics include real-world examples of mitigating malicious and self-inflicted DDoS attacks, managing secrets with sops, and reducing public attack surface by routing inbound traffic via reverse tunnels from the CDN. </p>
                                  <p class="services__item__text"><strong class="white">About Josh: </strong>Josh Mize is a Staff Site Reliability Engineer at Mozilla responsible for Mozilla's largest web properties: mozilla.org, Mozilla Developer Network, Support, and more. As an SRE Mize wholly owns the security configuration for a multi-cloud Kubernetes deployment serving millions of users. Mize brings a unique perspective on "security at scale".</p>
@@ -742,18 +799,18 @@
                            </div>
                         </div>
                      </div>
-                  </div>
+                  </div>-->
                </div>
             </div>
          </div>
-         <div class="services__header-block">
+         <!--<div class="services__header-block">
             <h2 class="services__header col-xs-12 col-sm-8">Schedule (DEF CON 27)</h2>
          </div>
          <hr class="services__line">
          <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#day-1" aria-controls="day-1" role="tab" data-toggle="tab">Day 1</a></li>
-            <li role="presentation"><a href="#day-2" aria-controls="day-2" role="tab" data-toggle="tab">Day 2</a></li>
-            <li role="presentation"><a href="#day-3" aria-controls="day-3" role="tab" data-toggle="tab">Day 3</a> </li>
+            <li role="presentation" class="active"><a href="#day-1" aria-controls="day-1" role="tab" data-toggle="tab">Day 1 (9th Aug)</a></li>
+            <li role="presentation"><a href="#day-2" aria-controls="day-2" role="tab" data-toggle="tab">Day 2 (10th Aug)</a></li>
+            <li role="presentation"><a href="#day-3" aria-controls="day-3" role="tab" data-toggle="tab">Day 3 (11th Aug)</a> </li>
          </ul>
          <div class="tab-content r-mt-6">
             <div role="tabpanel" class="tab-pane fade in active" id="day-1">
@@ -767,7 +824,7 @@
                      </div>
                   </div>
                </div>
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseSean">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="seanmetcalf">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
                         <p class="white"><strong>12:20 - 13:00 </strong></p>
@@ -777,7 +834,7 @@
                      </div>
                   </div>
                </div>
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseOne">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="colinestep">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
                         <p class="white"><strong>13:00 - 13:40</strong></p>
@@ -787,7 +844,7 @@
                      </div>
                   </div>
                </div>
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseDani">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="danimohsan">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
                         <p class="white"><strong>13:40 - 14:20</strong></p>
@@ -797,7 +854,7 @@
                      </div>
                   </div>
                </div>
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseTen">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="olafedoardo">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
                         <p class="white"><strong>14:20 - 14:50</strong></p>
@@ -817,7 +874,7 @@
                      </div>
                   </div>
                </div>
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseThirteen">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="janemiceli">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
                         <p class="white"><strong>15:25 - 15:50</strong></p>
@@ -827,10 +884,10 @@
                      </div>
                   </div>
                </div>
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseEight">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="richmogull">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
-                        <p class="white"><strong>16:50 - 18:00</strong></p>
+                        <p class="white"><strong>16:00 - 18:00</strong></p>
                      </div>
                      <div class="col-md-10 col-xs-9 vertical-line">
                         <p class="green"> Pragmatic Cloud Security Automation </p>
@@ -839,7 +896,7 @@
                </div>
             </div>
             <div role="tabpanel" class="tab-pane fade in" id="day-2">
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseThree">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="chrisleroy">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
                         <p class="white"><strong>10:00 - 10:40</strong></p>
@@ -859,7 +916,7 @@
                      </div>
                   </div>
                </div>
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseJenko">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="jenkohwong">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
                         <p class="white"><strong>11:20 - 12:00</strong></p>
@@ -869,7 +926,7 @@
                      </div>
                   </div>
                </div>
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseEleven">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="setuparimi">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
                         <p class="white"><strong>12:00 - 12:30</strong></p>
@@ -879,7 +936,7 @@
                      </div>
                   </div>
                </div>
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseTwo">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="rotembar">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
                         <p class="white"><strong>12:30 - 13:10</strong></p>
@@ -899,7 +956,7 @@
                      </div>
                   </div>
                </div>
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseRod">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="rodjose">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
                         <p class="white"><strong>13:50 - 14:30</strong></p>
@@ -909,7 +966,7 @@
                      </div>
                   </div>
                </div>
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseJames">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="jamesstrassburg">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
                         <p class="white"><strong>14:30 - 15:10</strong></p>
@@ -919,7 +976,7 @@
                      </div>
                   </div>
                </div>
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseFour">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="erickgalinkin">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
                         <p class="white"><strong>15:10 - 15:50</strong></p>
@@ -929,19 +986,19 @@
                      </div>
                   </div>
                </div>
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseAndrew">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="andrewnathan">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
                         <p class="white"><strong>16:00 - 18:00</strong></p>
                      </div>
                      <div class="col-md-10 col-xs-9 vertical-line">
-                        <p class="green"> MozDef </p>
+                        <p class="green">An Open Source Adventure in the Cloud : Detection and Response in AWS</p>
                      </div>
                   </div>
                </div>
             </div>
             <div role="tabpanel" class="tab-pane fade in" id="day-3">
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseCheryl">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="cherylbiswas">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
                         <p class="white"><strong>10:00 - 10:45</strong></p>
@@ -961,28 +1018,104 @@
                      </div>
                   </div>
                </div>
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseMarinho">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="jenkohwong">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
                         <p class="white"><strong>11:30 - 12:15</strong></p>
                      </div>
                      <div class="col-md-10 col-xs-9 vertical-line">
-                        <p class="green">Is the cloud secure? How can you modernize your infrastructure defensive mechanisms in the cloud</p>
+                        <p class="green">Here for a good time, not a long time: exploiting AWS loopholes with temporary credentials</p>
                      </div>
                   </div>
                </div>
-               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseAshwini">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="ashwinabhinav">
                   <div class="row">
                      <div class="col-md-2 col-xs-3">
-                        <p class="white"><strong>12:15 - 13:30</strong></p>
+                        <p class="white"><strong>12:15 - 13:00</strong></p>
                      </div>
                      <div class="col-md-10 col-xs-9 vertical-line">
                         <p class="green"> Phishing in the cloud era </p>
                      </div>
                   </div>
                </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>13:00 - 13:30</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green">Prize distribution / Closing note</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>-->
+
+         <div class="row r-mb-12">
+            <div class="col-md-12">
+               <div class="slider-wrap">
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/1.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/2.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/3.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/4.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/5.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/6.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/7.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/8.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/9.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/10.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/11.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/12.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/13.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/14.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/15.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/16.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/17.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/18.jpg" alt="">
+                  </div>
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/19.jpg" alt="">
+                  </div>
+                  
+               </div>
             </div>
          </div>
+
       </div>
    </section>
    <!-- Timelines *********************************--><!--<section id="timelines" class="works section"> <div class="container"> <div class="row"> <div class="works__header"> <h2 class="col-xs-12 col-sm-3">Timelines for 2019</h2> <nav class="works__header__nav col-xs-12 col-sm-9"> <button data-filter="*" class="works__nav__item works__nav__item_active"><span class="works__button_underline"></span>All</button> <button data-filter=".1st-quarter" class="works__nav__item"><span class="works__button_underline"></span>1st quarter</button> <button data-filter=".2nd-quarter" class="works__nav__item"><span class="works__button_underline"></span>2nd quarter</button> <button data-filter=".3rd-quarter" class="works__nav__item"><span class="works__button_underline"></span>3rd quarter</button> <button data-filter=".4th-quarter" class="works__nav__item"><span class="works__button_underline"></span>4th quarter</button> </nav> </div></div><div class="gallery"> <div class="gallery__items"> <div class="gallery__item gallery__item_1 col-xs-12 col-sm-6 1st-quarter"> <div class="gallery__item__hover"> <span class="item__hover__line"></span><span class="item__hover__tag">09th - 11th August, 2019</span> <h3 class="item__hover__header"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" title="CFP for DEF CON 27">CFP for Talks/Workshops/Tool Demo Open</a></h3> <h4 class="item__hover__header-small">DEF CON 27, Las Vegas, Nevada</h4> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" class="item__hover__zoom" title="CFP for DEF CON 27"> +&nbsp;More </a> </div></div></div></div></div></section>--> 
@@ -1024,6 +1157,7 @@
          <div class="contact__inf col-xs-12 col-sm-6">
             <h2 id="contact" class="section">Contact Us</h2>
             <p class="contact__text"> Send us an email at<br><a class="contact__email" href="mailto:hello@cloud-village.org">hello@cloud-village.org</a> </p>
+            <p class="contact__text"><span class="purple">Hosted in:</span> <strong>Flamingo Hotel, Reno 1, Las Vegas, Nevada</strong></p>
             <div class="social">
                <!--<div class="social__link-and-icon"> <span class="icon icon-facebook"></span><a class="social__link" href="javascript:void">Facebook<span class="social__link_underline"></span></a> </div>--> 
                <div class="social__link-and-icon"> <span class="icon icon-twitter"></span><a class="social__link" href="https://twitter.com/cloudvillage_dc" target="_blank">Twitter<span class="social__link_underline"></span></a> </div>
@@ -1042,6 +1176,8 @@
    <script src="js/libs/jquery.textillate.js"></script> 
    <script src="js/libs/isotope.pkgd.min.js"></script> 
    <script src="js/libs/jquery.smooth-scroll.min.js"></script> 
+   <script src="js/libs/pdfobject.min.js"></script> 
+   <script src="js/libs/slick.min.js"></script> 
    <script src="js/menu.js"></script> 
    <script src="js/main.js?<?php $t=time(); echo $t; ?>"></script> 
    <script src="js/load_more.js"></script>
