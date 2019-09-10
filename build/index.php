@@ -195,7 +195,10 @@
                            <div class="item">
                               <div class="services__item">
                                  <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
-                                 <div id="seanmetcalf-pdf" class="pdfobject-container"></div>
+                                 <!--<div id="seanmetcalf-pdf" class="pdfobject-container"></div>-->
+                                 <div class="slideshare-wrap r-mb-4">
+                                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/FjAuuLUTDIWedF" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/CloudVillage/microsoft-cloud-azure" title="Microsoft cloud azure" target="_blank">Microsoft cloud azure</a> </strong> from <strong><a href="https://www.slideshare.net/CloudVillage" target="_blank">CloudVillage</a></strong> </div>
+                                 </div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Sean Metcalf</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/PyroTek3" target="_blank"><strong>@PyroTek3</strong></a></p>
@@ -220,7 +223,10 @@
                            <div class="item">
                               <div class="services__item">
                                  <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
-                                 <div id="colinestep-pdf" class="pdfobject-container"></div>
+                                 <!--<div id="colinestep-pdf" class="pdfobject-container"></div>-->
+                                 <div class="slideshare-wrap r-mb-4">
+                                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/HQGotZ4DhLUNiJ" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/CloudVillage/exploiting-iam-in-the-google-cloud-platform-danigolandmohsanfarid" title="Exploiting IAM in the google cloud platform - dani_goland_mohsan_farid" target="_blank">Exploiting IAM in the google cloud platform - dani_goland_mohsan_farid</a> </strong> from <strong><a href="https://www.slideshare.net/CloudVillage" target="_blank">CloudVillage</a></strong> </div>
+                                 </div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Colin Estep</strong></p>
                                  <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/colinestep" target="_blank"><strong>@colinestep</strong></a></p>
@@ -276,7 +282,10 @@
                            <div class="item">
                               <div class="services__item">
                                  <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
-                                 <div id="chrisleroy-pdf" class="pdfobject-container"></div>
+                                 <!--<div id="chrisleroy-pdf" class="pdfobject-container"></div>-->
+                                 <div class="slideshare-wrap r-mb-4">
+                                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/BuRPrrIZbN45Gr" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/CloudVillage/build-to-hack-hack-to-build" title="Build to Hack, Hack to Build" target="_blank">Build to Hack, Hack to Build</a> </strong> from <strong><a href="https://www.slideshare.net/CloudVillage" target="_blank">CloudVillage</a></strong> </div>
+                                 </div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Chris Le Roy</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/brompwnie" target="_blank"><strong>@brompwnie</strong></a></p>
@@ -300,7 +309,10 @@
                            <div class="item">
                               <div class="services__item">
                                  <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
-                                 <div id="erickgalinkin-pdf" class="pdfobject-container"></div>
+                                 <!--<div id="erickgalinkin-pdf" class="pdfobject-container"></div>-->
+                                 <div class="slideshare-wrap r-mb-4">
+                                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/bsC5m2nKSitnWO" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/CloudVillage/your-blacklist-is-dead-why-the-future-of-command-and-control-is-the-cloud" title="Your Blacklist is Dead: Why the Future of Command and Control is the Cloud" target="_blank">Your Blacklist is Dead: Why the Future of Command and Control is the Cloud</a> </strong> from <strong><a href="https://www.slideshare.net/CloudVillage" target="_blank">CloudVillage</a></strong> </div>
+                                 </div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Erick Galinkin</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/erickgalinkin" target="_blank"><strong>@erickgalinkin</strong></a> </p>
@@ -347,7 +359,11 @@
                            <div class="item">
                               <div class="services__item">
                                  <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
-                                 <div id="danimohsan-pdf" class="pdfobject-container"></div>
+                                 <!--<div id="danimohsan-pdf" class="pdfobject-container"></div>-->
+                                 <div class="slideshare-wrap r-mb-4">
+                                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/oDx2gQMJdZR3Vb" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/CloudVillage/battle-in-the-clouds-attacker-vs-defender-on-aws" title="Battle in the Clouds - Attacker vs Defender on AWS" target="_blank">Battle in the Clouds - Attacker vs Defender on AWS</a> </strong> from <strong><a href="https://www.slideshare.net/CloudVillage" target="_blank">CloudVillage</a></strong> </div>
+                                 </div>
+
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Dani Goland & Mohsan Farid</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/DaniGoland" target="_blank"><strong>@DaniGoland</strong></a></p>
@@ -427,7 +443,10 @@
                            <div class="item">
                               <div class="services__item">
                                  <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
-                                 <div id="rodjose-pdf" class="pdfobject-container"></div>
+                                 <!--<div id="rodjose-pdf" class="pdfobject-container"></div>-->
+                                 <div class="slideshare-wrap r-mb-4">
+                                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/HC23i97g348aH7" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/CloudVillage/using-splunk-or-elk-for-auditing-awsgcpazure-security-posture" title="Using Splunk or ELK for Auditing AWS/GCP/Azure Security posture" target="_blank">Using Splunk or ELK for Auditing AWS/GCP/Azure Security posture</a> </strong> from <strong><a href="https://www.slideshare.net/CloudVillage" target="_blank">CloudVillage</a></strong> </div>
+                                 </div>
                                  <p class="purple"><strong class="white">Speaker 1:&nbsp;</strong><strong>Rod Soto</strong></p>
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/rodsoto" target="_blank"><strong>@rodsoto</strong></a></p>
                                  <p class="purple"><strong class="white">Speaker 2:&nbsp;</strong><strong>Jose Hernandez</strong></p>
@@ -452,7 +471,10 @@
                            <div class="item">
                               <div class="services__item">
                                  <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
-                                 <div id="jamesstrassburg-pdf" class="pdfobject-container"></div>
+                                 <!--<div id="jamesstrassburg-pdf" class="pdfobject-container"></div>-->
+                                 <div class="slideshare-wrap r-mb-4">
+                                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/IGGdtY0QFHvRJl" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/CloudVillage/scaling-security-in-the-cloud-with-open-source" title="Scaling Security in the Cloud With Open Source" target="_blank">Scaling Security in the Cloud With Open Source</a> </strong> from <strong><a href="https://www.slideshare.net/CloudVillage" target="_blank">CloudVillage</a></strong> </div>
+                                 </div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>James Strassburg</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/jstrassburg" target="_blank"><strong>@jstrassburg</strong></a></p>
@@ -475,7 +497,10 @@
                            <div class="item">
                               <div class="services__item">
                                  <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
-                                 <div id="cherylbiswas-pdf" class="pdfobject-container"></div>
+                                 <!--<div id="cherylbiswas-pdf" class="pdfobject-container"></div>-->
+                                 <div class="slideshare-wrap r-mb-4">
+                                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/3gL8LjAvZAHuQA" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/CloudVillage/mining-malevolence-cryptominers-in-the-cloud" title="Mining Malevolence: Cryptominers in the Cloud" target="_blank">Mining Malevolence: Cryptominers in the Cloud</a> </strong> from <strong><a href="https://www.slideshare.net/CloudVillage" target="_blank">CloudVillage</a></strong> </div>
+                                 </div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Cheryl Biswas</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/3ncr1pt3d" target="_blank"><strong>@3ncr1pt3d</strong></a></p>
@@ -498,7 +523,10 @@
                            <div class="item">
                               <div class="services__item">
                                  <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
-                                 <div id="ashwinabhinav-pdf" class="pdfobject-container"></div>
+                                 <!--<div id="ashwinabhinav-pdf" class="pdfobject-container"></div>-->
+                                 <div class="slideshare-wrap r-mb-4">
+                                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/n8GYlhkmrE9BAx" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/CloudVillage/phishing-in-the-cloud-era" title="Phishing in the cloud era" target="_blank">Phishing in the cloud era</a> </strong> from <strong><a href="https://www.slideshare.net/CloudVillage" target="_blank">CloudVillage</a></strong> </div>
+                                 </div>
                                  <p class="purple"><strong class="white">Speaker 1:&nbsp;</strong><strong>Ashwin Vamshi</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/_ashwin_vamshi" target="_blank"><strong>@_ashwin_vamshi</strong></a></p>
@@ -559,7 +587,10 @@
                            <div class="item">
                               <div class="services__item">
                                  <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
-                                 <div id="jenkohwong-pdf" class="pdfobject-container"></div>
+                                 <!--<div id="jenkohwong-pdf" class="pdfobject-container"></div>-->
+                                 <div class="slideshare-wrap r-mb-4">
+                                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/JtMWfg7pzB5Q7T" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/CloudVillage/here-for-a-good-time-not-a-long-time-exploiting-aws-loopholes-with-temporary-credentials" title="Here for a good time, not a long time: exploiting AWS loopholes with temporary credentials" target="_blank">Here for a good time, not a long time: exploiting AWS loopholes with temporary credentials</a> </strong> from <strong><a href="https://www.slideshare.net/CloudVillage" target="_blank">CloudVillage</a></strong> </div>
+                                 </div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Jenko Hwong</strong></p>
                                  
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/jenkohwong" target="_blank"><strong>@jenkohwong</strong></a></p>
@@ -637,7 +668,10 @@
                            <div class="item">
                               <div class="services__item">
                                  <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
-                                 <div id="richmogull-pdf" class="pdfobject-container"></div>
+                                 <!--<div id="richmogull-pdf" class="pdfobject-container"></div>-->
+                                 <div class="slideshare-wrap r-mb-4">
+                                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/2VeRHaqxqDs2yP" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/CloudVillage/pragmatic-cloud-security-automation" title="Pragmatic Cloud Security Automation" target="_blank">Pragmatic Cloud Security Automation</a> </strong> from <strong><a href="https://www.slideshare.net/CloudVillage" target="_blank">CloudVillage</a></strong> </div>
+                                 </div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Rich Mogull</strong></p>
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/rmogull" target="_blank"><strong>@rmogull</strong></a></p>
@@ -667,7 +701,10 @@
                            <div class="item">
                               <div class="services__item">
                                  <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
-                                 <div id="andrewnathan-pdf" class="pdfobject-container"></div>
+                                 <!--<div id="andrewnathan-pdf" class="pdfobject-container"></div>-->
+                                 <div class="slideshare-wrap r-mb-4">
+                                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/YT8f4zDrYBZ9y" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/CloudVillage/mozdef-workshop-slide" title="MozDef Workshop slide" target="_blank">MozDef Workshop slide</a> </strong> from <strong><a href="https://www.slideshare.net/CloudVillage" target="_blank">CloudVillage</a></strong> </div>
+                                 </div>
                                  <p class="purple"><strong class="white">Speaker 1:&nbsp;</strong><strong>Andrew Krug</strong></p>
                                  
                                  <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
@@ -697,7 +734,10 @@
                            <div class="item">
                               <div class="services__item">
                                  <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
-                                 <div id="olafedoardo-pdf" class="pdfobject-container"></div>
+                                 <!--<div id="olafedoardo-pdf" class="pdfobject-container"></div>-->
+                                 <div class="slideshare-wrap r-mb-4">
+                                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/r0NONGp23tWdQs" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/CloudVillage/attcking-the-sentinel-deploying-a-threat-hunting-capability-on-azure-sentinel-using-sysmon-and-mitre-attck" title="ATT&amp;CKing the Sentinel – deploying a threat hunting capability on Azure Sentinel using Sysmon and MITRE ATT&amp;CK" target="_blank">ATT&amp;CKing the Sentinel – deploying a threat hunting capability on Azure Sentinel using Sysmon and MITRE ATT&amp;CK</a> </strong> from <strong><a href="https://www.slideshare.net/CloudVillage" target="_blank">CloudVillage</a></strong> </div>
+                                 </div>
                                  <p class="purple"><strong class="white">Speaker 1:&nbsp;</strong><strong>Olaf Hartong</strong></p>
                                  <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/netevert" target="_blank"><strong>@netevert</strong></a></p>
@@ -740,7 +780,10 @@
                            <div class="item">
                               <div class="services__item">
                                  <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
-                                 <div id="setuparimi-pdf" class="pdfobject-container"></div>
+                                 <!--<div id="setuparimi-pdf" class="pdfobject-container"></div>-->
+                                 <div class="slideshare-wrap r-mb-4">
+                                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/4PRm6h9HQt4M" width="572" height="612" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/CloudVillage/pacbot-policy-as-code-from-tmobile-oss" title="PacBot - Policy as Code from T-Mobile OSS" target="_blank">PacBot - Policy as Code from T-Mobile OSS</a> </strong> from <strong><a href="//www.slideshare.net/CloudVillage" target="_blank">CloudVillage</a></strong> </div>
+                                 </div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Setu Parimi</strong></p>
                                  <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="javascript:;" target="_blank"><strong>NA</strong></a> </p>
@@ -759,7 +802,7 @@
                   <div class="panel panel-default">
                      <a class="panel-btn" role="button" data-toggle="collapse" data-parent="#accordion-4" href="#janemiceli" aria-expanded="true" aria-controls="janemiceli">
                         <div class="panel-heading" role="tab" id="headingThirteen">
-                           <h4 class="panel-title"> Security Battle Wounds from a Cloud SRE </h4>
+                           <h4 class="panel-title">Security Battle Wounds from a Cloud SRE</h4>
                            <div class="plus-sym"></div>
                         </div>
                      </a>
@@ -768,7 +811,10 @@
                            <div class="item">
                               <div class="services__item">
                                  <p class="purple r-mb-4 r-mt-4"><strong class="white">Presentation Slide&nbsp;</strong></p>
-                                 <div id="janemiceli-pdf" class="pdfobject-container"></div>
+                                 <!--<div id="janemiceli-pdf" class="pdfobject-container"></div>-->
+                                 <div class="slideshare-wrap r-mb-4">
+                                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/bXxQE9Zvx4yYcz" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/CloudVillage/security-battle-wounds-from-a-cloud-sre" title="Security Battle Wounds from a Cloud SRE" target="_blank">Security Battle Wounds from a Cloud SRE</a> </strong> from <strong><a href="https://www.slideshare.net/CloudVillage" target="_blank">CloudVillage</a></strong> </div>
+                                 </div>
                                  <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Jane Miceli</strong></p>
                                  <!--<p class="purple"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="purple"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>--> 
                                  <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/janemiceli" target="_blank"><strong>@janemiceli </strong></a></p>

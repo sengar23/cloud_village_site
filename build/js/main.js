@@ -13,21 +13,21 @@ $(document).ready(function () {
 
 	// PDF object
 
-	PDFObject.embed("./pdf/Exploiting_IAM.pdf", "#colinestep-pdf");
-	PDFObject.embed("./pdf/build_to_hack.pdf", "#chrisleroy-pdf");
-	PDFObject.embed("./pdf/Your_Blacklist_is_Dead.pdf", "#erickgalinkin-pdf");
-	PDFObject.embed("./pdf/pacbot.pdf", "#setuparimi-pdf");
-	PDFObject.embed("./pdf/sentinal.pdf", "#olafedoardo-pdf");
-	PDFObject.embed("./pdf/Microsoft_Cloud_Azure.pdf", "#seanmetcalf-pdf");
-	PDFObject.embed("./pdf/Here_for_a_Good_Time.pdf", "#jenkohwong-pdf");
-	PDFObject.embed("./pdf/Mining_Malevolence.pdf", "#cherylbiswas-pdf");
-	PDFObject.embed("./pdf/MozDef.pdf", "#andrewnathan-pdf");
-	PDFObject.embed("./pdf/Phishing_in_the_Cloud_Era.pdf", "#ashwinabhinav-pdf");
-	PDFObject.embed("./pdf/Pragmatic_Cloud.pdf", "#richmogull-pdf");
-	PDFObject.embed("./pdf/Security_Battle.pdf", "#janemiceli-pdf");
-	PDFObject.embed("./pdf/Splunk.pdf", "#rodjose-pdf");
-	PDFObject.embed("./pdf/Scaling_Security.pdf", "#jamesstrassburg-pdf");
-	PDFObject.embed("./pdf/Battle_in_the_Clouds.pdf", "#danimohsan-pdf");
+	//PDFObject.embed("./pdf/Exploiting_IAM.pdf", "#colinestep-pdf");
+	//PDFObject.embed("./pdf/build_to_hack.pdf", "#chrisleroy-pdf");
+	//PDFObject.embed("./pdf/Your_Blacklist_is_Dead.pdf", "#erickgalinkin-pdf");
+	//PDFObject.embed("./pdf/pacbot.pdf", "#setuparimi-pdf");
+	//PDFObject.embed("./pdf/sentinal.pdf", "#olafedoardo-pdf");
+	//PDFObject.embed("./pdf/Microsoft_Cloud_Azure.pdf", "#seanmetcalf-pdf");
+	//PDFObject.embed("./pdf/Here_for_a_Good_Time.pdf", "#jenkohwong-pdf");
+	//PDFObject.embed("./pdf/Mining_Malevolence.pdf", "#cherylbiswas-pdf");
+	//PDFObject.embed("./pdf/MozDef.pdf", "#andrewnathan-pdf");
+	//PDFObject.embed("./pdf/Phishing_in_the_Cloud_Era.pdf", "#ashwinabhinav-pdf");
+	//PDFObject.embed("./pdf/Pragmatic_Cloud.pdf", "#richmogull-pdf");
+	//PDFObject.embed("./pdf/Security_Battle.pdf", "#janemiceli-pdf");
+	//PDFObject.embed("./pdf/Splunk.pdf", "#rodjose-pdf");
+	//PDFObject.embed("./pdf/Scaling_Security.pdf", "#jamesstrassburg-pdf");
+	//PDFObject.embed("./pdf/Battle_in_the_Clouds.pdf", "#danimohsan-pdf");
 
 
 

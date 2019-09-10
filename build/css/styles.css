@@ -2091,6 +2091,14 @@ a:focus {
     border: 1rem solid rgba(0,0,0,.1);
     margin-bottom: 32px;
 }
+.slideshare-wrap iframe{
+	margin: 0 auto;
+    position: relative;
+    display: block;
+}
+.slideshare-wrap iframe ~ div{
+	display: none;
+}
 
  /*animation for arrow on slider *******************************/
 
@@ -2327,6 +2335,9 @@ a:focus {
  	}
  	.logo-list li{
  		width: 100%;
+ 	}
+ 	.pdfobject-container{
+ 		height: 10rem;
  	}
  }
 
