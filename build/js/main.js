@@ -41,6 +41,12 @@ $(document).ready(function () {
 		loop: false
 	});
 
+	$(".panel-btn").click(function(){
+		var el = $(this);
+		var id = $(el).siblings().attr("id");
+		talklink_change(id);
+	});
+
 	$(".schedule-item").click(function () {
 		var el = $(this);
 		var article_id = el.data("id");
@@ -67,180 +73,24 @@ $(document).ready(function () {
     	
 	});
 
-	/*	
-	//set slider
-	//*************************************
-	var slider = $(".slider"),
-		pointerPrev = $(".pointer_prev"),
-		pointerNext = $(".pointer_next");
-
-
-	slider.slick({
-		arrows: true,
-		fade: true,
-		prevArrow: $(".pointer_prev"),
-		nextArrow: $(".pointer_next")
-	});
 	
-	
-	// set callbacks on swipe slider
-		slider.on('init', function (event, slick, currentSlide) {
-
-		});
-
-		slider.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-			var sliderItems = $(this).find('.slider__item');
-			$(sliderItems[nextSlide]).find('.item__text').css({
-				opacity: 0
-			});
-		});
-
-		slider.on('afterChange', function (event, slick, currentSlide) {
-			var sliderItems = $(this).find('.slider__item');
-			$(sliderItems[currentSlide]).find('.item__text').css({
-				opacity: 1
-			});
-
-			$('.item__text').textillate('start');
-		});
-	*/
+	var page_url = get_url_hash();
+	if(page_url != "" && page_url != "index"){
+	    page_section_link(page_url, 0);
+	}
+    
 	setTimeout(function () {
 		$(".loading-wrap").removeClass("visible");
 		setTimeout(function () {
 			$('.item__text').show();
 			$('.item__text').textillate('start');
+			
+			
 		}, 300);
 	}, 2000);
+	
 
-	//slider arrows appear
-	//*************************************
-	/*slider.on('mouseover', function(){
-		pointerPrev.addClass("pointer_prev_show");
-		pointerNext.addClass("pointer_next_show");
-	});
-	$(".pointer").on('mouseover', function(){
-		pointerPrev.addClass("pointer_prev_show");
-		pointerNext.addClass("pointer_next_show");
-	});
-	$(".pointer-container").on('mouseover', function(){
-		pointerPrev.addClass("pointer_prev_show");
-		pointerNext.addClass("pointer_next_show");
-	});*/
-
-	//slider arrows hide
-	//*************************************
-	/*slider.on('mouseleave', function(){
-		pointerPrev.removeClass("pointer_prev_show");
-		pointerNext.removeClass("pointer_next_show");
-	});*/
-
-	//	start plaing video
-	//	***********************************
-	/*$(".poster__play-button").on('click', function(){
-		$(".video__item_poster").addClass("poster_hide");
-		$("iframe.video__item").attr("src", "https://player.vimeo.com/video/212731897?	color=ffffff&title=0&byline=0&autoplay=1");
-	});
-	*/
-	//	services owl-carousel
-	//	***********************************
-	/*var owl = $("#talks .owl-carousel");
-	owl.each(function (index, target) {
-		$(target).owlCarousel({
-
-			margin: 20,
-			responsiveClass: true,
-			rewind: false,
-			dots: false,
-			responsive: {
-				0: {
-					items: 1
-				},
-				480: {
-					items: 2
-				},
-				1024: {
-					items: 3
-				}
-			}
-		});
-		var s = $(target).siblings(".arrow-controls");
-		var next = s.find(".arrow_front");
-		var prev = s.find(".arrow_back");
-		// Go to the next item
-		$(next).click(function (event) {
-			$(target).trigger('next.owl.carousel', [300]);
-		});
-
-		// Go to the previous item
-		$(prev).click(function (event) {
-			// With optional speed parameter
-			// Parameters has to be in square bracket '[]'
-			$(target).trigger('prev.owl.carousel', [300]);
-		});
-		if (index == (owl.length - 1)) {
-			$("#talks .tab-content .tab-pane:not(:first-child)").removeClass("active");
-
-		}
-		var count = $(target).find(".item").length;
-		var id = $(target).parent().attr("id");
-		$("#talks .nav-tabs a[href$='" + "#" + id + "'] span").text(count);
-
-	});
-*/
-
-	/*
-		//	clients owl-carousel setup
-		//	***********************************
-		var owl2 = $("#clients .owl-carousel"),
-			clientsItems = $("#clients .item").length,
-			clientsCurrentItem = 1;
-
-		// get counter items
-		var current = $('.clients__counter__item1'),
-			allCount = $('.clients__counter__item2');
-
-		allCount.text(clientsItems);
-		current.text(clientsCurrentItem);
-
-		owl2.owlCarousel({
-			loop: true,
-			margin: 10,
-			responsiveClass: true,
-			rewind: false,
-			dots: false,
-			items: 1
-		});
-
-		// Go to the next item
-		$('.clients__arrow_next').click(function (event) {
-			if (clientsCurrentItem == clientsItems) {
-				clientsCurrentItem = 1;
-				current.text(clientsCurrentItem);
-				owl2.trigger('next.owl.carousel');
-			} else {
-				clientsCurrentItem++;
-				current.text(clientsCurrentItem);
-				owl2.trigger('next.owl.carousel');
-			}
-		});
-
-		// Go to the previous item
-		$('.clients__arrow_back').click(function (event) {
-			if (clientsCurrentItem == 1) {
-				clientsCurrentItem = clientsItems;
-				current.text(clientsCurrentItem);
-				owl2.trigger('prev.owl.carousel', [300]);
-			} else {
-				clientsCurrentItem--;
-				current.text(clientsCurrentItem);
-				// With optional speed parameter
-				// Parameters has to be in square bracket '[]'
-				owl2.trigger('prev.owl.carousel', [300]);
-			}
-		});
-		*/
-	//	gallery isotope filtering
-	//	************************************
+	
 	var galleryContainer = $(".gallery__items"),
 		isotopFilterButtons = $(".works__nav__item");
 
@@ -257,72 +107,7 @@ $(document).ready(function () {
 
 		$(this).addClass('works__nav__item_active');
 	});
-	/*
-		//	gallery magnific popup
-		//	************************************
-		var magnificPopup = $.magnificPopup.instance;
-
-		$('.gallery__items').magnificPopup({
-			delegate: '.item__hover__zoom',
-			type: 'image',
-			gallery: {
-				enabled: true,
-				navigateByImgClick: false, // for correct counter working
-				preload: [0, 2],
-				tCounter: '<span class="popup-counter">%curr% / %total%</span>',
-				arrowMarkup: ''
-			},
-			zoom: {
-				enabled: true,
-				duration: 300, // don't foget to change the duration also in CSS
-				opener: function (element) {
-					return element.find('img');
-				}
-			},
-			image: {
-				verticalFit: true,
-				titleSrc: function (item) {
-					return item.el.attr('title');
-				}
-			},
-			callbacks: {
-				open: function () {
-					movePopup();
-				},
-				change: function () {
-					// append popup's controls
-					$(this.content).find('.mfp-counter').append('<div class="popup__arrow popup__arrow_next"><div class="popup__arrow__line-short popup__arrow__line-up"></div><div class="popup__arrow__line"></div><div class="popup__arrow__line-short popup__arrow__line-down"></div></div>');
-					$(this.content).find('.mfp-counter').prepend('<div class="popup__arrow popup__arrow_back"><div class="popup__arrow__line-short popup__arrow__line-up"></div><div class="popup__arrow__line"></div><div class="popup__arrow__line-short popup__arrow__line-down"></div></div>');
-				}
-			}
-		});
-
-		// change image by click on arrow
-		function movePopup() {
-			if (magnificPopup.index + 1 == magnificPopup.items.length)
-				$('.popup__arrow_next').addClass('popup__arrow_gray');
-			else if (magnificPopup.index == 0)
-				$('.popup__arrow_back').addClass('popup__arrow_gray');
-
-			$('.popup__arrow_next').click(function () {
-				if (magnificPopup.index + 1 == magnificPopup.items.length)
-					return;
-				else {
-					magnificPopup.next();
-					movePopup();
-				}
-			});
-
-			$('.popup__arrow_back').click(function () {
-				if (magnificPopup.index == 0)
-					return;
-				else {
-					magnificPopup.prev();
-					movePopup();
-				}
-			});
-		}
-		*/
+	
 });
 
 function add_talk_count() {
@@ -335,4 +120,107 @@ function add_talk_count() {
 
 
 
+}
+
+/* Get page url parameter*/
+
+function get_url_parameter(){
+    
+    var newPageArray = location.pathname.split('/'),
+    
+    newPage = newPageArray[newPageArray.length - 1];
+    
+    return newPage;
+}
+function get_url_hash(){
+    var page_array = location.href.split('#');
+    var page="";
+    if(page_array.length > 1){
+    	page = page_array[page_array.length - 1];
+    }
+    
+    
+    return page;
+
+}
+function hashlink_change(url){
+    url = "#"+url;
+    if (url != window.location) {
+            //add the new page to the window.history
+            //if the new page was triggered by a 'popstate' event, don't add it
+            window.history.pushState({
+                path: url
+            }, "", url);
+        }
+
+}
+function talklink_change(talk_id){
+    var url = "#talks?"+talk_id;
+    
+    //add the new page to the window.history
+    //if the new page was triggered by a 'popstate' event, don't add it
+    window.history.pushState({
+        path: url
+    }, "", url);
+        
+
+}
+
+/* Browser Back Button*/
+
+$(window).bind('popstate', function(event){
+    var popped = ('state' in window.history && window.history.state !== null), initialURL = location.href;
+    // Ignore inital popstate that some browsers fire on page load
+    var initialPop = !popped && location.href == initialURL;
+    popped = true;
+    if (initialPop) return;
+    console.log('Popstate');
+    // By the time popstate has fired, location.pathname has been changed
+    //location.reload();
+    //var page_url = get_url_hash();
+    //page_section_link(page_url, 200);
+});
+
+
+
+function page_section_link(page, delay){
+    console.log(page);
+    var link = "";
+    var title = "";
+    var section = "";
+    var a = page.split("?");
+    var page_url = a[0];
+    $.smoothScroll({
+    	scrollTarget: '#'+page_url
+  	});
+    if(page_url == "talks"){
+        if(a[1]){
+
+        	var article_id = a[1];
+			if(article_id){
+				article_id = "#" + article_id;
+	    		var article_parent = $(article_id).parent().parent().parent();
+	    		var article_opened = $("#talks .panel-collapse.collapse.in");
+	    		if(article_opened.length > 0){
+	    			article_opened.collapse("toggle");
+	    		}
+	    		var article_parent_id = article_parent.attr("id");
+	    		$('.nav.nav-tabs a[href="#'+article_parent_id+'"]').tab('show');
+	    		setTimeout(function(){
+	    			var t = $(article_id).siblings(".panel-btn").offset().top;
+	    			$.smoothScroll({
+					    
+					    scrollTarget: $(article_id).siblings(".panel-btn"),
+					    offset: -100
+					});
+	    			$(article_id).collapse("toggle");
+	    		},300);
+	    		
+			}
+            
+        }
+        
+    }
+    
+    
 }

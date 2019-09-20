@@ -59,14 +59,14 @@
       </div>
    </header>
    <!-- Slider set *****************************--> 
-   <div class="slider section home-section">
+   <div id="home" class="slider section home-section">
       <div class="slider__item slider__item_1">
          <div class="container">
             <div class="slider__wrapper">
                <span class="item__text">CLOUD VILLAGE</span> 
                <h1 class="item__text item__text_big">Cloud village is an open space to meet folks interested in offensive and defensive aspects of cloud security.</h1>
                <!--<a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" title="CFP for DEF CON 27" class="text__button inline-btn">CFP for DEF CON 27</a> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfIlR_-GZ_WqAwu64AobwRPdaiqw8DZusjTPNm4bVoOtH2k3g/viewform" target="_blank" class="text__button float-right-btn">Contribute/Volunteer</a> -->
-               <p class="copy-1 white r-mt-3"><span class="purple">Hosted for DEF CON 27 at:</span> Flamingo Hotel, Reno 1, Las Vegas, Nevada</p>
+               <!--<p class="copy-1 white r-mt-3"><span class="purple">Hosted for DEF CON 27 at:</span> Flamingo Hotel, Reno 1, Las Vegas, Nevada</p>-->
             </div>
          </div>
       </div>
@@ -84,7 +84,7 @@
          <div class="row">
             <div class="about__text col-xs-12 col-md-12">
                <h2 class="text__header">Call for Papers (DEF CON 27)</h2>
-               <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" class="text__button cta" title="CFP for DEF CON 27">CFP Submission Form</a> 
+               <!--<a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" class="text__button cta" title="CFP for DEF CON 27">CFP Submission Form</a>-->
                <p class="copy-1 white"><span class="purple">CFP Open:</span> 28th April 2019</p>
                <p class="copy-1 white"><span class="purple">CFP Close:</span> 16th June 2019</p>
                <p class="copy-1 white"><span class="purple">Venue:</span> DEF CON, Las Vegas, Nevada</p>
@@ -110,7 +110,7 @@
                   <li class="white italics">The only way to submit to our CFP is via this form.</li>
                   <li class="white italics">As you will submit the CFP form, you should get a confirmation email confirming your submission. If you do not receive this email, it simply means there is something wrong and we have not received your submission. In that case, we suggest you to submit again.</li>
                </ul>
-               <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" class="text__button inline-btn" title="CFP for DEF CON 27">CFP Submission Form</a> 
+               <!--<a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" class="text__button inline-btn" title="CFP for DEF CON 27">CFP Submission Form</a>-->
             </div>
          </div>
       </div>
@@ -1106,9 +1106,7 @@
                   <div class="slider-item">
                      <img src="images/archive/2019/defcon-vegas/2.jpg" alt="">
                   </div>
-                  <div class="slider-item">
-                     <img src="images/archive/2019/defcon-vegas/3.jpg" alt="">
-                  </div>
+                  
                   <div class="slider-item">
                      <img src="images/archive/2019/defcon-vegas/4.jpg" alt="">
                   </div>
@@ -1197,7 +1195,7 @@
       </div>
    </section>
    <!-- Contact us *********************************--> 
-   <footer class="contact container">
+   <footer id="contact" class="contact container">
       <!--<div class="row"> <div class="col-xs-12 col-md-12"> <p class="copy-1">Below is the list of possible benefits we can provide to our Sponsors:</p><ul class="custom-list"> <li>Verbal Recognition (Opening, Closing of the village)</li><li>Shoutout CTF / Hackathon Prizes</li><li>Shout Out on Social media</li><li>Hiring Opportunity (Participants who opts for 'Share my details with Recruiters')</li><li>Brand Recognition in Schedule Pamphlets</li><li>Drop Stickers at Reg. / Info Desk</li><li>Distribute goodies at Reg. / Info Desk</li></ul> <p class="text__par">If you are interested in sponsoring Recon Village at DEFCON 27, drop us an email at <a href="mailto:sponsors@cloudvillage.org">sponsors@cloudvillage.org</a> </p></div></div>--> 
       <div class="row">
          <div class="contact__inf col-xs-12 col-sm-6">
@@ -1221,11 +1219,15 @@
    <script src="js/libs/jquery.lettering-0.6.1.min.js"></script> 
    <script src="js/libs/jquery.textillate.js"></script> 
    <script src="js/libs/isotope.pkgd.min.js"></script> 
-   <script src="js/libs/jquery.smooth-scroll.min.js"></script> 
+   <script src="js/libs/jquery.smooth-scroll.min.js"></script>
    <script src="js/libs/pdfobject.min.js"></script> 
    <script src="js/libs/slick.min.js"></script> 
-   <script src="js/menu.js"></script> 
-   <script src="js/main.js?<?php $t=time(); echo $t; ?>"></script> 
-   <script src="js/load_more.js"></script>
+   <script src="js/menu.js"></script>
+   <script src="js/main.js?<?php $t=time(); echo $t; ?>"></script>
+    
+   <script>
+      
+   </script>
+
 </body>
 </html>

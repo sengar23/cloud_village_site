@@ -2337,8 +2337,23 @@ a:focus {
  		width: 100%;
  	}
  	.pdfobject-container{
+ 		
  		height: 10rem;
  	}
+ 	.slick-arrow{
+		display: none!important;
+ 	}
+ 	.slider-item{
+ 		height: auto;
+ 	}
+ 	.slider-item img{
+		height: auto;
+	}
+	.slick-dots{
+		/*display: none!important;*/
+		bottom: -60px;
+	}
+
  }
 
  /*media query for smartphones *******************************/
