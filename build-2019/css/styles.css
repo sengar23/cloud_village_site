@@ -860,6 +860,11 @@ ol {
 .sponsor-section .text__button:hover {
 	color: rgb(51, 51, 51);
 }
+.stat-table{
+	overflow-x: auto;
+    white-space: nowrap;
+    min-height: .01%;
+}
 
 /*Gallery ********************/
 
