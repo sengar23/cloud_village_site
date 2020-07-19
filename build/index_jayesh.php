@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Cloud Village - Archive 2019</title>
+   <title>Cloud Village</title>
    <meta name="description" content="An open space to meet folks interested in offensive and defensive aspects of cloud security.">
    <meta property="og:image" content="https://cloud-village.org/images/seo.png"/>
    <meta property="og:title" content="Cloud Village"/>
@@ -43,14 +43,15 @@
    <!-- Logo and menu ****************************--> 
    <header class="header">
       <div class="inner-header container">
-         <div class="header__logo"> <a href="/" class="logo__item"></a> </div>
+         <div class="header__logo"> <a href="index.html" class="logo__item"></a> </div>
          <button class="btn_nav"><i class="icon-menu"></i></button> 
          <nav class="navigation header__nav">
             <ul class="nav__list">
-               
+               <li class="nav__item current"><a href="#cfp" class="nav__link"><span class="nav__item_underline"></span>CFP</a></li>
                <li class="nav__item"><a href="#ctf" class="nav__link"><span class="nav__item_underline"></span>CTF</a></li>
+               <li class="nav__item"><a href="#about" class="nav__link"><span class="nav__item_underline"></span>About</a> </li>
                <li class="nav__item"><a href="#talks" class="nav__link"><span class="nav__item_underline"></span>Talks</a> </li>
-               <li class="nav__item"><a href="#gallery" class="nav__link"><span class="nav__item_underline"></span>Gallery</a></li>
+               <!--<li class="nav__item"><a href="#timelines" class="nav__link"><span class="nav__item_underline"></span>Timelines</a></li>--> 
                <li class="nav__item"><a href="#sponsers" class="nav__link"><span class="nav__item_underline"></span>Sponsors</a></li>
                <li class="nav__item"><a href="#contact" class="nav__link"><span class="nav__item_underline"></span>Contact</a></li>
             </ul>
@@ -62,10 +63,10 @@
       <div class="slider__item slider__item_1">
          <div class="container">
             <div class="slider__wrapper">
-               <span class="item__text">CLOUD VILLAGE @DEF CON 27 ARCHIVE 2019</span> 
+               <span class="item__text">CLOUD VILLAGE</span> 
                <h1 class="item__text item__text_big">Cloud village is an open space to meet folks interested in offensive and defensive aspects of cloud security.</h1>
-               <!--<a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" title="CFP for DEF CON 27" class="text__button inline-btn">CFP for DEF CON 27</a> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfIlR_-GZ_WqAwu64AobwRPdaiqw8DZusjTPNm4bVoOtH2k3g/viewform" target="_blank" class="text__button float-right-btn">Contribute/Volunteer</a> -->
-               <!--<p class="copy-1 white r-mt-3"><span class="purple">Hosted for DEF CON 27 at:</span> Flamingo Hotel, Reno 1, Las Vegas, Nevada</p>-->
+               <a href="https://docs.google.com/forms/d/e/1FAIpQLScsoD2E3vp5r7Oy3gZvKDwksqF8NfSag9wuKSots3hzB9Q15w/viewform" target="_blank" title="CFP for DEF CON 28" class="text__button inline-btn">CFP for DEF CON 28</a> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfIlR_-GZ_WqAwu64AobwRPdaiqw8DZusjTPNm4bVoOtH2k3g/viewform" target="_blank" class="text__button float-right-btn">Contribute/Volunteer</a>
+               <p class="copy-1 white r-mt-3"><span class="purple">Hosted for DEF CON 28 at:</span> Virtual aka SAFE MODE</p>
             </div>
          </div>
       </div>
@@ -76,7 +77,64 @@
       <div class="pointer__line"></div>
       <div class="pointer__arrow pointer__arrow_bottom"></div>
    </div>
+   <!-- Section CFP *****************************--> 
+   <section id="cfp" class="cfp section">
+      <div class="container">
+         <hr class="services__line">
+         <div class="row">
+            <div class="about__text col-xs-12 col-md-12">
+               <h2 class="text__header">Call for Papers (DEF CON 27)</h2>
+               <!--<a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" class="text__button cta" title="CFP for DEF CON 27">CFP Submission Form</a>-->
+               <p class="copy-1 white"><span class="purple">CFP Open:</span> 28th April 2019</p>
+               <p class="copy-1 white"><span class="purple">CFP Close:</span> 16th June 2019</p>
+               <p class="copy-1 white"><span class="purple">Venue:</span> DEF CON, Las Vegas, Nevada</p>
+               <p class="copy-1 white"><span class="purple">Hosted in:</span> Flamingo Hotel, Reno 1, Las Vegas, Nevada</p>
+               <p class="text__par">Our CFP is now <strong class="green">OPEN</strong> for <strong class="green">DEF CON 27</strong>, and we are looking for presentations, workshops and tool demos to be part of our village. </p>
+               <p class="text__par">CFP closes on <strong class="green">16th June 2019 23:59 GMT</strong>. Once CFP is closed, this form will no longer accept CFP submissions or modifications. </p>
+               <p class="copy-1 purple">We accept four talk categories:</p>
+               <ul class="custom-list">
+                  <li class="white">Talks (30 - 45 minutes - Detailed research talks)</li>
+                  <li class="white">Workshops (1 - 2 hours - Hands on or Instructor led training for free)</li>
+                  <li class="white">Tool Demo (20 - 30 minutes)</li>
+                  <li class="white">Lightning Talks (10 - 20 minutes talk to cover quick, shorthand techniques)</li>
+               </ul>
+               <p class="copy-1 purple">Speaker Benefits:</p>
+               <ul class="custom-list">
+                  <li class="white">Exclusive Cloud Village Speaker Badge</li>
+                  <li class="white">Cloud Village Speaker T-shirt</li>
+                  <li class="white">Lot of love and respect from the team</li>
+               </ul>
+               <p class="copy-1 green">Notes:</p>
+               <ul class="custom-list">
+                  <li class="white italics">Please do not submit to Cloud Village CFP if you are not already planning to attend DEF CON 27 as we are unable to provide any speaker assistance in terms of DEF CON Badges / travel / accommodation expenses. If you are already attending DEF CON and would like to speak, please send in your proposal through this <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank">CFP form</a>.</li>
+                  <li class="white italics">The only way to submit to our CFP is via this form.</li>
+                  <li class="white italics">As you will submit the CFP form, you should get a confirmation email confirming your submission. If you do not receive this email, it simply means there is something wrong and we have not received your submission. In that case, we suggest you to submit again.</li>
+               </ul>
+               <!--<a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" class="text__button inline-btn" title="CFP for DEF CON 27">CFP Submission Form</a>-->
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Section CTF *****************************--> 
+   <section id="ctf" class="ctf section">
+      <div class="container">
+         <div class="row">
+            <div class="about__text col-xs-12 col-md-12">
+               <h2 class="text__header">Cloud CTF</h2>
+               <p class="text__par">Cloud Village CTF @DEF CON 27: <a href="http://ctf.cloud-village.org" target="_blank">http://ctf.cloud-village.org </a></p>
+               <p class="text__par">CTF start time - <strong class="green"> 9th August, 12:15 PM</strong></p>
+               <p class="text__par">CTF close time - <strong class="green"> 11th August, 12:00 PM</strong></p>
+               <br><br>
+               <p class="text__par">Our CTF is <strong class="green">three days jeopardy style</strong> contest where we will create bunch of challenges in multiple categories, related to cloud services though. </p>
+               <p class="text__par">Teams / Individuals gain some points, (or loose points on using hints) on solving each challenge. Teams or Individuals who gain maximum points gets the winning rewards. </p>
 
+            </div>
+         </div>
+      </div>
+   </section>
+   <div class="container">
+      <hr class="divider__line">
+   </div>
    <!-- Section About *****************************--> 
    <section id="about" class="about section">
       <div class="container">
@@ -109,100 +167,7 @@
          </div>
       </div>
    </section>
-  
-   <!-- Section CTF *****************************--> 
-   <section id="ctf" class="ctf section">
-      <div class="container">
-         <div class="row">
-            <div class="about__text col-xs-12 col-md-12">
-               <h2 class="text__header">Cloud CTF</h2>
-               <p class="text__par">Cloud Village CTF @DEF CON 27: <a href="http://ctf.cloud-village.org" target="_blank">http://ctf.cloud-village.org </a></p>
-               <p class="text__par">CTF start time - <strong class="green"> 9th August, 12:15 PM</strong></p>
-               <p class="text__par">CTF close time - <strong class="green"> 11th August, 12:00 PM</strong></p>
-               <br><br>
-               <p class="text__par">Our CTF is <strong class="green">three days jeopardy style</strong> contest where we will create bunch of challenges in multiple categories, related to cloud services though. </p>
-               <p class="text__par">Teams / Individuals gain some points, (or loose points on using hints) on solving each challenge. Teams or Individuals who gain maximum points gets the winning rewards. </p>
-
-            </div>
-         </div>
-         <div class="row r-mt-8 r-mb-8">
-            <div class="col-md-12">
-               <p class="copy-1 purple r-mb-4">CTF winners @DEF CON 27</p>
-               <div class="stat-table r-mb-4">
-                  <table class="table table-dark">
-                    <thead>
-                      <tr>
-                        <th scope="col">Team Name</th>
-                        <th scope="col">Members</th>
-                        
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row" class="green">Thomasvandoren</th>
-                        <td><p>thomasvandoren</p></td>
-                        
-                      </tr>
-
-                      <tr>
-                        <th scope="row" class="green">Alexis Pork</th>
-                        <td>
-                           <p>jstrassburg</p>
-                           <p>justlongenough</p>
-                        </td>
-                        
-                      </tr>
-                      <tr>
-                        <th scope="row" class="green">Vulns_as_a_service</th>
-                        <td>
-                           <p>Trace</p>
-                           <p>tadl</p>
-                           <p>positron</p>
-                        </td>
-                        
-                      </tr>
-                      <tr>
-                        <th scope="row" class="green">ZI-O</th>
-                        <td>
-                           <p>ozzy</p>
-                           <p>PolkaMan</p>
-                           <p>mob</p>
-                           <p>mitch</p>
-                        </td>
-                        
-                      </tr>
-                     
-                        <tr>
-                           <th scope="row" class="green">Sentinel1</th>
-                           <td>
-                              <p>Sentinel</p>
-                              <p>jaycee</p>
-                           </td>
-                           
-                        </tr>
-
-                     
-                    </tbody>
-                  </table>
-               </div>
-               <div class="ctf-stats r-mb-4">
-                  <p class="copy-1 purple r-mb-4">CTF stats @DEF CON 27</p>
-                  <p class="text__par">Teams registered - <strong class="green"> 127</strong></p>
-                  <p class="text__par">Users registered - <strong class="green"> 176</strong></p>
-                  <p class="text__par">Challenges - <strong class="green"> 11</strong></p>
-                  <p class="text__par">Correct submissions - <strong class="green"> 22</strong></p>
-                  <p class="text__par">Wrong submissions - <strong class="green"> 386</strong></p>
-                  <p class="text__par">Most solves - <strong class="green"> URL game with 17 solves with 100 Points</strong></p>
-                  <p class="text__par">Least solves - <strong class="green"> The Backup of all Backups with 1 solves with 400 Points</strong></p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   
-  
    <!-- Talks / Schedule *****************************--> 
-
    <section id="talks" class="talks section">
       <div class="container">
          <div class="services__header-block">
@@ -576,7 +541,40 @@
                         </div>
                      </div>
                   </div>
-                  
+                  <!--<div class="panel panel-default">
+                     <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapseMarinho" aria-expanded="false" aria-controls="collapseMarinho">
+                        <div class="panel-heading" role="tab" id="headingMarinho">
+                           <h4 class="panel-title">Is the cloud secure? How can you modernize your infrastructure defensive mechanisms in the cloud </h4>
+                           <div class="plus-sym"></div>
+                        </div>
+                     </a>
+                     <div id="collapseMarinho" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingMarinho">
+                        <div class="panel-body">
+                           <div class="item">
+                              <div class="services__item">
+                                 <p class="purple"><strong class="white">Speaker 1:&nbsp;</strong><strong>Eric Marinho</strong></p>
+                                 
+                                 <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/emarinho" target="_blank"><strong>@emarinho</strong></a></p>
+                                 <p class="purple"><strong class="white">Speaker 2:&nbsp;</strong><strong>Alexandre</strong></p>
+                                 
+                                 <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/" target="_blank"><strong>@</strong></a></p>
+                                 <p class="services__item__text"><strong class="white">Abstract: </strong>Independently of the company's on-premises footprint, there is a trend of modernizing its infrastructure while seeking the highest levels of security and being able to identify, protect, detect, respond and recover in a shared responsibility model.<br><br>
+                                    In this talk, we will be using Amazon, Microsoft, and Google clouds as references that can help individuals to govern their decisions of moving workloads to the cloud while maintaining the compliance required. <br><br>
+                                    What these organizations have in common is a desire to transform the organization and the culture to deliver better products and services to their customers. Organizations want to take advantage of digital tools to be more competitive, cost effective, and attract and retain new talent (Millennials and Generation Z).<br><br>
+
+                                    For any organization seeking the highest levels of defense industry base, as you move to the cloud you may ask yourself, is my organization safe? As a result of that, it's perfectly understandable that you may have concerns about security when it comes to meeting the highest levels of security and standards in the market.<br><br>
+
+                                    At this point, if you ask yourself again, is my organization safe? There is no 100% security, but you're better achieving your security goals in the cloud.<br><br>
+                                    We will highlight security controls that can help you to minimize common security gaps in a hybrid cloud world. 
+                                 </p>
+                                 
+                                 <p class="services__item__text"><strong class="white">About Eric: </strong>Eric is a program manager creating new security initiatives, process, and tools to address systemic security issues in hybrid cloud scenarios.</p>
+                                 <p class="services__item__text"><strong class="white">About Alexandre: </strong>Alexandre is a Red Team lead working customers in the cloud.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>-->
                   <div class="panel panel-default">
                      <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#jenkohwong" aria-expanded="false" aria-controls="jenkohwong">
                         <div class="panel-heading" role="tab" id="headingJenko">
@@ -827,28 +825,278 @@
                         </div>
                      </div>
                   </div>
-                  
+                  <!--<div class="panel panel-default">
+                     <a class="panel-btn" role="button" data-toggle="collapse" data-parent="#accordion-4" href="#collapseJosh" aria-expanded="true" aria-controls="collapseJosh">
+                        <div class="panel-heading" role="tab" id="headingJosh">
+                           <h4 class="panel-title"> Securing Multi-cloud Kubernetes </h4>
+                           <div class="plus-sym"></div>
+                        </div>
+                     </a>
+                     <div id="collapseJosh" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingJosh">
+                        <div class="panel-body">
+                           <div class="item">
+                              <div class="services__item">
+                                 <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Josh Mize</strong></p>
+                                  
+                                 <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/jgmize" target="_blank"><strong>@jgmize </strong></a></p>
+                                 <p class="services__item__text"><strong class="white">Abstract: </strong> This presentation will give an overview of the security practices and lessons learned from real world incidents managing the production multi-cloud deployments of Mozilla websites. Topics include real-world examples of mitigating malicious and self-inflicted DDoS attacks, managing secrets with sops, and reducing public attack surface by routing inbound traffic via reverse tunnels from the CDN. </p>
+                                 <p class="services__item__text"><strong class="white">About Josh: </strong>Josh Mize is a Staff Site Reliability Engineer at Mozilla responsible for Mozilla's largest web properties: mozilla.org, Mozilla Developer Network, Support, and more. As an SRE Mize wholly owns the security configuration for a multi-cloud Kubernetes deployment serving millions of users. Mize brings a unique perspective on "security at scale".</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>-->
                </div>
             </div>
          </div>
-         
-
-         
-
-      </div>
-   </section>
-   
-
-   <section id="gallery" class="gallery-section section">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-12">
-               <div class="services__header-block">
-                  <h2 class="services__header col-xs-12 col-sm-8">Gallery (DEF CON 27)</h2>
-               </div>
-               <hr class="services__line">
-            </div>
+         <!--<div class="services__header-block">
+            <h2 class="services__header col-xs-12 col-sm-8">Schedule (DEF CON 27)</h2>
          </div>
+         <hr class="services__line">
+         <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#day-1" aria-controls="day-1" role="tab" data-toggle="tab">Day 1 (9th Aug)</a></li>
+            <li role="presentation"><a href="#day-2" aria-controls="day-2" role="tab" data-toggle="tab">Day 2 (10th Aug)</a></li>
+            <li role="presentation"><a href="#day-3" aria-controls="day-3" role="tab" data-toggle="tab">Day 3 (11th Aug)</a> </li>
+         </ul>
+         <div class="tab-content r-mt-6">
+            <div role="tabpanel" class="tab-pane fade in active" id="day-1">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>12:00 - 12:20</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> Opening Note </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="seanmetcalf">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>12:20 - 13:00 </strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> Keynote - Cloudy Vision: How Cloud Integration Complicates Security</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="colinestep">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>13:00 - 13:40</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> Exploiting IAM in the Google Cloud Platform </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="danimohsan">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>13:40 - 14:20</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> Battle in the Clouds: Attacker vs Defender on AWS </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="olafedoardo">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>14:20 - 14:50</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> ATT&CKing the Sentinel – deploying a threat hunting capability on Azure Sentinel using Sysmon and MITRE ATT&CK </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseSponsor">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>14:50 - 15:25</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> Sponsored Talk - Anatomy of cloud hacking </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="janemiceli">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>15:25 - 15:50</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> Security Battle Wounds from a Cloud SRE </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="richmogull">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>16:00 - 18:00</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> Pragmatic Cloud Security Automation </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade in" id="day-2">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="chrisleroy">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>10:00 - 10:40</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green">Build to Hack, Hack to Build </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseFive">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>10:40 - 11:20</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> Applying Pareto's Principle for Securing AWS with SCPs </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="jenkohwong">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>11:20 - 12:00</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green">Here for a good time, not a long time: exploiting AWS loopholes with temporary credentials</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="setuparimi">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>12:00 - 12:30</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> PacBot - Policy as Code from T-Mobile OSS </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="rotembar">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>12:30 - 13:10</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> Hacking into automotive clouds </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseTanya">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>13:10 - 13:50</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> DYI Azure Security Assessment </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="rodjose">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>13:50 - 14:30</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> Using Splunk or ELK for Auditing AWS/GCP/Azure Security posture </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="jamesstrassburg">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>14:30 - 15:10</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> Scaling Security in the Cloud With Open Source </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="erickgalinkin">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>15:10 - 15:50</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> Your Blacklist is Dead: Why the Future of Command and Control is the Cloud </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="andrewnathan">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>16:00 - 18:00</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green">An Open Source Adventure in the Cloud : Detection and Response in AWS</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade in" id="day-3">
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="cherylbiswas">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>10:00 - 10:45</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> Mining Malevolence: Cryptominers in the Cloud </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseYeoh">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>10:45 - 11:30</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> The Effectiveness Of Continuous Bug Hunting In Cloud Environments</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="jenkohwong">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>11:30 - 12:15</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green">Here for a good time, not a long time: exploiting AWS loopholes with temporary credentials</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="ashwinabhinav">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>12:15 - 13:00</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green"> Phishing in the cloud era </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="">
+                  <div class="row">
+                     <div class="col-md-2 col-xs-3">
+                        <p class="white"><strong>13:00 - 13:30</strong></p>
+                     </div>
+                     <div class="col-md-10 col-xs-9 vertical-line">
+                        <p class="green">Prize distribution / Closing note</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>-->
+
          <div class="row r-mb-12">
             <div class="col-md-12">
                <div class="slider-wrap">
@@ -868,7 +1116,9 @@
                   <div class="slider-item">
                      <img src="images/archive/2019/defcon-vegas/6.jpg" alt="">
                   </div>
-                  
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/7.jpg" alt="">
+                  </div>
                   <div class="slider-item">
                      <img src="images/archive/2019/defcon-vegas/8.jpg" alt="">
                   </div>
@@ -899,7 +1149,9 @@
                   <div class="slider-item">
                      <img src="images/archive/2019/defcon-vegas/17.jpg" alt="">
                   </div>
-                  
+                  <div class="slider-item">
+                     <img src="images/archive/2019/defcon-vegas/18.jpg" alt="">
+                  </div>
                   <div class="slider-item">
                      <img src="images/archive/2019/defcon-vegas/19.jpg" alt="">
                   </div>
@@ -907,9 +1159,10 @@
                </div>
             </div>
          </div>
+
       </div>
    </section>
-    
+   <!-- Timelines *********************************--><!--<section id="timelines" class="works section"> <div class="container"> <div class="row"> <div class="works__header"> <h2 class="col-xs-12 col-sm-3">Timelines for 2019</h2> <nav class="works__header__nav col-xs-12 col-sm-9"> <button data-filter="*" class="works__nav__item works__nav__item_active"><span class="works__button_underline"></span>All</button> <button data-filter=".1st-quarter" class="works__nav__item"><span class="works__button_underline"></span>1st quarter</button> <button data-filter=".2nd-quarter" class="works__nav__item"><span class="works__button_underline"></span>2nd quarter</button> <button data-filter=".3rd-quarter" class="works__nav__item"><span class="works__button_underline"></span>3rd quarter</button> <button data-filter=".4th-quarter" class="works__nav__item"><span class="works__button_underline"></span>4th quarter</button> </nav> </div></div><div class="gallery"> <div class="gallery__items"> <div class="gallery__item gallery__item_1 col-xs-12 col-sm-6 1st-quarter"> <div class="gallery__item__hover"> <span class="item__hover__line"></span><span class="item__hover__tag">09th - 11th August, 2019</span> <h3 class="item__hover__header"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" title="CFP for DEF CON 27">CFP for Talks/Workshops/Tool Demo Open</a></h3> <h4 class="item__hover__header-small">DEF CON 27, Las Vegas, Nevada</h4> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" class="item__hover__zoom" title="CFP for DEF CON 27"> +&nbsp;More </a> </div></div></div></div></div></section>--> 
    <section id="sponsers" class="clients section sponsor-section">
       <div class="container">
          <div class="logo-container row clearfix">
@@ -943,14 +1196,14 @@
    </section>
    <!-- Contact us *********************************--> 
    <footer id="contact" class="contact container">
-      
+      <!--<div class="row"> <div class="col-xs-12 col-md-12"> <p class="copy-1">Below is the list of possible benefits we can provide to our Sponsors:</p><ul class="custom-list"> <li>Verbal Recognition (Opening, Closing of the village)</li><li>Shoutout CTF / Hackathon Prizes</li><li>Shout Out on Social media</li><li>Hiring Opportunity (Participants who opts for 'Share my details with Recruiters')</li><li>Brand Recognition in Schedule Pamphlets</li><li>Drop Stickers at Reg. / Info Desk</li><li>Distribute goodies at Reg. / Info Desk</li></ul> <p class="text__par">If you are interested in sponsoring Recon Village at DEFCON 27, drop us an email at <a href="mailto:sponsors@cloudvillage.org">sponsors@cloudvillage.org</a> </p></div></div>--> 
       <div class="row">
          <div class="contact__inf col-xs-12 col-sm-6">
             <h2 id="contact" class="section">Contact Us</h2>
             <p class="contact__text"> Send us an email at<br><a class="contact__email" href="mailto:hello@cloud-village.org">hello@cloud-village.org</a> </p>
             <p class="contact__text"><span class="purple">Hosted in:</span> <strong>Flamingo Hotel, Reno 1, Las Vegas, Nevada</strong></p>
             <div class="social">
-               
+               <!--<div class="social__link-and-icon"> <span class="icon icon-facebook"></span><a class="social__link" href="javascript:void">Facebook<span class="social__link_underline"></span></a> </div>--> 
                <div class="social__link-and-icon"> <span class="icon icon-twitter"></span><a class="social__link" href="https://twitter.com/cloudvillage_dc" target="_blank">Twitter<span class="social__link_underline"></span></a> </div>
             </div>
             <p class="copyright">© 2019 Cloud Village - Powered by <a href="https://www.defcon.org/" target="_blank">DEF CON</a></p>
@@ -960,7 +1213,7 @@
          </div>
       </div>
    </footer>
-   
+   <!-- clients logos *********************************--><!--<section class="clients-logos container"> <div class="clients-logos__wrapper"> <img class="clients-logos__image" src="images/icons/newyork.png" alt="New York"> <img class="clients-logos__image" src="images/icons/brooks.png" alt="Brooks"> <img class="clients-logos__image" src="images/icons/smokers.png" alt="Smokers"> <img class="clients-logos__image" src="images/icons/miller.png" alt="Miller"> <img class="clients-logos__image" src="images/icons/veela.png" alt="Veela"> <img class="clients-logos__image" src="images/icons/jumber.png" alt="Lumber"> </div></section> </section>--> 
    <script src="js/libs/jquery.min.js"></script> 
    <script src="js/libs/bootstrap.min.js?<?php $t=time(); echo $t; ?>"></script> 
    <script src="js/libs/jquery.lettering-0.6.1.min.js"></script> 

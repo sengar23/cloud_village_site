@@ -63,17 +63,20 @@
 
 		    	self.nav.on('click', "a", function(event){
 
-		    		event.preventDefault();
+		    		if(!$(this).hasClass("external-link")){
+		    			event.preventDefault();
 
-		    		var $this = $(this),
-		    			item = $this.parent(),
-		    			dataId = $this.attr('href'),
-		    			offset = $(dataId).offset().top;
+			    		var $this = $(this),
+			    			item = $this.parent(),
+			    			dataId = $this.attr('href'),
+			    			offset = $(dataId).offset().top;
 
 
-		    		item.addClass('current').siblings().removeClass('current');
+			    		item.addClass('current').siblings().removeClass('current');
 
-		    		self.scrollContent(offset+10);
+			    		self.scrollContent(offset+10);
+		    		}
+		    		
 
 		    	});
 

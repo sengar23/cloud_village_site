@@ -247,6 +247,18 @@ ol {
 	margin-top: 8rem;
 }
 
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 700;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
 /*Loader *******************************/
 
 .loading-wrap {
@@ -1911,7 +1923,7 @@ a:focus {
 }
 
 .logo-container{
-
+	 padding-top: 50px;
 }
 .logo-list{
 	background-color: #272727;
