@@ -124,14 +124,15 @@
       </div>
    </section>
    <!-- Section CTF *****************************--> 
-   <!--<section id="ctf" class="ctf section">
+   <section id="ctf" class="ctf section">
       <div class="container">
          <div class="row">
             <div class="about__text col-xs-12 col-md-12">
                <h2 class="text__header">Cloud CTF</h2>
-               <p class="text__par">Cloud Village CTF @DEF CON 28: <a href="http://ctf.cloud-village.org" target="_blank">http://ctf.cloud-village.org </a></p>
-               <p class="text__par">CTF start time - <strong class="green"> 9th August, 12:15 PM</strong></p>
-               <p class="text__par">CTF close time - <strong class="green"> 11th August, 12:00 PM</strong></p>
+               <p class="text__par">Cloud Village CTF @DEF CON 28: <!--<a href="http://ctf.cloud-village.org" target="_blank">http://ctf.cloud-village.org </a>--> <strong class="green">Virtual aka SAFE MODE</strong></p>
+               <!--<p class="text__par">CTF start time - <strong class="green"> 9th August, 12:15 PM</strong></p>
+               <p class="text__par">CTF close time - <strong class="green"> 11th August, 12:00 PM</strong></p>-->
+               <p class="text__par">CTF on - <strong class="green"> August 7th, 8th and 9th 2020</strong></p>
                <br><br>
                <p class="text__par">Our CTF is <strong class="green">three days jeopardy style</strong> contest where we will create bunch of challenges in multiple categories, related to cloud services though. </p>
                <p class="text__par">Teams / Individuals gain some points, (or loose points on using hints) on solving each challenge. Teams or Individuals who gain maximum points gets the winning rewards. </p>
@@ -139,7 +140,7 @@
             </div>
          </div>
       </div>
-   </section>-->
+   </section>
    <div class="container">
       <hr class="divider__line">
    </div>
