@@ -47,12 +47,12 @@
          <button class="btn_nav"><i class="icon-menu"></i></button> 
          <nav class="navigation header__nav">
             <ul class="nav__list">
-               <li class="nav__item current"><a href="#cfp" class="nav__link"><span class="nav__item_underline"></span>CFP</a></li>
-               <!--<li class="nav__item"><a href="#ctf" class="nav__link"><span class="nav__item_underline"></span>CTF</a></li>-->
+               <!--<li class="nav__item current"><a href="#cfp" class="nav__link"><span class="nav__item_underline"></span>CFP</a></li>-->
+               <li class="nav__item"><a href="#ctf" class="nav__link"><span class="nav__item_underline"></span>CTF</a></li>
                <li class="nav__item"><a href="#about" class="nav__link"><span class="nav__item_underline"></span>About</a> </li>
                <li class="nav__item"><a href="#talks" class="nav__link"><span class="nav__item_underline"></span>Talks</a> </li>
                <!--<li class="nav__item"><a href="#timelines" class="nav__link"><span class="nav__item_underline"></span>Timelines</a></li>--> 
-               <li class="nav__item"><a href="#sponsers" class="nav__link"><span class="nav__item_underline"></span>Sponsors</a></li>
+               <!--<li class="nav__item"><a href="#sponsers" class="nav__link"><span class="nav__item_underline"></span>Sponsors</a></li>-->
                <li class="nav__item"><a href="#contact" class="nav__link"><span class="nav__item_underline"></span>Contact</a></li>
                <li class="nav__item dropdown show">
                   <a href="javascript:;" class="nav__link" id="archive-dropdown dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="nav__item_underline"></span>Archives</a>
@@ -92,44 +92,7 @@
       <div class="pointer__line"></div>
       <div class="pointer__arrow pointer__arrow_bottom"></div>
    </div>
-   <!-- Section CFP *****************************--> 
-   <section id="cfp" class="cfp section">
-      <div class="container">
-         <hr class="services__line">
-         <div class="row">
-            <div class="about__text col-xs-12 col-md-12">
-               <h2 class="text__header">Call for Papers (DEF CON 28)</h2>
-               <!--<a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" class="text__button cta" title="CFP for DEF CON 27">CFP Submission Form</a>-->
-               <p class="copy-1 white"><span class="purple">CFP Open:</span> 4th June 2020</p>
-               <p class="copy-1 white"><span class="purple">CFP Close:</span> 12th July 2020</p>
-               <p class="copy-1 white"><span class="purple">Venue:</span> DEF CON SAFE MODE</p>
-               <p class="copy-1 white"><span class="purple">Hosted in:</span> Virtual aka SAFE MODE</p>
-               <p class="text__par">Our CFP is now <strong class="green">OPEN</strong> for <strong class="green">DEF CON 28</strong>, and we are looking for presentations, workshops and tool demos to be part of our village. </p>
-               <p class="text__par">CFP closes on <strong class="green">12th July 2020 23:59 GMT</strong>. Once CFP is closed, this form will no longer accept CFP submissions or modifications. </p>
-               <p class="copy-1 purple">We accept four talk categories:</p>
-               <ul class="custom-list">
-                  <li class="white">Talks (30 - 45 minutes - Detailed research talks)</li>
-                  <li class="white">Workshops (1 - 2 hours - Hands on or Instructor led training for free)</li>
-                  <li class="white">Tool Demo (20 - 30 minutes)</li>
-                  <li class="white">Lightning Talks (10 - 20 minutes talk to cover quick, shorthand techniques)</li>
-               </ul>
-               <!--<p class="copy-1 purple">Speaker Benefits:</p>
-               <ul class="custom-list">
-                  <li class="white">Exclusive Cloud Village Speaker Badge</li>
-                  <li class="white">Cloud Village Speaker T-shirt</li>
-                  <li class="white">Lot of love and respect from the team</li>
-               </ul>
-               <p class="copy-1 green">Notes:</p>
-               <ul class="custom-list">
-                  <li class="white italics">Please do not submit to Cloud Village CFP if you are not already planning to attend DEF CON 27 as we are unable to provide any speaker assistance in terms of DEF CON Badges / travel / accommodation expenses. If you are already attending DEF CON and would like to speak, please send in your proposal through this <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank">CFP form</a>.</li>
-                  <li class="white italics">The only way to submit to our CFP is via this form.</li>
-                  <li class="white italics">As you will submit the CFP form, you should get a confirmation email confirming your submission. If you do not receive this email, it simply means there is something wrong and we have not received your submission. In that case, we suggest you to submit again.</li>
-               </ul>-->
-               <!--<a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" class="text__button inline-btn" title="CFP for DEF CON 27">CFP Submission Form</a>-->
-            </div>
-         </div>
-      </div>
-   </section>
+   
    <!-- Section CTF *****************************--> 
    <section id="ctf" class="ctf section">
       <div class="container">
