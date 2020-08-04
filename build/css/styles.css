@@ -58,11 +58,11 @@ h6 {
 }
 
 h1 {
-	font-size: 2.875rem;
+	font-size: 2.5rem;
 }
 
 h2 {
-	font-size: 2.625rem;
+	font-size: 2.25rem;
 }
 
 h3 {
@@ -415,9 +415,9 @@ ol {
 }
 
 .header__logo {
-	width: 240px;
-	max-width: 240px;
-	height: 117px;
+	width: 160px;
+    max-width: 240px;
+    height: 78px;
 	float: left;
 	position: relative;
 	z-index: 50;
@@ -453,7 +453,21 @@ ol {
 	position: relative;
 	z-index: 40;
 }
+.icon-logo{
+	width: 48px;
+    display: inline-block;
+    margin-right: 16px;
+}
+.icon-logo img{
+	width: 100%;
 
+}
+.you-logo{
+
+}
+.twitter-logo{
+
+}
 .open_menu {}
 
 .nav__list {
@@ -722,11 +736,11 @@ ol {
 	background-color: #2bf4a1;
 }
 
-.text__button:visited {
+/*.text__button:visited {
 	color: rgb(51, 51, 51);
 	text-decoration: none;
 	border: 1px solid #2bf4a1;
-}
+}*/
 
 .text__button:focus {
 	outline: none;
@@ -737,6 +751,13 @@ ol {
 }
 
 .home-section .text__button:hover {
+	color: rgb(51, 51, 51);
+}
+.text__button {
+	color: var(--color-text-white);
+	border: 1px solid #2bf4a1;
+}
+.text__button:hover {
 	color: rgb(51, 51, 51);
 }
 

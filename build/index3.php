@@ -73,14 +73,8 @@
             <div class="slider__wrapper">
                <span class="item__text">CLOUD VILLAGE</span> 
                <h1 class="item__text item__text_big">Cloud village is an open space to meet folks interested in offensive and defensive aspects of cloud security.</h1>
-               <!--<a href="https://docs.google.com/forms/d/e/1FAIpQLScsoD2E3vp5r7Oy3gZvKDwksqF8NfSag9wuKSots3hzB9Q15w/viewform" target="_blank" title="CFP for DEF CON 28" class="text__button inline-btn">CFP for DEF CON 28</a> 
-               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBcA-NofiCQuL7qBRLNRmsO8nYjC0Gvd4B7N8gdsyX5SropQ/viewform" target="_blank" class="text__button">Contribute/Volunteer</a>-->
-               <a href="https://www.youtube.com/channel/UCupKln6fqF9tBTweRE6xNDQ" target="_blank" class="text__button"><i class="icon-logo you-logo">
-                  <img src="images/youtube.svg" alt="">
-               </i>Watch live stream</a>
-               <a href="https://twitter.com/cloudvillage_dc" target="_blank" class="text__button"><i class="icon-logo twitter-logo">
-                  <img src="images/logo-twitter.svg" alt="">
-               </i>Get latest updates</a>
+               <!--<a href="https://docs.google.com/forms/d/e/1FAIpQLScsoD2E3vp5r7Oy3gZvKDwksqF8NfSag9wuKSots3hzB9Q15w/viewform" target="_blank" title="CFP for DEF CON 28" class="text__button inline-btn">CFP for DEF CON 28</a>--> 
+               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBcA-NofiCQuL7qBRLNRmsO8nYjC0Gvd4B7N8gdsyX5SropQ/viewform" target="_blank" class="text__button">Contribute/Volunteer</a>
                <p class="copy-1 white r-mt-3"><span class="purple">Hosted for DEF CON 28 at:</span> Virtual aka SAFE MODE</p>
             </div>
          </div>
@@ -192,19 +186,7 @@
    <section id="talks" class="talks section">
         <div class="container">
             <div class="services__header-block">
-                <h2 class="services__header col-xs-12 col-sm-12">Talks (DEF CON 28)</h2>
-                <div class="col-md-6">
-                   <a href="https://www.youtube.com/channel/UCupKln6fqF9tBTweRE6xNDQ" target="_blank" class="text__button"><i class="icon-logo you-logo">
-                  <img src="images/youtube.svg" alt="">
-               </i>Watch live stream</a>
-                </div>
-                <div class="col-md-6">
-                   <a href="https://twitter.com/cloudvillage_dc" target="_blank" class="text__button"><i class="icon-logo twitter-logo">
-                  <img src="images/logo-twitter.svg" alt="">
-               </i>Get latest updates</a>
-                </div>
-                
-               
+                <h2 class="services__header col-xs-12 col-sm-8">Talks (DEF CON 28)</h2>
             </div>
             <hr class="services__line">
             <ul class="nav nav-tabs" role="tablist">
