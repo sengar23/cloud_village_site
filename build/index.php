@@ -732,13 +732,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseDani">
+                    <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseSpencer">
                         <div class="row">
                             <div class="col-md-2 col-xs-3">
                                 <p class="white"><strong>12:05 - 12:50</strong></p>
                             </div>
                             <div class="col-md-10 col-xs-9 vertical-line">
-                                <p class="green">Dani Goland - How Blue Penetrates You</p>
+                                <p class="green">Spencer Gietzen - Ransom in the Cloud</p>
                             </div>
                         </div>
                     </div>
@@ -795,13 +795,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseSpencer">
+                    <div class="schedule-item dashed-line r-mb-2 r-mt-2" data-id="collapseDani">
                         <div class="row">
                             <div class="col-md-2 col-xs-3">
                                 <p class="white"><strong>11:45 - 12:30</strong></p>
                             </div>
                             <div class="col-md-10 col-xs-9 vertical-line">
-                                <p class="green">Spencer Gietzen - Ransom in the Cloud</p>
+                                <p class="green">Dani Goland - How Blue Penetrates You</p>
                             </div>
                         </div>
                     </div>
