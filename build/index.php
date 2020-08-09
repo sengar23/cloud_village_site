@@ -50,9 +50,9 @@
                <!--<li class="nav__item current"><a href="#cfp" class="nav__link"><span class="nav__item_underline"></span>CFP</a></li>-->
                <li class="nav__item"><a href="#ctf" class="nav__link"><span class="nav__item_underline"></span>CTF</a></li>
                <li class="nav__item"><a href="#about" class="nav__link"><span class="nav__item_underline"></span>About</a> </li>
-               <li class="nav__item"><a href="#talks" class="nav__link"><span class="nav__item_underline"></span>Talks</a> </li>
+               <li class="nav__item"><a href="#talks" class="nav__link"><span class="nav__item_underline"></span>Talks & Schedule</a> </li>
                <!--<li class="nav__item"><a href="#timelines" class="nav__link"><span class="nav__item_underline"></span>Timelines</a></li>--> 
-               <!--<li class="nav__item"><a href="#sponsers" class="nav__link"><span class="nav__item_underline"></span>Sponsors</a></li>-->
+               <li class="nav__item"><a href="#sponsers" class="nav__link"><span class="nav__item_underline"></span>Sponsors</a></li>
                <li class="nav__item"><a href="#contact" class="nav__link"><span class="nav__item_underline"></span>Contact</a></li>
                <li class="nav__item dropdown show">
                   <a href="javascript:;" class="nav__link" id="archive-dropdown dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="nav__item_underline"></span>Archives</a>
@@ -72,7 +72,7 @@
          <div class="container">
             <div class="slider__wrapper">
                <span class="item__text">CLOUD VILLAGE</span> 
-               <h1 class="item__text item__text_big">Cloud village is an open space to meet folks interested in offensive and defensive aspects of cloud security.</h1>
+               <h1 class="item__text item__text_big">Cloud Village is an open space to meet folks interested in offensive and defensive aspects of cloud security.</h1>
                <!--<a href="https://docs.google.com/forms/d/e/1FAIpQLScsoD2E3vp5r7Oy3gZvKDwksqF8NfSag9wuKSots3hzB9Q15w/viewform" target="_blank" title="CFP for DEF CON 28" class="text__button inline-btn">CFP for DEF CON 28</a> 
                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBcA-NofiCQuL7qBRLNRmsO8nYjC0Gvd4B7N8gdsyX5SropQ/viewform" target="_blank" class="text__button">Contribute/Volunteer</a>-->
                <a href="https://www.youtube.com/channel/UCupKln6fqF9tBTweRE6xNDQ" target="_blank" class="text__button"><i class="icon-logo you-logo">
@@ -99,13 +99,20 @@
          <div class="row">
             <div class="about__text col-xs-12 col-md-12">
                <h2 class="text__header">Cloud CTF</h2>
-               <p class="text__par">Cloud Village CTF @DEF CON 28: <!--<a href="http://ctf.cloud-village.org" target="_blank">http://ctf.cloud-village.org </a>--> <strong class="green">Virtual aka SAFE MODE</strong></p>
-               <!--<p class="text__par">CTF start time - <strong class="green"> 9th August, 12:15 PM</strong></p>
-               <p class="text__par">CTF close time - <strong class="green"> 11th August, 12:00 PM</strong></p>-->
-               <p class="text__par">CTF on - <strong class="green"> August 7th, 8th and 9th 2020</strong></p>
+               <p class="text__par">Cloud Village CTF @DEF CON 28: <!--<a href="http://ctf.cloud-village.org" target="_blank">http://ctf.cloud-village.org </a>--> <strong class="purple">Virtual aka SAFE MODE</strong></p>
+               <p class="text__par">CTF start time - <strong class="purple"> August 7th 11 AM PST</strong></p>
+               <p class="text__par">CTF close time - <strong class="purple"> August 9th 12:30 PM PST</strong></p>
+               <p class="text__par">Registrations Open - <strong class="purple"> 6 AM PST 7th August 2020</strong></p>
+               <p class="text__par">CTF Site - <strong class="purple"> <a href="https://cloudvillagectf.co" target="_blank">https://cloudvillagectf.co</a></strong></p>
+               <!--<p class="text__par">CTF on - <strong class="green"> August 7th, 8th and 9th 2020</strong></p>-->
                <br><br>
-               <p class="text__par">Our CTF is <strong class="green">three days jeopardy style</strong> contest where we will create bunch of challenges in multiple categories, related to cloud services though. </p>
-               <p class="text__par">Teams / Individuals gain some points, (or loose points on using hints) on solving each challenge. Teams or Individuals who gain maximum points gets the winning rewards. </p>
+               <p class="text__par">If you ever wanted to break stuff on the cloud, or if you like rabbit holes that take you places you did not think you would go to, follow complicated story lines to only find you could have reached to the flag without scratching your head so much - then this CTF is for you!<br><br>
+
+               Our CTF is a <strong class="purple">three days jeopardy style</strong> contest where we have a bunch of challenges hosted across multiple Cloud providers across multiple categories of difficulty.<br><br>
+
+               You can register as teams or go solo, use hints or stay away from them, in the end it will be all for glory or nothing. Plus the prizes. Did we not mention the prizes? :D<br><br>
+
+               See you on the other side!</p>
 
             </div>
          </div>
@@ -131,9 +138,10 @@
                   <li>Divyanshu Shukla (<a href="https://twitter.com/justm0rph3u5" target="_blank">@justm0rph3u5</a>)</li>
                   <li>Pratul Anand (<a href="https://twitter.com/pratul_anand" target="_blank">@pratul_anand</a>)</li>
                   <li>Max G (<a href="https://twitter.com/maxdotdotg" target="_blank">@maxdotdotg</a>)</li>
+                  <li>Shobhit Gautam (<a href="https://twitter.com/sh0bhit105" target="_blank">@sh0bhit105</a>)</li>
+                  <li>Jerin Saji (<a href="https://twitter.com/JerinSaji0" target="_blank">@JerinSaji0</a>)</li>
                   <li>Akshay Katheria</li>
                   <li>Geoff Hill</li>
-                  <li>Jerin Saji</li>
                   <li>Setu Parimi</li>
                </ul>
                <p class="copy-1 purple">CFP Review Panel (DEFCON 28):</p>
@@ -515,7 +523,7 @@
                     <div class="panel panel-default"> 
                         <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseWes" aria-expanded="false" aria-controls="collapseWes">
                              <div class="panel-heading" role="tab" id="headingFive">
-                                 <h4 class="panel-title">Peeling Back the Layers and Peering Through the Clouds with Security Onion</h4>
+                                 <h4 class="panel-title">Peeling Back the Layers and Peering Through the Clouds with Security Onion <br><strong>Note: No registration required.</strong></h4>
                                  <div class="plus-sym"></div>
                              </div>
                          </a>
@@ -526,6 +534,7 @@
                                          <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Wes Lambert</strong></p>
                                          <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
                                          <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/therealwlambert" target="_blank"><strong>@therealwlambert</strong></a></p>
+                                         <p class="purple"><strong>No registration required. Workshops are free for all. Just tune in to the <a href="https://www.youtube.com/channel/UCupKln6fqF9tBTweRE6xNDQ" class="green" target="_blank">YouTube live stream.</a></strong></p>
                                          <p class="services__item__text">Peeling Back the Layers and Peering Through the Clouds with Security Onion<br>
                                           As the number of production assets and workloads transition to cloud, it is more important than ever to be able to understand the ""goings-on"" of these type of environments.  Unfortunately, many organizations still have little visibility into cloud infrastructure.  Vendor-specific solutions can be cost-prohibitive, and don't always offer a complete solution for security monitoring.  In this session, we'll discuss how we can better defend cloud environments by leveraging Security Onion, a completely free and open source platform for intrusion detection, enterprise security monitoring, and log management.  By using Security Onion, we can pierce the veil of the cloud, and gain better visibility to facilitate threat detection, identify application misconfigurations, and assist with compliance-related efforts.  Attendees should walk away with a firm grasp of the platform, understanding how they can utilize Security Onion to improve their organization's security posture, and make their adversaries cry.<br><br>
                                           Outline:<br><br>
@@ -542,6 +551,8 @@
                                           (4) Automating the Onion<br>
                                           &nbsp;(a) Automating Security Onion Deployment<br></p>
                                          <p class="services__item__text">This talk assumes you have secured your individual AWS accounts at the basic level by locking down your root accounts with 2FA, and etc.</p>
+                                         <p class="services__item__text"><strong>For more details on theworkshop pre-requisites, please refer the following link: 
+                                          <a href="https://docs.google.com/document/d/1kYHM3B3Opok4UXZALBKdYsJppPhNbBMUovNR4dclnhg/edit?usp=sharing" target="_blank">click here</a></strong></p>
                                      </div>
                                  </div>
                              </div>
@@ -550,7 +561,7 @@
                      <div class="panel panel-default"> 
                         <a class="panel-btn" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-2" href="#collapseMichael" aria-expanded="false" aria-controls="collapseMichael">
                              <div class="panel-heading" role="tab" id="headingMichael">
-                                 <h4 class="panel-title">Discovering Cloud File Storage Artifacts</h4>
+                                 <h4 class="panel-title">Discovering Cloud File Storage Artifacts <br><strong>Note: No registration required.</strong></h4>
                                  <div class="plus-sym"></div>
                              </div>
                          </a>
@@ -561,6 +572,7 @@
                                          <p class="purple"><strong class="white">Speaker:&nbsp;</strong><strong>Michael Wylie</strong></p>
                                          <!--<p class="green"><strong class="white">Date:&nbsp;</strong><strong>TBA</strong></p><p class="green"><strong class="white">Time:&nbsp;</strong><strong>TBA</strong></p>-->
                                          <p class="purple"><strong class="white">Twitter:&nbsp;</strong><a href="https://twitter.com/TheMikeWylie" target="_blank"><strong>@TheMikeWylie</strong></a></p>
+                                         <p class="purple"><strong>No registration required. Workshops are free for all. Just tune in to the <a href="https://www.youtube.com/channel/UCupKln6fqF9tBTweRE6xNDQ" class="green" target="_blank">YouTube live stream.</a></strong></p>
                                          <p class="services__item__text">Organizational data is rapidly moving to the cloud, but it's not always intentional. The shift from on-premise data storage to the cloud constitutes a significant challenge and risk to the modern enterprise. The use of cloud file storage applications is on the rise for both consumer and business systems, which results in interesting data and metadata siting on endpoints. In this talk, we'll examine the large footprints of popular cloud file storage applications such as OneDrive and Box - learning what information can be enumerated from each cloud file storage solution. In some scenarios, data can be carved out from cache, restoring sensitive documents no longer on an endpoint.<br><br>
  
                                           Attendees will:<br><br>
@@ -677,7 +689,7 @@
                                               
                                              Introduction to the Framework: (5 minutes) A walkthrough of the framework, how it is pieced together to support event driven remediation for multiple AWS accounts and regions. <br>
 
-                                             Demo and Q&A (10 minutes): We will open source and demo the Remediation Framework by making few AWS resources publicly exposed and letting the remediation framework fix it automatically.<br></p>
+                                             Demo and Q&A (10 minutes): We will open source and demo the Remediation Framework by making few AWS resources publicly exposed and letting the remediation framework fix it automatically.<br><br></p>
                                             <p class="services__item__text">Sahir Khan(skhan@flatiron.com) is Senior Security Engineer at Flatiron Health focused on Cloud Security and has deep interests in Security automation. <br><br>
                                              Justin Paglierani, justin.paglierani@flatiron.com, Justin Paglierani is a Staff Security Engineer at Flatiron Health. Prior to Flatiron, Justin worked at Bishop Fox and within the Federal Reserve System.
                                             </p>
@@ -914,29 +926,30 @@
     </section>
    
    <!-- Timelines *********************************--><!--<section id="timelines" class="works section"> <div class="container"> <div class="row"> <div class="works__header"> <h2 class="col-xs-12 col-sm-3">Timelines for 2019</h2> <nav class="works__header__nav col-xs-12 col-sm-9"> <button data-filter="*" class="works__nav__item works__nav__item_active"><span class="works__button_underline"></span>All</button> <button data-filter=".1st-quarter" class="works__nav__item"><span class="works__button_underline"></span>1st quarter</button> <button data-filter=".2nd-quarter" class="works__nav__item"><span class="works__button_underline"></span>2nd quarter</button> <button data-filter=".3rd-quarter" class="works__nav__item"><span class="works__button_underline"></span>3rd quarter</button> <button data-filter=".4th-quarter" class="works__nav__item"><span class="works__button_underline"></span>4th quarter</button> </nav> </div></div><div class="gallery"> <div class="gallery__items"> <div class="gallery__item gallery__item_1 col-xs-12 col-sm-6 1st-quarter"> <div class="gallery__item__hover"> <span class="item__hover__line"></span><span class="item__hover__tag">09th - 11th August, 2019</span> <h3 class="item__hover__header"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" title="CFP for DEF CON 27">CFP for Talks/Workshops/Tool Demo Open</a></h3> <h4 class="item__hover__header-small">DEF CON 27, Las Vegas, Nevada</h4> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGxSDgynvAv7Q1dTPeobZUPo5jdlbrcNSQAYVLgRqCF6T0bg/viewform" target="_blank" class="item__hover__zoom" title="CFP for DEF CON 27"> +&nbsp;More </a> </div></div></div></div></div></section>--> 
-   <!--<section id="sponsers" class="clients section sponsor-section">
+   <section id="sponsers" class="clients section sponsor-section">
       <div class="container">
          <div class="logo-container row clearfix">
-            <h2 class="col-xs-12 col-md-9 text__header white">Our sponsors</h2>
+            <h2 class="col-xs-12 col-md-9 text__header">Our sponsors</h2>
             <div class="col-md-12">
                <ul class="logo-list">
+                  
                   <li>
-                     <a href="https://www.claranetcybersecurity.com/" target="_blank">
-                        <img src="images/claranet.svg" alt="Claranet"> 
-                        <p class="logo-cat white">(Gold)</p>
+                     <a href="https://aws.amazon.com/" target="_blank">
+                        <img src="images/aws.svg" alt="Amazon AWS" style="width:70%;"> 
+                        <p class="logo-cat">GOLD SPONSOR</p>
                      </a>
                   </li>
                   <li>
-                     <a href="https://www.intel.com" target="_blank">
-                        <img src="images/intel.svg" alt="Intel"> 
-                        <p class="logo-cat white">(Community)</p>
+                     <a href="https://cloudknox.io/" target="_blank">
+                        <img src="images/cloudknox.svg" alt="CloudKnox Security Inc."> 
+                        <p class="logo-cat">TALKS SPONSOR</p>
                      </a>
                   </li>
                </ul>
             </div>
          </div>
          <div class="clients__header row">
-            <h2 class="col-xs-12 col-md-9 text__header white">Become a sponsor</h2>
+            <h2 class="col-xs-12 col-md-9 text__header">Become a sponsor</h2>
             <div class="col-xs-12 col-md-12">
                <p class="text__par">If you are interested in sponsoring Cloud Village, drop us an email at <a href="mailto:hello@cloud-village.org">hello@cloud-village.org</a> or fill in this quick <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBcA-NofiCQuL7qBRLNRmsO8nYjC0Gvd4B7N8gdsyX5SropQ/viewform" target="_blank">Google Form</a>. </p>
                <p class="text__par">We are a Not For Profit, community-driven village that strives to promote and support research in Cloud security community. All the money we get from sponsors goes in expenses of the village, i.e., t-shirts, badges, stickers, networking party, logistics, etc. </p>
@@ -944,7 +957,7 @@
             </div>
          </div>
       </div>
-   </section>-->
+   </section>
    <!-- Contact us *********************************--> 
    <footer id="contact" class="contact container">
       <!--<div class="row"> <div class="col-xs-12 col-md-12"> <p class="copy-1">Below is the list of possible benefits we can provide to our Sponsors:</p><ul class="custom-list"> <li>Verbal Recognition (Opening, Closing of the village)</li><li>Shoutout CTF / Hackathon Prizes</li><li>Shout Out on Social media</li><li>Hiring Opportunity (Participants who opts for 'Share my details with Recruiters')</li><li>Brand Recognition in Schedule Pamphlets</li><li>Drop Stickers at Reg. / Info Desk</li><li>Distribute goodies at Reg. / Info Desk</li></ul> <p class="text__par">If you are interested in sponsoring Recon Village at DEFCON 27, drop us an email at <a href="mailto:sponsors@cloudvillage.org">sponsors@cloudvillage.org</a> </p></div></div>--> 

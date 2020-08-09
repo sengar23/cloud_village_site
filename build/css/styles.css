@@ -1575,15 +1575,12 @@ ol {
 	position: relative;
 }
 
-.clients {
-	background-color: #161616;
-	color: #fff;
-}
+
 
 .clients {
 	width: 100%;
-	background-color: #272727;
-	color: #fff;
+	background-color: #fff;
+	color: var(--color-text-black);
 }
 
 .clients:after {
@@ -1593,7 +1590,7 @@ ol {
 }
 
 .clients__header {
-	padding-top: 110px;
+	padding-top: 32px;
 	/*padding-bottom: 210px;*/
 	padding-bottom: 110px;
 }
@@ -1947,7 +1944,7 @@ a:focus {
 	 padding-top: 50px;
 }
 .logo-list{
-	background-color: #272727;
+	background-color: #fff;
 	margin: 0;
 	padding: 32px 0;
 	text-align: center;
@@ -2368,6 +2365,7 @@ a:focus {
  	}
  	.logo-list li{
  		width: 100%;
+ 		margin-bottom: 32px;
  	}
  	.pdfobject-container{
  		
