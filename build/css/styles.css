@@ -25,8 +25,10 @@ html {
 	--color-text-white: #ffffff;
 	--color-text-purple: #8367d8;
 	--color-text-green: #2bf4a1;
+	--color-text-green-dark: #0AC8A9;
 	--color-text-black: #2b2b2b;
 	--color-bg-black: #272727;
+	--color-grey: #777;
 }
 
 body {
@@ -97,6 +99,12 @@ ol {
 
 .green {
 	color: var(--color-text-green) !important;
+}
+.green-dark {
+	color: var(--color-text-green-dark) !important;
+}
+.grey{
+	color: var(--color-grey) !important;
 }
 
 .bg-black {
@@ -746,12 +754,14 @@ ol {
 	outline: none;
 }
 
-.home-section .text__button {
-	color: var(--color-text-white);
+.home-section .text__button,
+.text__button-white {
+	color: var(--color-text-white) !important;
 }
 
-.home-section .text__button:hover {
-	color: rgb(51, 51, 51);
+.home-section .text__button:hover,
+.text__button-white:hover {
+	color: rgb(51, 51, 51) !important;
 }
 .text__button {
 	color: var(--color-text-white);
@@ -879,6 +889,10 @@ ol {
 	width: 100%;
 	background-color: #ffffff;
 }
+.ctf__text {
+    padding-top: 50px;
+    padding-bottom: 32px;
+}
 
 .ctf:after {
 	content: '';
@@ -892,6 +906,22 @@ ol {
 
 .sponsor-section .text__button:hover {
 	color: rgb(51, 51, 51);
+}
+.stat-table{
+	overflow-x: auto;
+    white-space: nowrap;
+    min-height: .01%;
+}
+.table>thead>tr>th{
+	font-size: 20px;
+}
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th{
+	padding: 20px 8px;
 }
 
 /*Talks *******************************/

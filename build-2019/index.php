@@ -117,10 +117,10 @@
             <div class="about__text col-xs-12 col-md-12">
                <h2 class="text__header">Cloud CTF</h2>
                <p class="text__par">Cloud Village CTF @DEF CON 27: <a href="http://ctf.cloud-village.org" target="_blank">http://ctf.cloud-village.org </a></p>
-               <p class="text__par">CTF start time - <strong class="green"> 9th August, 12:15 PM</strong></p>
-               <p class="text__par">CTF close time - <strong class="green"> 11th August, 12:00 PM</strong></p>
+               <p class="text__par">CTF start time - <strong class="purple"> 9th August, 12:15 PM</strong></p>
+               <p class="text__par">CTF close time - <strong class="purple"> 11th August, 12:00 PM</strong></p>
                <br><br>
-               <p class="text__par">Our CTF is <strong class="green">three days jeopardy style</strong> contest where we will create bunch of challenges in multiple categories, related to cloud services though. </p>
+               <p class="text__par">Our CTF is <strong class="purple">three days jeopardy style</strong> contest where we will create bunch of challenges in multiple categories, related to cloud services though. </p>
                <p class="text__par">Teams / Individuals gain some points, (or loose points on using hints) on solving each challenge. Teams or Individuals who gain maximum points gets the winning rewards. </p>
 
             </div>
@@ -139,13 +139,13 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row" class="green">Thomasvandoren</th>
+                        <th scope="row" class="purple">Thomasvandoren</th>
                         <td><p>thomasvandoren</p></td>
                         
                       </tr>
 
                       <tr>
-                        <th scope="row" class="green">Alexis Pork</th>
+                        <th scope="row" class="purple">Alexis Pork</th>
                         <td>
                            <p>jstrassburg</p>
                            <p>justlongenough</p>
@@ -153,7 +153,7 @@
                         
                       </tr>
                       <tr>
-                        <th scope="row" class="green">Vulns_as_a_service</th>
+                        <th scope="row" class="purple">Vulns_as_a_service</th>
                         <td>
                            <p>Trace</p>
                            <p>tadl</p>
@@ -162,7 +162,7 @@
                         
                       </tr>
                       <tr>
-                        <th scope="row" class="green">ZI-O</th>
+                        <th scope="row" class="purple">ZI-O</th>
                         <td>
                            <p>ozzy</p>
                            <p>PolkaMan</p>
@@ -173,7 +173,7 @@
                       </tr>
                      
                         <tr>
-                           <th scope="row" class="green">Sentinel1</th>
+                           <th scope="row" class="purple">Sentinel1</th>
                            <td>
                               <p>Sentinel</p>
                               <p>jaycee</p>
@@ -187,13 +187,13 @@
                </div>
                <div class="ctf-stats r-mb-4">
                   <p class="copy-1 purple r-mb-4">CTF stats @DEF CON 27</p>
-                  <p class="text__par">Teams registered - <strong class="green"> 127</strong></p>
-                  <p class="text__par">Users registered - <strong class="green"> 176</strong></p>
-                  <p class="text__par">Challenges - <strong class="green"> 11</strong></p>
-                  <p class="text__par">Correct submissions - <strong class="green"> 22</strong></p>
-                  <p class="text__par">Wrong submissions - <strong class="green"> 386</strong></p>
-                  <p class="text__par">Most solves - <strong class="green"> URL game with 17 solves with 100 Points</strong></p>
-                  <p class="text__par">Least solves - <strong class="green"> The Backup of all Backups with 1 solves with 400 Points</strong></p>
+                  <p class="text__par">Teams registered - <strong class="purple"> 127</strong></p>
+                  <p class="text__par">Users registered - <strong class="purple"> 176</strong></p>
+                  <p class="text__par">Challenges - <strong class="purple"> 11</strong></p>
+                  <p class="text__par">Correct submissions - <strong class="purple"> 22</strong></p>
+                  <p class="text__par">Wrong submissions - <strong class="purple"> 386</strong></p>
+                  <p class="text__par">Most solves - <strong class="purple"> URL game with 17 solves with 100 Points</strong></p>
+                  <p class="text__par">Least solves - <strong class="purple"> The Backup of all Backups with 1 solves with 400 Points</strong></p>
                </div>
             </div>
          </div>

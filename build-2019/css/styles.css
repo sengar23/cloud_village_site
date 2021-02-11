@@ -25,6 +25,7 @@ html {
 	--color-text-white: #ffffff;
 	--color-text-purple: #8367d8;
 	--color-text-green: #2bf4a1;
+	--color-text-green-dark: #0AC8A9;
 	--color-text-black: #2b2b2b;
 	--color-bg-black: #272727;
 }
@@ -97,6 +98,9 @@ ol {
 
 .green {
 	color: var(--color-text-green) !important;
+}
+.green-dark {
+	color: var(--color-text-green-dark) !important;
 }
 
 .bg-black {
@@ -865,6 +869,7 @@ ol {
     white-space: nowrap;
     min-height: .01%;
 }
+
 
 /*Gallery ********************/
 

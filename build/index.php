@@ -75,9 +75,9 @@
                <h1 class="item__text item__text_big">Cloud Village is an open space to meet folks interested in offensive and defensive aspects of cloud security.</h1>
                <!--<a href="https://docs.google.com/forms/d/e/1FAIpQLScsoD2E3vp5r7Oy3gZvKDwksqF8NfSag9wuKSots3hzB9Q15w/viewform" target="_blank" title="CFP for DEF CON 28" class="text__button inline-btn">CFP for DEF CON 28</a> 
                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBcA-NofiCQuL7qBRLNRmsO8nYjC0Gvd4B7N8gdsyX5SropQ/viewform" target="_blank" class="text__button">Contribute/Volunteer</a>-->
-               <a href="https://www.youtube.com/channel/UCupKln6fqF9tBTweRE6xNDQ" target="_blank" class="text__button"><i class="icon-logo you-logo">
+               <a href="https://www.youtube.com/watch?v=KyzyORdZkvg&list=PL5944c_fOMYn2cQQuQe23gtqZfHWzyrPn" target="_blank" class="text__button"><i class="icon-logo you-logo">
                   <img src="images/youtube.svg" alt="">
-               </i>Watch live stream</a>
+               </i>Stream Recordings</a>
                <a href="https://twitter.com/cloudvillage_dc" target="_blank" class="text__button"><i class="icon-logo twitter-logo">
                   <img src="images/logo-twitter.svg" alt="">
                </i>Get latest updates</a>
@@ -97,13 +97,13 @@
    <section id="ctf" class="ctf section">
       <div class="container">
          <div class="row">
-            <div class="about__text col-xs-12 col-md-12">
+            <div class="ctf__text col-xs-12 col-md-12">
                <h2 class="text__header">Cloud CTF</h2>
                <p class="text__par">Cloud Village CTF @DEF CON 28: <!--<a href="http://ctf.cloud-village.org" target="_blank">http://ctf.cloud-village.org </a>--> <strong class="purple">Virtual aka SAFE MODE</strong></p>
                <p class="text__par">CTF start time - <strong class="purple"> August 7th 11 AM PST</strong></p>
                <p class="text__par">CTF close time - <strong class="purple"> August 9th 12:30 PM PST</strong></p>
                <p class="text__par">Registrations Open - <strong class="purple"> 6 AM PST 7th August 2020</strong></p>
-               <p class="text__par">CTF Site - <strong class="purple"> <a href="https://cloudvillagectf.co" target="_blank">https://cloudvillagectf.co</a></strong></p>
+               <!--<p class="text__par">CTF Site - <strong class="purple"> <a href="https://cloudvillagectf.co" target="_blank">https://cloudvillagectf.co</a></strong></p>-->
                <!--<p class="text__par">CTF on - <strong class="green"> August 7th, 8th and 9th 2020</strong></p>-->
                <br><br>
                <p class="text__par">If you ever wanted to break stuff on the cloud, or if you like rabbit holes that take you places you did not think you would go to, follow complicated story lines to only find you could have reached to the flag without scratching your head so much - then this CTF is for you!<br><br>
@@ -113,7 +113,87 @@
                You can register as teams or go solo, use hints or stay away from them, in the end it will be all for glory or nothing. Plus the prizes. Did we not mention the prizes? :D<br><br>
 
                See you on the other side!</p>
+               <br>
+               <!--<p class="contact__text"> <strong>Please submit CTF write-ups here at <a class="contact__email" href="mailto:ctfteam@cloud-village.org">ctfteam@cloud-village.org</a> </strong></p>-->
 
+            </div>
+         </div>
+         <div class="row r-mb-8">
+            <div class="col-md-12">
+               <p class="copy-1 purple r-mb-4">CTF winners @DEF CON 28</p>
+               <div class="stat-table r-mb-4">
+                  <table class="table table-dark">
+                    <thead>
+                      <tr>
+                        <th scope="col">Description</th>
+                        <th scope="col">Members</th>
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">
+                          <p><span class="grey"><strong>Position: </strong></span><span class="green-dark">First</span></p>
+                          <p><span class="grey"><strong>Team Name: </strong></span><span class="green-dark">attackercommunity</span></p>
+                          <p><span class="grey"><strong>Points: </strong></span><span class="green-dark">2960</span></p>
+                          
+                        </th>
+                        <td>
+                          <p>itsc0rg1</p>
+                          <p>matir</p>
+                          <p>mandatory</p>
+                          <p>attackercommunity</p>
+                        </td>
+                        
+                      </tr>
+
+                      <tr>
+                        <th scope="row">
+                          <p><span class="grey"><strong>Position: </strong></span><span class="green-dark">Second</span></p>
+                          <p><span class="grey"><strong>Team Name: </strong></span><span class="green-dark">CTF_Circle</span></p>
+                          <p><span class="grey"><strong>Points: </strong></span><span class="green-dark">2340</span></p>
+                          
+                        </th>
+                        <td>
+                          <p>tvd</p>
+                        
+                        </td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">
+                          <p><span class="grey"><strong>Position: </strong></span><span class="green-dark">Third</span></p>
+                          <p><span class="grey"><strong>Team Name: </strong></span><span class="green-dark">CTF.SG</span></p>
+                          <p><span class="grey"><strong>Points: </strong></span><span class="green-dark">1610</span></p>
+                          
+                        </th>
+                        <td>
+                          <p>sgn00</p>
+                          <p>CTF.SG</p>
+                          <p>haebi</p>
+                          <p>ViolentTestPen</p>
+                        
+                        </td>
+                        
+                      </tr>
+                      
+
+                     
+                    </tbody>
+                  </table>
+               </div>
+               <div class="ctf-stats r-mb-4">
+                  <p class="copy-1 purple r-mb-4">CTF stats @DEF CON 28</p>
+                  <p class="text__par">Teams registered - <strong class="green-dark"> 244</strong></p>
+                  <p class="text__par">Players Registered  - <strong class="green-dark"> 353</strong></p>
+                  <p class="text__par">Challenges - <strong class="green-dark"> 11</strong></p>
+                  <p class="text__par">Possible Points  - <strong class="green-dark"> 3110</strong></p>
+                  <p class="text__par">Correct submissions - <strong class="green-dark"> 333</strong></p>
+                  <p class="text__par">Wrong submissions - <strong class="green-dark"> 393</strong></p>
+                  <p class="text__par">Most solves - <strong class="green-dark"> "Commitment Issues" – 56 Solves</strong></p>
+                  <p class="text__par">Least solves - <strong class="green-dark"> "Our passion. Your potential." – 2 solves</strong></p>
+                  <p class="text__par">Zero solves - <strong class="green-dark"> "What name do I cling on?"</strong></p>
+               </div>
             </div>
          </div>
       </div>
@@ -165,12 +245,12 @@
             <div class="services__header-block">
                 <h2 class="services__header col-xs-12 col-sm-12">Talks (DEF CON 28)</h2>
                 <div class="col-md-6">
-                   <a href="https://www.youtube.com/channel/UCupKln6fqF9tBTweRE6xNDQ" target="_blank" class="text__button"><i class="icon-logo you-logo">
+                   <a href="https://www.youtube.com/watch?v=KyzyORdZkvg&list=PL5944c_fOMYn2cQQuQe23gtqZfHWzyrPn" target="_blank" class="text__button text__button-white"><i class="icon-logo you-logo">
                   <img src="images/youtube.svg" alt="">
-               </i>Watch live stream</a>
+               </i>Stream Recordings</a>
                 </div>
                 <div class="col-md-6">
-                   <a href="https://twitter.com/cloudvillage_dc" target="_blank" class="text__button"><i class="icon-logo twitter-logo">
+                   <a href="https://twitter.com/cloudvillage_dc" target="_blank" class="text__button text__button-white"><i class="icon-logo twitter-logo">
                   <img src="images/logo-twitter.svg" alt="">
                </i>Get latest updates</a>
                 </div>
@@ -965,6 +1045,7 @@
          <div class="contact__inf col-xs-12 col-sm-6">
             <h2 id="contact" class="section">Contact Us</h2>
             <p class="contact__text"> Send us an email at<br><a class="contact__email" href="mailto:hello@cloud-village.org">hello@cloud-village.org</a> </p>
+            <!--<p class="contact__text"> <strong>Please submit CTF write-ups here at<br><a class="contact__email" href="mailto:ctfteam@cloud-village.org">ctfteam@cloud-village.org</a> </strong></p>-->
             <p class="contact__text"><span class="purple">Hosted in:</span> <strong>Virtual aka SAFE MODE</strong></p>
             <div class="social">
                <!--<div class="social__link-and-icon"> <span class="icon icon-facebook"></span><a class="social__link" href="javascript:void">Facebook<span class="social__link_underline"></span></a> </div>--> 
