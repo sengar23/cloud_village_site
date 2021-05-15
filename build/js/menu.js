@@ -62,7 +62,7 @@
 		    	var self = this;
 
 		    	self.nav.on('click', "a", function(event){
-
+		    		
 		    		if(!$(this).hasClass("external-link")){
 		    			event.preventDefault();
 

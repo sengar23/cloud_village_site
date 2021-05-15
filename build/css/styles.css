@@ -461,6 +461,14 @@ ol {
 	position: relative;
 	z-index: 40;
 }
+.menu-icon{
+	position: relative;
+    display: block;
+    width: 32px;
+}
+.menu-icon img{
+	width: 100%;
+}
 .icon-logo{
 	width: 48px;
     display: inline-block;
